@@ -24,6 +24,22 @@ export const Stack = styled("div", {
         [childWithGap]: { margin: "0 0 $$gap 0" },
       },
     },
+    wrap: {
+      true: {
+        flexWrap: "wrap",
+      },
+    },
+    center: {
+      true: {
+        alignItems: "center",
+        justifyContent: "center",
+      },
+    },
+    verticalAlign: {
+      true: {
+        alignItems: "center",
+      },
+    },
   },
   defaultVariants: {
     direction: "row",

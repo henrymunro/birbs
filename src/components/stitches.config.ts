@@ -25,16 +25,16 @@ export const { styled } = createStitches({
       accentText: "$blue11",
       accentTextContrast: "$blue12",
 
-      successBase: "$green1",
-      successBgSubtle: "$green2",
+      successBase: "$green9",
+      successBgSubtle: "$green7",
       // repeat for all steps
 
-      warningBase: "$yellow1",
-      warningBgSubtle: "$yellow2",
+      warningBase: "$yellow9",
+      warningBgSubtle: "$yellow7",
       // repeat for all steps
 
-      dangerBase: "$red1",
-      dangerBgSubtle: "$red2",
+      dangerBase: "$red9",
+      dangerBgSubtle: "$red7",
       // repeat for all steps
     },
     fonts: {
