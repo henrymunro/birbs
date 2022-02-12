@@ -5,7 +5,6 @@ const Header = styled("header", {
   backgroundColor: "black",
   padding: "10px 15px",
   height: "40px",
-  width: "100vw",
   position: "sticky",
 });
 

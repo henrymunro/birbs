@@ -40,6 +40,11 @@ export const Stack = styled("div", {
         alignItems: "center",
       },
     },
+    spaced: {
+      true: {
+        justifyContent: "space-between",
+      },
+    },
   },
   defaultVariants: {
     direction: "row",

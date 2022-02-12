@@ -1,3 +1,4 @@
+import { violet, blackA } from "@radix-ui/colors";
 import { styled } from "./stitches.config";
 
 export const Button = styled("button", {
@@ -16,4 +17,21 @@ export const Button = styled("button", {
     backgroundColor: "$accentBorder",
     color: "white",
   },
+});
+
+export const IconButton = styled("button", {
+  all: "unset",
+  fontFamily: "inherit",
+  borderRadius: "100%",
+  height: 25,
+  width: 25,
+  display: "inline-flex",
+  alignItems: "center",
+  justifyContent: "center",
+  color: violet.violet11,
+  boxShadow: `0 2px 10px ${blackA.blackA7}`,
+  '&[data-state="closed"]': { backgroundColor: "white" },
+  '&[data-state="open"]': { backgroundColor: violet.violet3 },
+  "&:hover": { backgroundColor: violet.violet3 },
+  "&:focus": { boxShadow: `0 0 0 2px black` },
 });

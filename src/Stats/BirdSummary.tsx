@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Stack, ProgressBar } from "../components";
+import { Stack, Box } from "../components";
 
 interface Props {
   bird: string;
@@ -14,31 +13,23 @@ export default function BirdSummary({
   incorrect,
   mistakenFor,
 }: Props) {
-  const [open, setOpen] = useState(false);
-
   return (
-    <div style={{ cursor: "pointer" }} onClick={() => setOpen((s) => !s)}>
+    <Stack spaced css={{ gap: "$2" }}>
       <h3>
         {bird}{" "}
         <b>
           {correct}/{correct + incorrect}
         </b>
       </h3>
-      {open && (
-        <Stack direction="column" css={{ gap: "$2" }}>
-          {mistakenFor.map((mistake) => {
-            return (
-              <Stack css={{ gap: "$2" }} verticalAlign>
-                {mistake.bird}
-                <ProgressBar
-                  value={(mistake.count * 100) / incorrect}
-                  type="error"
-                />
-              </Stack>
-            );
-          })}
-        </Stack>
-      )}
-    </div>
+      <Stack css={{ gap: "$2" }}>
+        {mistakenFor.map((mistake) => {
+          return (
+            <Stack css={{ gap: "$2" }} verticalAlign>
+              {mistake.bird} {(mistake.count * 100) / incorrect}
+            </Stack>
+          );
+        })}
+      </Stack>
+    </Stack>
   );
 }

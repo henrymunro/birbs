@@ -1,7 +1,6 @@
-import React from "react";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 
-import { Box } from "./components";
+import { Page } from "./components";
 import Navbar from "./Navbar";
 import Test from "./Test/Test";
 import StatsPage from "./Stats/StatsPage";
@@ -10,12 +9,12 @@ export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Box css={{ padding: "$5" }}>
+      <Page>
         <Routes>
           <Route path="test" element={<Test />} />
           <Route path="stats" element={<StatsPage />} />
         </Routes>
-      </Box>
+      </Page>
     </BrowserRouter>
   );
 }

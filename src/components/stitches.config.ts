@@ -3,7 +3,13 @@ import { createStitches } from "@stitches/react";
 import { gray, blue, yellow, red, green } from "@radix-ui/colors";
 import { stackGap } from "./gap-util";
 
-export const { styled } = createStitches({
+export const { styled, css } = createStitches({
+  media: {
+    bp1: "(max-width: 520px)",
+    bp2: "(max-width: 900px)",
+    bp3: "(max-width: 1200px)",
+    bp4: "(max-width: 1800px)",
+  },
   theme: {
     colors: {
       ...gray,
@@ -79,6 +85,7 @@ export const { styled } = createStitches({
     zIndices: {},
     transitions: {},
   },
+
   utils: {
     stackGap,
   },

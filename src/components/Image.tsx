@@ -23,7 +23,7 @@ export function Image({ src, alt }: Props) {
   return (
     <Box
       css={{
-        width: 300,
+        width: "100%",
         borderRadius: 6,
         overflow: "hidden",
         boxShadow: `0 2px 10px ${blackA.blackA7}`,

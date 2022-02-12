@@ -1,16 +1,21 @@
-import React, { useState, useRef } from "react";
+import { useState, useEffect } from "react";
 import { generateGame, Bird, logStat } from "../database";
-import { Stack, Image, Box } from "../components";
+import { Stack, Image, Box, h4, Slider } from "../components";
 
 export default function Guessing() {
   const [game, setGame] = useState(generateGame());
   const [selected, setSelected] = useState<string | void>();
   const [counter, setCounter] = useState({ correct: 0, total: 0 });
+  const [numberOfBirds, setNumberOfBirds] = useState(8);
 
-  const timeoutRef = useRef<NodeJS.Timeout | undefined>();
+  useEffect(() => {
+    setGame(generateGame(numberOfBirds));
+  }, [numberOfBirds]);
 
   function onClick(val: Bird) {
-    timeoutRef.current && clearTimeout(timeoutRef.current);
+    if (selected) {
+      return;
+    }
     setSelected(val);
     logStat({ actual: game.correct, picked: val });
 
@@ -20,23 +25,34 @@ export default function Guessing() {
       setCounter((s) => ({ correct: s.correct, total: s.total + 1 }));
     }
 
-    const timeoutId = setTimeout(() => {
+    setTimeout(() => {
       setSelected();
       setGame(generateGame());
     }, 2000);
-    timeoutRef.current = timeoutId;
   }
 
   return (
     <>
-      <Stack center css={{ gap: "$5", marginBottom: "$4" }}>
-        <audio autoPlay controls src={game.audioSource} />
-        <h2>
-          {counter.correct}/{counter.total}
-        </h2>
+      <Stack wrap center css={{ gap: "$3", marginBottom: "$4" }}>
+        <Stack center css={{ gap: "$4" }}>
+          <audio autoPlay controls src={game.audioSource} />
+          <h2>
+            {counter.correct}/{counter.total}
+          </h2>
+        </Stack>
+        <Stack verticalAlign css={{ gap: "$2" }}>
+          <h4 className={h4()}>Difficulty:</h4>
+          <Slider
+            min={2}
+            max={10}
+            step={1}
+            value={numberOfBirds}
+            onChange={setNumberOfBirds}
+          />
+        </Stack>
       </Stack>
 
-      <Stack wrap css={{ gap: "$2" }}>
+      <Stack wrap center css={{ gap: "$2", "@bp1": { gap: "$1" } }}>
         {game.values.map(({ name, imgSrc, value }) => {
           const correct = value === game.correct;
           const incorrect = value === selected && !correct;
@@ -52,16 +68,20 @@ export default function Guessing() {
 
           return (
             <Box
+              key={value}
               onClick={() => onClick(value)}
               css={{
                 background,
                 padding: "$2",
                 borderRadius: "$3",
                 cursor: "pointer",
+                width: "23%",
+                "@bp2": { width: "30%" },
+                "@bp1": { width: "43%" },
               }}
             >
               <Image src={imgSrc} alt={name} />
-              <h4>{name}</h4>
+              <h4 className={h4()}>{name}</h4>
             </Box>
           );
         })}

@@ -43,7 +43,7 @@ export function logStat({ actual, picked }: { actual: Bird; picked: Bird }) {
     birds: {},
     ...curr,
     total: (curr?.total || 0) + 1,
-    correct: (curr?.correct || 0) + actual === picked ? 1 : 0,
+    correct: (curr?.correct || 0) + (actual === picked ? 1 : 0),
   }));
 
   const todayBirds = stats[today].birds;
@@ -56,12 +56,12 @@ export function logStat({ actual, picked }: { actual: Bird; picked: Bird }) {
       correct: (curr?.correct || 0) + 1,
     }));
   } else {
-    init(todayBirds, picked, (curr) => ({
+    init(todayBirds, actual, (curr) => ({
       correct: 0,
       ...curr,
       incorrectlyNotPicked: {
         ...curr?.incorrectlyNotPicked,
-        [actual]: (curr?.incorrectlyNotPicked?.[actual] || 0) + 1,
+        [picked]: (curr?.incorrectlyNotPicked?.[picked] || 0) + 1,
       },
     }));
   }
@@ -110,6 +110,6 @@ export function getDailyStatSummary(date = new Date().toLocaleDateString()) {
     date,
     correct: stats.correct,
     total: stats.total,
-    birdStats: birdStats.sort((a, b) => a.incorrect - b.incorrect),
+    birdStats: birdStats.sort((a, b) => b.incorrect - a.incorrect),
   };
 }

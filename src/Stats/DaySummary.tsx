@@ -1,5 +1,5 @@
 import { getDailyStatSummary } from "../database";
-import { Box } from "../components";
+import { Box, Separator } from "../components";
 import BirdSummary from "./BirdSummary";
 
 interface Props {
@@ -18,7 +18,10 @@ export default function DaySummary({ date }: Props) {
         </b>
       </Box>
       {summary.birdStats.map((stat) => (
-        <BirdSummary key={stat.bird} {...stat} />
+        <>
+          <BirdSummary key={stat.bird} {...stat} />
+          <Separator />
+        </>
       ))}
     </Box>
   );
