@@ -5,7 +5,7 @@ interface Props {
   bird: string;
   correct: number;
   incorrect: number;
-  mistakenFor: { bird: string; count: number }[];
+  mistakenFor: { bird: string; count?: number }[];
 }
 
 export default function BirdSummary({
@@ -26,7 +26,7 @@ export default function BirdSummary({
       </Box>
       <Box css={{ width: "75%", "@bp2": { width: "100%" } }}>
         <ProportionBar
-          proportions={mistakenFor.map(({ bird, count }) => ({
+          proportions={mistakenFor.map(({ bird, count = 0 }) => ({
             name: bird,
             value: count,
           }))}

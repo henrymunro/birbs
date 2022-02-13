@@ -91,18 +91,18 @@ export function getDailyStatSummary(date = new Date().toLocaleDateString()) {
     let incorrect = 0;
     const mistakenFor: Partial<Record<Bird, number>> = {};
 
-    Object.entries(stat.incorrectlyNotPicked).forEach(([bird, count]) => {
-      incorrect += count;
-      init(mistakenFor, bird as Bird, (curr) => (curr || 0) + count);
+    Object.entries(stat!.incorrectlyNotPicked).forEach(([bird, count]) => {
+      incorrect += count!;
+      init(mistakenFor, bird as Bird, (curr) => (curr || 0) + count!);
     });
 
     return {
       bird: bird as Bird,
-      correct: stat.correct,
+      correct: stat!.correct,
       incorrect,
       mistakenFor: Object.entries(mistakenFor)
-        .map(([bird, count]) => ({ bird, count }))
-        .sort((a, b) => b.count - a.count),
+        .map(([bird, count]) => ({ bird, count: count as number }))
+        .sort((a, b) => b.count! - a.count!),
     };
   });
 

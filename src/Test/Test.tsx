@@ -1,16 +1,18 @@
 import { useState, useEffect } from "react";
 import { generateGame, Bird, logStat } from "../database";
 import { Stack, Image, Box, h4, Slider } from "../components";
+import HabitatSelect from "../Catalogue/HabitatSelect";
 
 export default function Guessing() {
   const [game, setGame] = useState(generateGame());
   const [selected, setSelected] = useState<string | void>();
+  const [habitat, setHabitat] = useState<string | null>(null);
   const [counter, setCounter] = useState({ correct: 0, total: 0 });
   const [numberOfBirds, setNumberOfBirds] = useState(8);
 
   useEffect(() => {
-    setGame(generateGame(numberOfBirds));
-  }, [numberOfBirds]);
+    setGame(generateGame({ habitat, numberOfGuesses: numberOfBirds }));
+  }, [numberOfBirds, habitat]);
 
   function onClick(val: Bird) {
     if (selected) {
@@ -50,6 +52,7 @@ export default function Guessing() {
             onChange={setNumberOfBirds}
           />
         </Stack>
+        <HabitatSelect onChange={setHabitat} />
       </Stack>
 
       <Stack wrap center css={{ gap: "$2", "@bp1": { gap: "$1" } }}>

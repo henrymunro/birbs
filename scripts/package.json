@@ -1,0 +1,18 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assembleDatabase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.0.4",
+    "csv-stringify": "^6.0.5",
+    "node-fetch": "^3.2.0",
+    "node-html-parser": "^5.2.0",
+    "request": "^2.88.2"
+  }
+}

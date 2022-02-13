@@ -1,26 +1,32 @@
-import { useState } from "react";
-import { birds as allBirds } from "../database";
+import { useState, useEffect } from "react";
+import { getBirds } from "../database";
 import { Input, Separator, Stack } from "../components";
 import BirdOverview from "./BirdOverview";
+import HabitSelect from "./HabitatSelect";
 
 export default function CataloguePage() {
-  const [birds, setBirds] = useState(allBirds);
+  const [habitat, setHabitat] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState<string | null>(null);
+  const [birds, setBirds] = useState(getBirds({ habitat }));
+
+  useEffect(() => {
+    const nextBirds = getBirds({ habitat }).filter((b) =>
+      b
+        .replace(/\s-/g, "")
+        .includes(searchTerm?.toLowerCase().replace(/\s/g, "") || "")
+    );
+
+    setBirds(nextBirds);
+  }, [habitat, searchTerm]);
 
   return (
     <div>
       <Stack spaced>
         <Input
           placeholder="Search"
-          onChange={(e) =>
-            setBirds(
-              allBirds.filter((b) =>
-                b
-                  .replace(/\s-/g, "")
-                  .includes(e.target.value.toLowerCase().replace(/\s/g, ""))
-              )
-            )
-          }
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
+        <HabitSelect onChange={setHabitat} />
       </Stack>
       {birds.map((bird) => (
         <div key={bird}>

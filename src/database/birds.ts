@@ -1,42 +1,87 @@
-import database from "./database.json";
+import importedDb from "./database.json";
 import { getRandomElement, getRandomElements } from "./utils";
 
-export type Bird = keyof typeof database;
-export const birds = Object.keys(database) as any as Bird[];
-
-function audioFilepath(path: string) {
-  return `/audio/${path}`;
+interface Entry {
+  name: string;
+  statusInBritain: string;
+  populationNumber: number;
+  images: string[];
+  euroBirdLink?: string;
+  foundIn: string;
+  habitats?: Record<string, number>;
+  audio?: { path: string; type: string; length: string }[];
 }
 
-function imageFilepath({ path }: { path: string }) {
-  return `/images/${path}`;
+const database: Record<string, Entry> = importedDb;
+
+export type Bird = keyof typeof database;
+export const birds = Object.keys(database).filter((b) => {
+  return database[b].audio?.length! > 0 && database[b].images?.length;
+}) as any as Bird[];
+
+export const habitats = birds.reduce((acc, bird) => {
+  const birdHabitats = database[bird].habitats;
+  if (!birdHabitats) return acc;
+
+  Object.keys(birdHabitats).forEach((h) => {
+    if (!acc.includes(h)) {
+      acc.push(h);
+    }
+  });
+
+  return acc;
+}, [] as string[]);
+
+function audioFilepath(path: string) {
+  return path.includes("http") ? path : `/audio/${path}`;
 }
 
 export function getBird(bird: Bird) {
   return {
     value: bird,
     name: database[bird].name,
-    imgsSrc: database[bird].images.map(imageFilepath),
-    audiosSrc: database[bird].audio.map((a) => ({
-      ...a,
-      path: audioFilepath(a.path),
-    })),
+    imgsSrc: database[bird].images,
+    audiosSrc:
+      database[bird].audio?.map((a) => ({
+        ...a,
+        path: audioFilepath(a.path),
+      })) || [],
   };
 }
 
-export function generateGame(numberOfGuesses: number = 8) {
-  const birdNamesToUse = getRandomElements(birds, numberOfGuesses);
+export function getBirds({ habitat }: { habitat?: string | null } = {}) {
+  return birds.filter((b) => {
+    if (!habitat) return true;
+
+    const birdHabitats = database[b].habitats;
+
+    if (!birdHabitats) return false;
+    const topHabitat = Object.values(birdHabitats).reduce(
+      (a, b) => (a > b ? a : b),
+      0
+    );
+
+    return birdHabitats[habitat] > topHabitat / 3;
+  });
+}
+
+export function generateGame({
+  numberOfGuesses = 8,
+  habitat,
+}: { habitat?: string | null; numberOfGuesses?: number } = {}) {
+  const gameBirds = getBirds({ habitat });
+  const birdNamesToUse = getRandomElements(gameBirds, numberOfGuesses);
 
   const correctBirdName = getRandomElement(birdNamesToUse);
 
-  const audio = getRandomElement(database[correctBirdName].audio);
+  const audio = getRandomElement(database[correctBirdName].audio!);
 
   return {
     correct: correctBirdName,
     values: birdNamesToUse.map((b) => ({
       value: b,
       name: database[b].name,
-      imgSrc: imageFilepath(getRandomElement(database[b].images)),
+      imgSrc: getRandomElement(database[b].images),
     })),
     audioSource: audioFilepath(audio.path),
   };

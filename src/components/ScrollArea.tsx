@@ -11,6 +11,7 @@ const StyledScrollArea = styled(ScrollAreaPrimitive.Root, {
   borderRadius: 4,
   overflow: "hidden",
   boxShadow: `0 2px 10px ${blackA.blackA7}`,
+  boxSizing: "border-box",
   variants: {
     highlight: {
       true: {

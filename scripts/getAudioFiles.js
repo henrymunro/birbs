@@ -1,69 +1,12 @@
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
-const request = require("request");
 const fs = require("fs");
 const path = require("path");
 
-const OUTPUT_DIRECTORY = path.join(__dirname + "../public/audio");
-const AUDIO_DATABASE_FILE = path.join(
-  __dirname + "../src/database/audio-database.json"
-);
+const AUDIO_DATABASE_FILE = path.join("./data/audio.json");
 const NUMBER_OF_RECORDINGS_PER_BIRD = 20;
 
-const birds = [
-  //   "long-tailed tit",
-  //   "eurasian skylark",
-  //   "common swift",
-  //   "canada goose",
-  //   "dunlin",
-  //   "european goldfinch",
-  //   "eurasian treecreeper",
-  //   "european greenfinch",
-  //   "black-headed gull",
-  //   "western jackdaw",
-  //   "ferral pidgeon",
-  //   "stock dove",
-  //   "common wood pigeon",
-  //   "northern raven",
-  //   "carrion crow",
-  //   "rook",
-  //   "common cuckoo",
-  //   "eurasian blue tit",
-  //   "common house martin",
-  //   "great spotted woodpecker",
-  //   "european robin",
-  //   "common chaffinch",
-  //   "eurasian coot",
-  //   "common snipe",
-  //   "common moorhen",
-  //   "eurasian jay",
-  //   "eurasian oystercatcher",
-  //   "barn swallow",
-  //   "european herring gull",
-  //   "common nightingale",
-  //   "great tit",
-  //   "house sparrow",
-  //   "eurasian tree sparrow",
-  //   "coal tit",
-  //   "common pheasant",
-  //   "common chiffchaff",
-  //   "eurasian magpie",
-  //   "european green woodpecker",
-  //   "willow tit",
-  //   "marsh tit",
-  //   "dunnock",
-  //   "eurasian bullfinch",
-  //   "eurasian nuthatch",
-  //   "eurasian collared dove",
-  //   "european turtle dove",
-  //   "common starling",
-  //   "eurasian blackcap",
-  //   "garden warbler",
-  //   "eurasian wren",
-  //   "common blackbird",
-  //   "song thrush",
-  "northern lapwing",
-];
+const birds = JSON.parse(fs.readFileSync("./data/species.json"));
 
 // https://xeno-canto.org/explore/api
 async function queryBird(birdName, queryPage = 1) {
@@ -88,16 +31,6 @@ async function queryBird(birdName, queryPage = 1) {
   };
 }
 
-function download(uri, filename) {
-  return new Promise((resolve) => {
-    request.head(uri, function (err, res, body) {
-      request(uri)
-        .pipe(fs.createWriteStream(filename))
-        .on("close", () => resolve());
-    });
-  });
-}
-
 function getDatabase() {
   let currentContent = {};
   if (fs.existsSync(AUDIO_DATABASE_FILE)) {
@@ -106,19 +39,7 @@ function getDatabase() {
   return currentContent;
 }
 
-let cachedDB;
-function fileExistsInDatabase(bird, filename) {
-  if (!cachedDB) {
-    cachedDB = getDatabase();
-  }
-  const birdName = bird.toLowerCase().replace(/\s/g, "-");
-
-  return !!(cachedDB[birdName] || []).find((x) => x.filename === filename);
-}
-
-function mergeDatabase(bird, downloads) {
-  const birdName = bird.toLowerCase().replace(/\s/g, "-");
-
+function mergeDatabase(birdName, downloads) {
   const currentContent = getDatabase();
 
   if (!currentContent[birdName]) {
@@ -126,7 +47,7 @@ function mergeDatabase(bird, downloads) {
   }
 
   downloads.forEach((d) => {
-    if (!currentContent[birdName].find((x) => x.filename === d.filename)) {
+    if (!currentContent[birdName].find((x) => x.id === d.id)) {
       currentContent[birdName].push(d);
     }
   });
@@ -137,54 +58,15 @@ function mergeDatabase(bird, downloads) {
   );
 }
 
-async function downloadRecordings(bird, recordings, number) {
-  const birdName = bird.toLowerCase().replace(/\s/g, "-");
-  const dir = `${OUTPUT_DIRECTORY}/${birdName}`;
-
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir);
-  }
-
-  const recordingsToDownload = recordings.slice(0, number);
-  console.log(
-    `Download: downloading ${recordingsToDownload.length} recordings`
-  );
-
-  const downloads = [];
-  let i = 0;
-  for (const recording of recordingsToDownload) {
-    const ourFilename = `${birdName}/${recording.id}.mp3`;
-    try {
-      i++;
-      if (fileExistsInDatabase(bird, ourFilename)) {
-        console.log(
-          `Download skipping: ${i}/${recordingsToDownload.length} :: ${ourFilename} already exists in our DB`
-        );
-        continue;
-      } else {
-        console.log(
-          `Download processing: ${i}/${recordingsToDownload.length} :: ${ourFilename}`
-        );
-      }
-
-      await download(recording.file, `${OUTPUT_DIRECTORY}/${ourFilename}`);
-
-      downloads.push({
-        filename: ourFilename,
-        xenoCantoData: recording,
-      });
-    } catch (err) {
-      console.error(`ERROR: unable to download file ${ourFilename} ${err}`);
-    }
-  }
-
-  return downloads;
-}
-
 async function main() {
   const failures = [];
+  const db = getDatabase();
   for (const bird of birds) {
     try {
+      if (db[bird]?.length === NUMBER_OF_RECORDINGS_PER_BIRD) {
+        console.log(`Got enough recordings for ${bird}, skipping.`);
+        continue;
+      }
       const { recordings } = await queryBird(bird);
 
       if (recordings.length < NUMBER_OF_RECORDINGS_PER_BIRD) {
@@ -193,21 +75,18 @@ async function main() {
         );
       }
 
-      const downloads = await downloadRecordings(
-        bird,
-        recordings,
-        NUMBER_OF_RECORDINGS_PER_BIRD
-      );
+      const downloads = recordings.slice(0, NUMBER_OF_RECORDINGS_PER_BIRD);
 
       mergeDatabase(bird, downloads);
 
       await new Promise((resolve) => setTimeout(resolve, 1000)); // rate limit to save their api
     } catch (err) {
+      console.log("Error:", err.message);
       failures.push(err);
     }
   }
 
-  console.log("Done", { failures });
+  console.log("Done", { failures: failures.map((e) => e.message).sort() });
 }
 
 main().catch((e) => {
