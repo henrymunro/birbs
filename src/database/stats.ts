@@ -37,7 +37,7 @@ function init<KeyT extends string, ValT>(
 export function logStat({ actual, picked }: { actual: Bird; picked: Bird }) {
   const stats = getStats();
 
-  const today = new Date().toLocaleDateString();
+  const today = new Date().toDateString();
 
   init(stats, today, (curr) => ({
     birds: {},
@@ -71,7 +71,7 @@ export function logStat({ actual, picked }: { actual: Bird; picked: Bird }) {
 
 export function getDaysWithStats() {
   return Object.keys(getStats()).sort(
-    (a, b) => new Date(a).getTime() - new Date(b).getTime()
+    (a, b) => new Date(b).getTime() - new Date(a).getTime()
   );
 }
 
@@ -107,9 +107,11 @@ export function getDailyStatSummary(date = new Date().toLocaleDateString()) {
   });
 
   return {
-    date,
+    date: new Date(date).toLocaleDateString(),
     correct: stats.correct,
     total: stats.total,
-    birdStats: birdStats.sort((a, b) => b.incorrect - a.incorrect),
+    birdStats: birdStats.sort(
+      (a, b) => a.correct - a.incorrect - (b.correct - b.incorrect)
+    ),
   };
 }

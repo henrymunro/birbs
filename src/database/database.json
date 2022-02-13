@@ -9,64 +9,104 @@
     ],
     "audio": [
       {
-        "path": "european-robin/701068.mp3"
+        "path": "european-robin/701068.mp3",
+        "type": "song",
+        "length": "1:20"
       },
       {
-        "path": "european-robin/700574.mp3"
+        "path": "european-robin/700574.mp3",
+        "type": "adult, male, song",
+        "length": "0:29"
       },
       {
-        "path": "european-robin/700573.mp3"
+        "path": "european-robin/700573.mp3",
+        "type": "adult, male, song",
+        "length": "1:05"
       },
       {
-        "path": "european-robin/700239.mp3"
+        "path": "european-robin/700239.mp3",
+        "type": "uncertain",
+        "length": "0:15"
       },
       {
-        "path": "european-robin/699688.mp3"
+        "path": "european-robin/699688.mp3",
+        "type": "alarm call",
+        "length": "0:18"
       },
       {
-        "path": "european-robin/699119.mp3"
+        "path": "european-robin/699119.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "1:16"
       },
       {
-        "path": "european-robin/699091.mp3"
+        "path": "european-robin/699091.mp3",
+        "type": "call",
+        "length": "1:04"
       },
       {
-        "path": "european-robin/699089.mp3"
+        "path": "european-robin/699089.mp3",
+        "type": "call",
+        "length": "1:31"
       },
       {
-        "path": "european-robin/699084.mp3"
+        "path": "european-robin/699084.mp3",
+        "type": "call",
+        "length": "1:50"
       },
       {
-        "path": "european-robin/699080.mp3"
+        "path": "european-robin/699080.mp3",
+        "type": "call",
+        "length": "0:34"
       },
       {
-        "path": "european-robin/698811.mp3"
+        "path": "european-robin/698811.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:11"
       },
       {
-        "path": "european-robin/698594.mp3"
+        "path": "european-robin/698594.mp3",
+        "type": "call",
+        "length": "0:31"
       },
       {
-        "path": "european-robin/698461.mp3"
+        "path": "european-robin/698461.mp3",
+        "type": "song",
+        "length": "1:10"
       },
       {
-        "path": "european-robin/698392.mp3"
+        "path": "european-robin/698392.mp3",
+        "type": "adult, song",
+        "length": "0:10"
       },
       {
-        "path": "european-robin/698257.mp3"
+        "path": "european-robin/698257.mp3",
+        "type": "adult",
+        "length": "0:06"
       },
       {
-        "path": "european-robin/698035.mp3"
+        "path": "european-robin/698035.mp3",
+        "type": "aberrant, alarm call, call, odd call",
+        "length": "0:32"
       },
       {
-        "path": "european-robin/696964.mp3"
+        "path": "european-robin/696964.mp3",
+        "type": "song",
+        "length": "1:02"
       },
       {
-        "path": "european-robin/696233.mp3"
+        "path": "european-robin/696233.mp3",
+        "type": "call, roll call",
+        "length": "0:53"
       },
       {
-        "path": "european-robin/696232.mp3"
+        "path": "european-robin/696232.mp3",
+        "type": "call, contact call, song",
+        "length": "0:37"
       },
       {
-        "path": "european-robin/696231.mp3"
+        "path": "european-robin/696231.mp3",
+        "type": "call, roll call",
+        "length": "0:40"
       }
     ]
   },
@@ -80,64 +120,104 @@
     ],
     "audio": [
       {
-        "path": "long-tailed-tit/701137.mp3"
+        "path": "long-tailed-tit/701137.mp3",
+        "type": "call",
+        "length": "0:01"
       },
       {
-        "path": "long-tailed-tit/701087.mp3"
+        "path": "long-tailed-tit/701087.mp3",
+        "type": "call, flight call",
+        "length": "0:08"
       },
       {
-        "path": "long-tailed-tit/700733.mp3"
+        "path": "long-tailed-tit/700733.mp3",
+        "type": "call",
+        "length": "0:27"
       },
       {
-        "path": "long-tailed-tit/699733.mp3"
+        "path": "long-tailed-tit/699733.mp3",
+        "type": "call",
+        "length": "3:03"
       },
       {
-        "path": "long-tailed-tit/699145.mp3"
+        "path": "long-tailed-tit/699145.mp3",
+        "type": "call, flight call",
+        "length": "0:43"
       },
       {
-        "path": "long-tailed-tit/698871.mp3"
+        "path": "long-tailed-tit/698871.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:43"
       },
       {
-        "path": "long-tailed-tit/698591.mp3"
+        "path": "long-tailed-tit/698591.mp3",
+        "type": "call",
+        "length": "1:00"
       },
       {
-        "path": "long-tailed-tit/698449.mp3"
+        "path": "long-tailed-tit/698449.mp3",
+        "type": "call, flight call",
+        "length": "0:44"
       },
       {
-        "path": "long-tailed-tit/698005.mp3"
+        "path": "long-tailed-tit/698005.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:30"
       },
       {
-        "path": "long-tailed-tit/697583.mp3"
+        "path": "long-tailed-tit/697583.mp3",
+        "type": "flight call",
+        "length": "2:16"
       },
       {
-        "path": "long-tailed-tit/697241.mp3"
+        "path": "long-tailed-tit/697241.mp3",
+        "type": "adult, alarm call, call, sex uncertain",
+        "length": "1:23"
       },
       {
-        "path": "long-tailed-tit/696502.mp3"
+        "path": "long-tailed-tit/696502.mp3",
+        "type": "call, flight call",
+        "length": "0:25"
       },
       {
-        "path": "long-tailed-tit/696479.mp3"
+        "path": "long-tailed-tit/696479.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "1:04"
       },
       {
-        "path": "long-tailed-tit/696025.mp3"
+        "path": "long-tailed-tit/696025.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:12"
       },
       {
-        "path": "long-tailed-tit/694677.mp3"
+        "path": "long-tailed-tit/694677.mp3",
+        "type": "Sirrut call, anxious call, sex uncertain",
+        "length": "0:19"
       },
       {
-        "path": "long-tailed-tit/692837.mp3"
+        "path": "long-tailed-tit/692837.mp3",
+        "type": "adult, call",
+        "length": "0:19"
       },
       {
-        "path": "long-tailed-tit/692824.mp3"
+        "path": "long-tailed-tit/692824.mp3",
+        "type": "call",
+        "length": "0:30"
       },
       {
-        "path": "long-tailed-tit/692562.mp3"
+        "path": "long-tailed-tit/692562.mp3",
+        "type": "call",
+        "length": "0:38"
       },
       {
-        "path": "long-tailed-tit/672551.mp3"
+        "path": "long-tailed-tit/672551.mp3",
+        "type": "call",
+        "length": "0:08"
       },
       {
-        "path": "long-tailed-tit/672241.mp3"
+        "path": "long-tailed-tit/672241.mp3",
+        "type": "flight call",
+        "length": "1:35"
       }
     ]
   },
@@ -151,64 +231,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-skylark/700634.mp3"
+        "path": "eurasian-skylark/700634.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:02"
       },
       {
-        "path": "eurasian-skylark/698275.mp3"
+        "path": "eurasian-skylark/698275.mp3",
+        "type": "song",
+        "length": "0:54"
       },
       {
-        "path": "eurasian-skylark/698273.mp3"
+        "path": "eurasian-skylark/698273.mp3",
+        "type": "song",
+        "length": "1:05"
       },
       {
-        "path": "eurasian-skylark/698268.mp3"
+        "path": "eurasian-skylark/698268.mp3",
+        "type": "song, wings",
+        "length": "0:43"
       },
       {
-        "path": "eurasian-skylark/698267.mp3"
+        "path": "eurasian-skylark/698267.mp3",
+        "type": "song, wings",
+        "length": "0:45"
       },
       {
-        "path": "eurasian-skylark/698251.mp3"
+        "path": "eurasian-skylark/698251.mp3",
+        "type": "song",
+        "length": "1:00"
       },
       {
-        "path": "eurasian-skylark/698248.mp3"
+        "path": "eurasian-skylark/698248.mp3",
+        "type": "song",
+        "length": "0:27"
       },
       {
-        "path": "eurasian-skylark/698071.mp3"
+        "path": "eurasian-skylark/698071.mp3",
+        "type": "song",
+        "length": "0:30"
       },
       {
-        "path": "eurasian-skylark/697945.mp3"
+        "path": "eurasian-skylark/697945.mp3",
+        "type": "flight call",
+        "length": "0:10"
       },
       {
-        "path": "eurasian-skylark/697766.mp3"
+        "path": "eurasian-skylark/697766.mp3",
+        "type": "song",
+        "length": "0:10"
       },
       {
-        "path": "eurasian-skylark/696703.mp3"
+        "path": "eurasian-skylark/696703.mp3",
+        "type": "adult, song",
+        "length": "1:11"
       },
       {
-        "path": "eurasian-skylark/692135.mp3"
+        "path": "eurasian-skylark/692135.mp3",
+        "type": "sex uncertain, song",
+        "length": "0:18"
       },
       {
-        "path": "eurasian-skylark/689309.mp3"
+        "path": "eurasian-skylark/689309.mp3",
+        "type": "flight call",
+        "length": "0:31"
       },
       {
-        "path": "eurasian-skylark/685846.mp3"
+        "path": "eurasian-skylark/685846.mp3",
+        "type": "adult, male, song",
+        "length": "0:17"
       },
       {
-        "path": "eurasian-skylark/684805.mp3"
+        "path": "eurasian-skylark/684805.mp3",
+        "type": "adult, male, song",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-skylark/676827.mp3"
+        "path": "eurasian-skylark/676827.mp3",
+        "type": "call, flight call",
+        "length": "0:25"
       },
       {
-        "path": "eurasian-skylark/675098.mp3"
+        "path": "eurasian-skylark/675098.mp3",
+        "type": "imitation Acanthis flammea, mimicry/imitation, song",
+        "length": "1:46"
       },
       {
-        "path": "eurasian-skylark/675097.mp3"
+        "path": "eurasian-skylark/675097.mp3",
+        "type": "song",
+        "length": "0:30"
       },
       {
-        "path": "eurasian-skylark/675096.mp3"
+        "path": "eurasian-skylark/675096.mp3",
+        "type": "song",
+        "length": "3:08"
       },
       {
-        "path": "eurasian-skylark/673062.mp3"
+        "path": "eurasian-skylark/673062.mp3",
+        "type": "song",
+        "length": "0:38"
       }
     ]
   },
@@ -222,64 +342,104 @@
     ],
     "audio": [
       {
-        "path": "common-swift/669956.mp3"
+        "path": "common-swift/669956.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "common-swift/666909.mp3"
+        "path": "common-swift/666909.mp3",
+        "type": "flight call",
+        "length": "0:25"
       },
       {
-        "path": "common-swift/666908.mp3"
+        "path": "common-swift/666908.mp3",
+        "type": "flight call",
+        "length": "0:12"
       },
       {
-        "path": "common-swift/666907.mp3"
+        "path": "common-swift/666907.mp3",
+        "type": "flight call",
+        "length": "0:09"
       },
       {
-        "path": "common-swift/666905.mp3"
+        "path": "common-swift/666905.mp3",
+        "type": "flight call",
+        "length": "0:08"
       },
       {
-        "path": "common-swift/664459.mp3"
+        "path": "common-swift/664459.mp3",
+        "type": "female, flight call, male",
+        "length": "0:42"
       },
       {
-        "path": "common-swift/664458.mp3"
+        "path": "common-swift/664458.mp3",
+        "type": "female, flight call, male",
+        "length": "0:07"
       },
       {
-        "path": "common-swift/664457.mp3"
+        "path": "common-swift/664457.mp3",
+        "type": "female, flight call, male",
+        "length": "1:26"
       },
       {
-        "path": "common-swift/664456.mp3"
+        "path": "common-swift/664456.mp3",
+        "type": "female, flight call, male",
+        "length": "1:12"
       },
       {
-        "path": "common-swift/664455.mp3"
+        "path": "common-swift/664455.mp3",
+        "type": "female, flight call, male",
+        "length": "0:56"
       },
       {
-        "path": "common-swift/664265.mp3"
+        "path": "common-swift/664265.mp3",
+        "type": "adult, begging call, call, hatchling or nestling, juvenile, song, wings",
+        "length": "5:08"
       },
       {
-        "path": "common-swift/664245.mp3"
+        "path": "common-swift/664245.mp3",
+        "type": "call, flight call",
+        "length": "0:18"
       },
       {
-        "path": "common-swift/664000.mp3"
+        "path": "common-swift/664000.mp3",
+        "type": "adult, call, flight call",
+        "length": "0:19"
       },
       {
-        "path": "common-swift/663446.mp3"
+        "path": "common-swift/663446.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:47"
       },
       {
-        "path": "common-swift/663393.mp3"
+        "path": "common-swift/663393.mp3",
+        "type": "call, hatchling or nestling, sex uncertain",
+        "length": "0:24"
       },
       {
-        "path": "common-swift/662958.mp3"
+        "path": "common-swift/662958.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:11"
       },
       {
-        "path": "common-swift/662787.mp3"
+        "path": "common-swift/662787.mp3",
+        "type": "call, flight call",
+        "length": "0:36"
       },
       {
-        "path": "common-swift/662607.mp3"
+        "path": "common-swift/662607.mp3",
+        "type": "adult, call, female, flight call, male",
+        "length": "1:24"
       },
       {
-        "path": "common-swift/662362.mp3"
+        "path": "common-swift/662362.mp3",
+        "type": "adult, call, flight call",
+        "length": "0:11"
       },
       {
-        "path": "common-swift/662361.mp3"
+        "path": "common-swift/662361.mp3",
+        "type": "adult, call, flight call",
+        "length": "0:26"
       }
     ]
   },
@@ -293,64 +453,104 @@
     ],
     "audio": [
       {
-        "path": "canada-goose/698276.mp3"
+        "path": "canada-goose/698276.mp3",
+        "type": "flight call",
+        "length": "0:05"
       },
       {
-        "path": "canada-goose/697726.mp3"
+        "path": "canada-goose/697726.mp3",
+        "type": "call, juvenile",
+        "length": "0:15"
       },
       {
-        "path": "canada-goose/697097.mp3"
+        "path": "canada-goose/697097.mp3",
+        "type": "song",
+        "length": "0:17"
       },
       {
-        "path": "canada-goose/678320.mp3"
+        "path": "canada-goose/678320.mp3",
+        "type": "distance call, flight call",
+        "length": "0:45"
       },
       {
-        "path": "canada-goose/678224.mp3"
+        "path": "canada-goose/678224.mp3",
+        "type": "adult, call, flight call, sex uncertain",
+        "length": "0:19"
       },
       {
-        "path": "canada-goose/661966.mp3"
+        "path": "canada-goose/661966.mp3",
+        "type": "adult, alarm call, flight call, male",
+        "length": "0:40"
       },
       {
-        "path": "canada-goose/646159.mp3"
+        "path": "canada-goose/646159.mp3",
+        "type": "flight call",
+        "length": "0:33"
       },
       {
-        "path": "canada-goose/643524.mp3"
+        "path": "canada-goose/643524.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:14"
       },
       {
-        "path": "canada-goose/642222.mp3"
+        "path": "canada-goose/642222.mp3",
+        "type": "adult, call",
+        "length": "0:17"
       },
       {
-        "path": "canada-goose/637975.mp3"
+        "path": "canada-goose/637975.mp3",
+        "type": "call, song",
+        "length": "0:13"
       },
       {
-        "path": "canada-goose/637012.mp3"
+        "path": "canada-goose/637012.mp3",
+        "type": "life stage uncertain, sex uncertain",
+        "length": "0:08"
       },
       {
-        "path": "canada-goose/636980.mp3"
+        "path": "canada-goose/636980.mp3",
+        "type": "adult, flight call, sex uncertain",
+        "length": "0:52"
       },
       {
-        "path": "canada-goose/636569.mp3"
+        "path": "canada-goose/636569.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:32"
       },
       {
-        "path": "canada-goose/636416.mp3"
+        "path": "canada-goose/636416.mp3",
+        "type": "adult, call",
+        "length": "0:35"
       },
       {
-        "path": "canada-goose/635655.mp3"
+        "path": "canada-goose/635655.mp3",
+        "type": "adult, alarm call",
+        "length": "0:13"
       },
       {
-        "path": "canada-goose/631342.mp3"
+        "path": "canada-goose/631342.mp3",
+        "type": "call",
+        "length": "0:34"
       },
       {
-        "path": "canada-goose/631338.mp3"
+        "path": "canada-goose/631338.mp3",
+        "type": "call",
+        "length": "1:35"
       },
       {
-        "path": "canada-goose/627972.mp3"
+        "path": "canada-goose/627972.mp3",
+        "type": "alarm call, call, flight call",
+        "length": "0:40"
       },
       {
-        "path": "canada-goose/627719.mp3"
+        "path": "canada-goose/627719.mp3",
+        "type": "call",
+        "length": "1:20"
       },
       {
-        "path": "canada-goose/625117.mp3"
+        "path": "canada-goose/625117.mp3",
+        "type": "flight call, nocturnal flight call",
+        "length": "0:11"
       }
     ]
   },
@@ -364,64 +564,104 @@
     ],
     "audio": [
       {
-        "path": "dunlin/693162.mp3"
+        "path": "dunlin/693162.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:05"
       },
       {
-        "path": "dunlin/693161.mp3"
+        "path": "dunlin/693161.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:08"
       },
       {
-        "path": "dunlin/693112.mp3"
+        "path": "dunlin/693112.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:07"
       },
       {
-        "path": "dunlin/692932.mp3"
+        "path": "dunlin/692932.mp3",
+        "type": "call",
+        "length": "0:07"
       },
       {
-        "path": "dunlin/691584.mp3"
+        "path": "dunlin/691584.mp3",
+        "type": "adult, male, song",
+        "length": "0:13"
       },
       {
-        "path": "dunlin/689971.mp3"
+        "path": "dunlin/689971.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:09"
       },
       {
-        "path": "dunlin/686443.mp3"
+        "path": "dunlin/686443.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:57"
       },
       {
-        "path": "dunlin/686442.mp3"
+        "path": "dunlin/686442.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:57"
       },
       {
-        "path": "dunlin/685733.mp3"
+        "path": "dunlin/685733.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:10"
       },
       {
-        "path": "dunlin/684704.mp3"
+        "path": "dunlin/684704.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:08"
       },
       {
-        "path": "dunlin/679269.mp3"
+        "path": "dunlin/679269.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:07"
       },
       {
-        "path": "dunlin/679093.mp3"
+        "path": "dunlin/679093.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:35"
       },
       {
-        "path": "dunlin/677930.mp3"
+        "path": "dunlin/677930.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:55"
       },
       {
-        "path": "dunlin/677555.mp3"
+        "path": "dunlin/677555.mp3",
+        "type": "flight call, raspy call",
+        "length": "0:10"
       },
       {
-        "path": "dunlin/676039.mp3"
+        "path": "dunlin/676039.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:15"
       },
       {
-        "path": "dunlin/674563.mp3"
+        "path": "dunlin/674563.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:07"
       },
       {
-        "path": "dunlin/674503.mp3"
+        "path": "dunlin/674503.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:02"
       },
       {
-        "path": "dunlin/674378.mp3"
+        "path": "dunlin/674378.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:11"
       },
       {
-        "path": "dunlin/674215.mp3"
+        "path": "dunlin/674215.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:20"
       },
       {
-        "path": "dunlin/674157.mp3"
+        "path": "dunlin/674157.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:34"
       }
     ]
   },
@@ -435,64 +675,104 @@
     ],
     "audio": [
       {
-        "path": "european-goldfinch/701011.mp3"
+        "path": "european-goldfinch/701011.mp3",
+        "type": "adult, call, sex uncertain, song",
+        "length": "0:40"
       },
       {
-        "path": "european-goldfinch/700803.mp3"
+        "path": "european-goldfinch/700803.mp3",
+        "type": "song",
+        "length": "0:34"
       },
       {
-        "path": "european-goldfinch/699931.mp3"
+        "path": "european-goldfinch/699931.mp3",
+        "type": "song",
+        "length": "0:26"
       },
       {
-        "path": "european-goldfinch/699882.mp3"
+        "path": "european-goldfinch/699882.mp3",
+        "type": "Call, short call",
+        "length": "1:33"
       },
       {
-        "path": "european-goldfinch/699881.mp3"
+        "path": "european-goldfinch/699881.mp3",
+        "type": "adult, male, song",
+        "length": "1:04"
       },
       {
-        "path": "european-goldfinch/699499.mp3"
+        "path": "european-goldfinch/699499.mp3",
+        "type": "adult, male, song",
+        "length": "0:33"
       },
       {
-        "path": "european-goldfinch/699022.mp3"
+        "path": "european-goldfinch/699022.mp3",
+        "type": "adult, call, sex uncertain, song",
+        "length": "1:21"
       },
       {
-        "path": "european-goldfinch/698214.mp3"
+        "path": "european-goldfinch/698214.mp3",
+        "type": "call, song",
+        "length": "0:28"
       },
       {
-        "path": "european-goldfinch/698039.mp3"
+        "path": "european-goldfinch/698039.mp3",
+        "type": "adult, song",
+        "length": "0:41"
       },
       {
-        "path": "european-goldfinch/697569.mp3"
+        "path": "european-goldfinch/697569.mp3",
+        "type": "sex uncertain, song",
+        "length": "0:13"
       },
       {
-        "path": "european-goldfinch/696615.mp3"
+        "path": "european-goldfinch/696615.mp3",
+        "type": "song",
+        "length": "0:30"
       },
       {
-        "path": "european-goldfinch/695341.mp3"
+        "path": "european-goldfinch/695341.mp3",
+        "type": "life stage uncertain, sex uncertain, song",
+        "length": "0:19"
       },
       {
-        "path": "european-goldfinch/694693.mp3"
+        "path": "european-goldfinch/694693.mp3",
+        "type": "song",
+        "length": "0:14"
       },
       {
-        "path": "european-goldfinch/692581.mp3"
+        "path": "european-goldfinch/692581.mp3",
+        "type": "adult, song",
+        "length": "0:20"
       },
       {
-        "path": "european-goldfinch/691737.mp3"
+        "path": "european-goldfinch/691737.mp3",
+        "type": "flight call, life stage uncertain, sex uncertain",
+        "length": "0:22"
       },
       {
-        "path": "european-goldfinch/691685.mp3"
+        "path": "european-goldfinch/691685.mp3",
+        "type": "song",
+        "length": "0:32"
       },
       {
-        "path": "european-goldfinch/690694.mp3"
+        "path": "european-goldfinch/690694.mp3",
+        "type": "call",
+        "length": "0:29"
       },
       {
-        "path": "european-goldfinch/690450.mp3"
+        "path": "european-goldfinch/690450.mp3",
+        "type": "song",
+        "length": "0:30"
       },
       {
-        "path": "european-goldfinch/688933.mp3"
+        "path": "european-goldfinch/688933.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "1:24"
       },
       {
-        "path": "european-goldfinch/688897.mp3"
+        "path": "european-goldfinch/688897.mp3",
+        "type": "adult, flight call, sex uncertain",
+        "length": "0:06"
       }
     ]
   },
@@ -506,64 +786,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-treecreeper/701090.mp3"
+        "path": "eurasian-treecreeper/701090.mp3",
+        "type": "adult, call",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-treecreeper/701017.mp3"
+        "path": "eurasian-treecreeper/701017.mp3",
+        "type": "adult, male, song",
+        "length": "0:57"
       },
       {
-        "path": "eurasian-treecreeper/701016.mp3"
+        "path": "eurasian-treecreeper/701016.mp3",
+        "type": "adult, male, song",
+        "length": "1:23"
       },
       {
-        "path": "eurasian-treecreeper/701015.mp3"
+        "path": "eurasian-treecreeper/701015.mp3",
+        "type": "adult, male, song",
+        "length": "0:09"
       },
       {
-        "path": "eurasian-treecreeper/700289.mp3"
+        "path": "eurasian-treecreeper/700289.mp3",
+        "type": "alarm call",
+        "length": "0:05"
       },
       {
-        "path": "eurasian-treecreeper/700288.mp3"
+        "path": "eurasian-treecreeper/700288.mp3",
+        "type": "call",
+        "length": "0:10"
       },
       {
-        "path": "eurasian-treecreeper/700287.mp3"
+        "path": "eurasian-treecreeper/700287.mp3",
+        "type": "song",
+        "length": "2:35"
       },
       {
-        "path": "eurasian-treecreeper/698595.mp3"
+        "path": "eurasian-treecreeper/698595.mp3",
+        "type": "call",
+        "length": "0:09"
       },
       {
-        "path": "eurasian-treecreeper/698402.mp3"
+        "path": "eurasian-treecreeper/698402.mp3",
+        "type": "adult, call",
+        "length": "0:03"
       },
       {
-        "path": "eurasian-treecreeper/695004.mp3"
+        "path": "eurasian-treecreeper/695004.mp3",
+        "type": "sex uncertain, song",
+        "length": "0:20"
       },
       {
-        "path": "eurasian-treecreeper/692067.mp3"
+        "path": "eurasian-treecreeper/692067.mp3",
+        "type": "call",
+        "length": "0:15"
       },
       {
-        "path": "eurasian-treecreeper/692064.mp3"
+        "path": "eurasian-treecreeper/692064.mp3",
+        "type": "call",
+        "length": "0:12"
       },
       {
-        "path": "eurasian-treecreeper/690574.mp3"
+        "path": "eurasian-treecreeper/690574.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:06"
       },
       {
-        "path": "eurasian-treecreeper/688736.mp3"
+        "path": "eurasian-treecreeper/688736.mp3",
+        "type": "call, territorial dispute",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-treecreeper/688107.mp3"
+        "path": "eurasian-treecreeper/688107.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "1:19"
       },
       {
-        "path": "eurasian-treecreeper/688084.mp3"
+        "path": "eurasian-treecreeper/688084.mp3",
+        "type": "adult, song",
+        "length": "1:24"
       },
       {
-        "path": "eurasian-treecreeper/688083.mp3"
+        "path": "eurasian-treecreeper/688083.mp3",
+        "type": "adult, song",
+        "length": "0:50"
       },
       {
-        "path": "eurasian-treecreeper/685952.mp3"
+        "path": "eurasian-treecreeper/685952.mp3",
+        "type": "call",
+        "length": "0:05"
       },
       {
-        "path": "eurasian-treecreeper/683059.mp3"
+        "path": "eurasian-treecreeper/683059.mp3",
+        "type": "adult, call",
+        "length": "0:07"
       },
       {
-        "path": "eurasian-treecreeper/680133.mp3"
+        "path": "eurasian-treecreeper/680133.mp3",
+        "type": "bird in hand, call, sex uncertain",
+        "length": "1:40"
       }
     ]
   },
@@ -577,64 +897,104 @@
     ],
     "audio": [
       {
-        "path": "european-greenfinch/699872.mp3"
+        "path": "european-greenfinch/699872.mp3",
+        "type": "song",
+        "length": "0:54"
       },
       {
-        "path": "european-greenfinch/699861.mp3"
+        "path": "european-greenfinch/699861.mp3",
+        "type": "song",
+        "length": "0:55"
       },
       {
-        "path": "european-greenfinch/699537.mp3"
+        "path": "european-greenfinch/699537.mp3",
+        "type": "adult, call, female, male",
+        "length": "1:39"
       },
       {
-        "path": "european-greenfinch/699073.mp3"
+        "path": "european-greenfinch/699073.mp3",
+        "type": "adult, call, male, song",
+        "length": "1:23"
       },
       {
-        "path": "european-greenfinch/698569.mp3"
+        "path": "european-greenfinch/698569.mp3",
+        "type": "alarm call, call",
+        "length": "1:24"
       },
       {
-        "path": "european-greenfinch/694851.mp3"
+        "path": "european-greenfinch/694851.mp3",
+        "type": "adult, male, song",
+        "length": "4:15"
       },
       {
-        "path": "european-greenfinch/694594.mp3"
+        "path": "european-greenfinch/694594.mp3",
+        "type": "flight call, life stage uncertain, sex uncertain",
+        "length": "0:22"
       },
       {
-        "path": "european-greenfinch/692371.mp3"
+        "path": "european-greenfinch/692371.mp3",
+        "type": "aberrant, extremely raspy call, subsong",
+        "length": "0:24"
       },
       {
-        "path": "european-greenfinch/688967.mp3"
+        "path": "european-greenfinch/688967.mp3",
+        "type": "adult, song",
+        "length": "0:38"
       },
       {
-        "path": "european-greenfinch/687634.mp3"
+        "path": "european-greenfinch/687634.mp3",
+        "type": "call, song",
+        "length": "1:45"
       },
       {
-        "path": "european-greenfinch/685626.mp3"
+        "path": "european-greenfinch/685626.mp3",
+        "type": "adult, male, song",
+        "length": "0:05"
       },
       {
-        "path": "european-greenfinch/684655.mp3"
+        "path": "european-greenfinch/684655.mp3",
+        "type": "call",
+        "length": "0:15"
       },
       {
-        "path": "european-greenfinch/683797.mp3"
+        "path": "european-greenfinch/683797.mp3",
+        "type": "call, flight call",
+        "length": "0:12"
       },
       {
-        "path": "european-greenfinch/683785.mp3"
+        "path": "european-greenfinch/683785.mp3",
+        "type": "call, song",
+        "length": "1:00"
       },
       {
-        "path": "european-greenfinch/683784.mp3"
+        "path": "european-greenfinch/683784.mp3",
+        "type": "song",
+        "length": "0:32"
       },
       {
-        "path": "european-greenfinch/681159.mp3"
+        "path": "european-greenfinch/681159.mp3",
+        "type": "call, djyyit-call, trill",
+        "length": "0:38"
       },
       {
-        "path": "european-greenfinch/680981.mp3"
+        "path": "european-greenfinch/680981.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:10"
       },
       {
-        "path": "european-greenfinch/679903.mp3"
+        "path": "european-greenfinch/679903.mp3",
+        "type": "call-song",
+        "length": "1:49"
       },
       {
-        "path": "european-greenfinch/679008.mp3"
+        "path": "european-greenfinch/679008.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:09"
       },
       {
-        "path": "european-greenfinch/675547.mp3"
+        "path": "european-greenfinch/675547.mp3",
+        "type": "call, tuit call",
+        "length": "0:26"
       }
     ]
   },
@@ -648,64 +1008,104 @@
     ],
     "audio": [
       {
-        "path": "black-headed-gull/699746.mp3"
+        "path": "black-headed-gull/699746.mp3",
+        "type": "call",
+        "length": "0:05"
       },
       {
-        "path": "black-headed-gull/699742.mp3"
+        "path": "black-headed-gull/699742.mp3",
+        "type": "call",
+        "length": "0:11"
       },
       {
-        "path": "black-headed-gull/698446.mp3"
+        "path": "black-headed-gull/698446.mp3",
+        "type": "call",
+        "length": "1:00"
       },
       {
-        "path": "black-headed-gull/698386.mp3"
+        "path": "black-headed-gull/698386.mp3",
+        "type": "call",
+        "length": "1:12"
       },
       {
-        "path": "black-headed-gull/698365.mp3"
+        "path": "black-headed-gull/698365.mp3",
+        "type": "call",
+        "length": "0:08"
       },
       {
-        "path": "black-headed-gull/698364.mp3"
+        "path": "black-headed-gull/698364.mp3",
+        "type": "call",
+        "length": "0:08"
       },
       {
-        "path": "black-headed-gull/698230.mp3"
+        "path": "black-headed-gull/698230.mp3",
+        "type": "call",
+        "length": "0:10"
       },
       {
-        "path": "black-headed-gull/698196.mp3"
+        "path": "black-headed-gull/698196.mp3",
+        "type": "call",
+        "length": "0:04"
       },
       {
-        "path": "black-headed-gull/697161.mp3"
+        "path": "black-headed-gull/697161.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "2:32"
       },
       {
-        "path": "black-headed-gull/695860.mp3"
+        "path": "black-headed-gull/695860.mp3",
+        "type": "flight call, short calls",
+        "length": "0:10"
       },
       {
-        "path": "black-headed-gull/694994.mp3"
+        "path": "black-headed-gull/694994.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:14"
       },
       {
-        "path": "black-headed-gull/691142.mp3"
+        "path": "black-headed-gull/691142.mp3",
+        "type": "call",
+        "length": "0:28"
       },
       {
-        "path": "black-headed-gull/688687.mp3"
+        "path": "black-headed-gull/688687.mp3",
+        "type": "nocturnal flight call",
+        "length": "1:16"
       },
       {
-        "path": "black-headed-gull/688684.mp3"
+        "path": "black-headed-gull/688684.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:10"
       },
       {
-        "path": "black-headed-gull/687262.mp3"
+        "path": "black-headed-gull/687262.mp3",
+        "type": "flight call",
+        "length": "0:06"
       },
       {
-        "path": "black-headed-gull/686293.mp3"
+        "path": "black-headed-gull/686293.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:28"
       },
       {
-        "path": "black-headed-gull/686292.mp3"
+        "path": "black-headed-gull/686292.mp3",
+        "type": "nocturnal flight call",
+        "length": "2:31"
       },
       {
-        "path": "black-headed-gull/686291.mp3"
+        "path": "black-headed-gull/686291.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:42"
       },
       {
-        "path": "black-headed-gull/686289.mp3"
+        "path": "black-headed-gull/686289.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:56"
       },
       {
-        "path": "black-headed-gull/686288.mp3"
+        "path": "black-headed-gull/686288.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:11"
       }
     ]
   },
@@ -719,64 +1119,104 @@
     ],
     "audio": [
       {
-        "path": "western-jackdaw/700513.mp3"
+        "path": "western-jackdaw/700513.mp3",
+        "type": "call",
+        "length": "0:28"
       },
       {
-        "path": "western-jackdaw/700243.mp3"
+        "path": "western-jackdaw/700243.mp3",
+        "type": "adult, flight call",
+        "length": "0:10"
       },
       {
-        "path": "western-jackdaw/699863.mp3"
+        "path": "western-jackdaw/699863.mp3",
+        "type": "call",
+        "length": "0:08"
       },
       {
-        "path": "western-jackdaw/697235.mp3"
+        "path": "western-jackdaw/697235.mp3",
+        "type": "call",
+        "length": "0:08"
       },
       {
-        "path": "western-jackdaw/696481.mp3"
+        "path": "western-jackdaw/696481.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:25"
       },
       {
-        "path": "western-jackdaw/696478.mp3"
+        "path": "western-jackdaw/696478.mp3",
+        "type": "call",
+        "length": "0:05"
       },
       {
-        "path": "western-jackdaw/695881.mp3"
+        "path": "western-jackdaw/695881.mp3",
+        "type": "birds at nocturnal rest site (roost), call, group chatter",
+        "length": "0:21"
       },
       {
-        "path": "western-jackdaw/695879.mp3"
+        "path": "western-jackdaw/695879.mp3",
+        "type": "birds at nocturnal rest site (roost), flight call, group chatter",
+        "length": "0:20"
       },
       {
-        "path": "western-jackdaw/695878.mp3"
+        "path": "western-jackdaw/695878.mp3",
+        "type": "call, flight call, group chatter",
+        "length": "0:16"
       },
       {
-        "path": "western-jackdaw/694148.mp3"
+        "path": "western-jackdaw/694148.mp3",
+        "type": "call, flight call",
+        "length": "1:27"
       },
       {
-        "path": "western-jackdaw/693005.mp3"
+        "path": "western-jackdaw/693005.mp3",
+        "type": "adult, call",
+        "length": "0:11"
       },
       {
-        "path": "western-jackdaw/692957.mp3"
+        "path": "western-jackdaw/692957.mp3",
+        "type": "flight call",
+        "length": "0:18"
       },
       {
-        "path": "western-jackdaw/692956.mp3"
+        "path": "western-jackdaw/692956.mp3",
+        "type": "flight call",
+        "length": "0:13"
       },
       {
-        "path": "western-jackdaw/692955.mp3"
+        "path": "western-jackdaw/692955.mp3",
+        "type": "flight call",
+        "length": "0:13"
       },
       {
-        "path": "western-jackdaw/692605.mp3"
+        "path": "western-jackdaw/692605.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:21"
       },
       {
-        "path": "western-jackdaw/688290.mp3"
+        "path": "western-jackdaw/688290.mp3",
+        "type": "flight call",
+        "length": "0:03"
       },
       {
-        "path": "western-jackdaw/686741.mp3"
+        "path": "western-jackdaw/686741.mp3",
+        "type": "call, group chatter, various calls",
+        "length": "0:20"
       },
       {
-        "path": "western-jackdaw/686376.mp3"
+        "path": "western-jackdaw/686376.mp3",
+        "type": "call",
+        "length": "0:32"
       },
       {
-        "path": "western-jackdaw/686375.mp3"
+        "path": "western-jackdaw/686375.mp3",
+        "type": "call",
+        "length": "0:46"
       },
       {
-        "path": "western-jackdaw/686372.mp3"
+        "path": "western-jackdaw/686372.mp3",
+        "type": "flight call",
+        "length": "0:16"
       }
     ]
   },
@@ -790,64 +1230,104 @@
     ],
     "audio": [
       {
-        "path": "stock-dove/659689.mp3"
+        "path": "stock-dove/659689.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:19"
       },
       {
-        "path": "stock-dove/659684.mp3"
+        "path": "stock-dove/659684.mp3",
+        "type": "adult, song",
+        "length": "0:12"
       },
       {
-        "path": "stock-dove/654784.mp3"
+        "path": "stock-dove/654784.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:52"
       },
       {
-        "path": "stock-dove/643999.mp3"
+        "path": "stock-dove/643999.mp3",
+        "type": "song",
+        "length": "0:06"
       },
       {
-        "path": "stock-dove/643976.mp3"
+        "path": "stock-dove/643976.mp3",
+        "type": "song",
+        "length": "0:09"
       },
       {
-        "path": "stock-dove/630220.mp3"
+        "path": "stock-dove/630220.mp3",
+        "type": "adult, male, song",
+        "length": "0:16"
       },
       {
-        "path": "stock-dove/628924.mp3"
+        "path": "stock-dove/628924.mp3",
+        "type": "adult, male, song",
+        "length": "1:44"
       },
       {
-        "path": "stock-dove/627053.mp3"
+        "path": "stock-dove/627053.mp3",
+        "type": "adult, male, song, wings",
+        "length": "0:17"
       },
       {
-        "path": "stock-dove/627051.mp3"
+        "path": "stock-dove/627051.mp3",
+        "type": "adult, aggression, male, wings",
+        "length": "0:10"
       },
       {
-        "path": "stock-dove/627047.mp3"
+        "path": "stock-dove/627047.mp3",
+        "type": "adult, male, song, wings",
+        "length": "1:09"
       },
       {
-        "path": "stock-dove/627036.mp3"
+        "path": "stock-dove/627036.mp3",
+        "type": "adult, male, song, wings",
+        "length": "3:16"
       },
       {
-        "path": "stock-dove/623881.mp3"
+        "path": "stock-dove/623881.mp3",
+        "type": "adult, male, song, wings",
+        "length": "4:29"
       },
       {
-        "path": "stock-dove/606813.mp3"
+        "path": "stock-dove/606813.mp3",
+        "type": "song",
+        "length": "0:14"
       },
       {
-        "path": "stock-dove/587649.mp3"
+        "path": "stock-dove/587649.mp3",
+        "type": "song",
+        "length": "3:34"
       },
       {
-        "path": "stock-dove/585391.mp3"
+        "path": "stock-dove/585391.mp3",
+        "type": "adult, song",
+        "length": "3:06"
       },
       {
-        "path": "stock-dove/558811.mp3"
+        "path": "stock-dove/558811.mp3",
+        "type": "song",
+        "length": "0:15"
       },
       {
-        "path": "stock-dove/558809.mp3"
+        "path": "stock-dove/558809.mp3",
+        "type": "song",
+        "length": "1:27"
       },
       {
-        "path": "stock-dove/558808.mp3"
+        "path": "stock-dove/558808.mp3",
+        "type": "song",
+        "length": "1:13"
       },
       {
-        "path": "stock-dove/557898.mp3"
+        "path": "stock-dove/557898.mp3",
+        "type": "song",
+        "length": "0:13"
       },
       {
-        "path": "stock-dove/555822.mp3"
+        "path": "stock-dove/555822.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:59"
       }
     ]
   },
@@ -861,64 +1341,104 @@
     ],
     "audio": [
       {
-        "path": "common-wood-pigeon/698381.mp3"
+        "path": "common-wood-pigeon/698381.mp3",
+        "type": "song",
+        "length": "0:13"
       },
       {
-        "path": "common-wood-pigeon/692119.mp3"
+        "path": "common-wood-pigeon/692119.mp3",
+        "type": "sex uncertain, song",
+        "length": "1:46"
       },
       {
-        "path": "common-wood-pigeon/679882.mp3"
+        "path": "common-wood-pigeon/679882.mp3",
+        "type": "call",
+        "length": "1:10"
       },
       {
-        "path": "common-wood-pigeon/673236.mp3"
+        "path": "common-wood-pigeon/673236.mp3",
+        "type": "begging call, hatchling or nestling",
+        "length": "0:13"
       },
       {
-        "path": "common-wood-pigeon/672922.mp3"
+        "path": "common-wood-pigeon/672922.mp3",
+        "type": "deep song, song",
+        "length": "1:10"
       },
       {
-        "path": "common-wood-pigeon/669640.mp3"
+        "path": "common-wood-pigeon/669640.mp3",
+        "type": "Wing-beats, adult, song",
+        "length": "2:20"
       },
       {
-        "path": "common-wood-pigeon/668677.mp3"
+        "path": "common-wood-pigeon/668677.mp3",
+        "type": "song",
+        "length": "0:40"
       },
       {
-        "path": "common-wood-pigeon/665444.mp3"
+        "path": "common-wood-pigeon/665444.mp3",
+        "type": "song",
+        "length": "0:38"
       },
       {
-        "path": "common-wood-pigeon/665254.mp3"
+        "path": "common-wood-pigeon/665254.mp3",
+        "type": "uncertain, wing beats",
+        "length": "0:19"
       },
       {
-        "path": "common-wood-pigeon/664084.mp3"
+        "path": "common-wood-pigeon/664084.mp3",
+        "type": "adult, male, song",
+        "length": "1:17"
       },
       {
-        "path": "common-wood-pigeon/662356.mp3"
+        "path": "common-wood-pigeon/662356.mp3",
+        "type": "adult, male, song",
+        "length": "0:42"
       },
       {
-        "path": "common-wood-pigeon/656200.mp3"
+        "path": "common-wood-pigeon/656200.mp3",
+        "type": "adult, male, song",
+        "length": "0:14"
       },
       {
-        "path": "common-wood-pigeon/655097.mp3"
+        "path": "common-wood-pigeon/655097.mp3",
+        "type": "song",
+        "length": "0:30"
       },
       {
-        "path": "common-wood-pigeon/653672.mp3"
+        "path": "common-wood-pigeon/653672.mp3",
+        "type": "adult, male, song",
+        "length": "0:25"
       },
       {
-        "path": "common-wood-pigeon/651508.mp3"
+        "path": "common-wood-pigeon/651508.mp3",
+        "type": "male, song",
+        "length": "1:10"
       },
       {
-        "path": "common-wood-pigeon/650254.mp3"
+        "path": "common-wood-pigeon/650254.mp3",
+        "type": "male, song",
+        "length": "0:10"
       },
       {
-        "path": "common-wood-pigeon/648829.mp3"
+        "path": "common-wood-pigeon/648829.mp3",
+        "type": "adult, male, song",
+        "length": "0:09"
       },
       {
-        "path": "common-wood-pigeon/648349.mp3"
+        "path": "common-wood-pigeon/648349.mp3",
+        "type": "song",
+        "length": "1:45"
       },
       {
-        "path": "common-wood-pigeon/644851.mp3"
+        "path": "common-wood-pigeon/644851.mp3",
+        "type": "adult, male, song",
+        "length": "0:50"
       },
       {
-        "path": "common-wood-pigeon/644844.mp3"
+        "path": "common-wood-pigeon/644844.mp3",
+        "type": "adult, female, flight sound, male",
+        "length": "0:42"
       }
     ]
   },
@@ -932,64 +1452,104 @@
     ],
     "audio": [
       {
-        "path": "northern-raven/701061.mp3"
+        "path": "northern-raven/701061.mp3",
+        "type": "adult, flight call, male",
+        "length": "0:24"
       },
       {
-        "path": "northern-raven/700853.mp3"
+        "path": "northern-raven/700853.mp3",
+        "type": "flight call, several individuals in flight",
+        "length": "0:34"
       },
       {
-        "path": "northern-raven/699681.mp3"
+        "path": "northern-raven/699681.mp3",
+        "type": "flight call, life stage uncertain, sex uncertain",
+        "length": "0:04"
       },
       {
-        "path": "northern-raven/699625.mp3"
+        "path": "northern-raven/699625.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:03"
       },
       {
-        "path": "northern-raven/698970.mp3"
+        "path": "northern-raven/698970.mp3",
+        "type": "call",
+        "length": "1:01"
       },
       {
-        "path": "northern-raven/697518.mp3"
+        "path": "northern-raven/697518.mp3",
+        "type": "call, sex uncertain, wing beats",
+        "length": "0:02"
       },
       {
-        "path": "northern-raven/695498.mp3"
+        "path": "northern-raven/695498.mp3",
+        "type": "flight call",
+        "length": "0:25"
       },
       {
-        "path": "northern-raven/695497.mp3"
+        "path": "northern-raven/695497.mp3",
+        "type": "flight call",
+        "length": "0:17"
       },
       {
-        "path": "northern-raven/694807.mp3"
+        "path": "northern-raven/694807.mp3",
+        "type": "call",
+        "length": "0:35"
       },
       {
-        "path": "northern-raven/693047.mp3"
+        "path": "northern-raven/693047.mp3",
+        "type": "flight call",
+        "length": "0:20"
       },
       {
-        "path": "northern-raven/691471.mp3"
+        "path": "northern-raven/691471.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "1:11"
       },
       {
-        "path": "northern-raven/691439.mp3"
+        "path": "northern-raven/691439.mp3",
+        "type": "adult, call",
+        "length": "0:10"
       },
       {
-        "path": "northern-raven/689333.mp3"
+        "path": "northern-raven/689333.mp3",
+        "type": "call, flight call",
+        "length": "0:11"
       },
       {
-        "path": "northern-raven/689332.mp3"
+        "path": "northern-raven/689332.mp3",
+        "type": "call, flight call",
+        "length": "0:17"
       },
       {
-        "path": "northern-raven/688166.mp3"
+        "path": "northern-raven/688166.mp3",
+        "type": "call",
+        "length": "0:11"
       },
       {
-        "path": "northern-raven/688165.mp3"
+        "path": "northern-raven/688165.mp3",
+        "type": "call",
+        "length": "0:12"
       },
       {
-        "path": "northern-raven/687696.mp3"
+        "path": "northern-raven/687696.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "1:12"
       },
       {
-        "path": "northern-raven/687683.mp3"
+        "path": "northern-raven/687683.mp3",
+        "type": "flight call",
+        "length": "0:03"
       },
       {
-        "path": "northern-raven/687478.mp3"
+        "path": "northern-raven/687478.mp3",
+        "type": "adult, flight call, sex uncertain",
+        "length": "0:22"
       },
       {
-        "path": "northern-raven/687442.mp3"
+        "path": "northern-raven/687442.mp3",
+        "type": "flight call",
+        "length": "0:12"
       }
     ]
   },
@@ -1003,64 +1563,104 @@
     ],
     "audio": [
       {
-        "path": "carrion-crow/700491.mp3"
+        "path": "carrion-crow/700491.mp3",
+        "type": "adult, aggression call, call, sex uncertain",
+        "length": "0:15"
       },
       {
-        "path": "carrion-crow/697663.mp3"
+        "path": "carrion-crow/697663.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:20"
       },
       {
-        "path": "carrion-crow/697662.mp3"
+        "path": "carrion-crow/697662.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:54"
       },
       {
-        "path": "carrion-crow/695005.mp3"
+        "path": "carrion-crow/695005.mp3",
+        "type": "Different calls of a group",
+        "length": "1:01"
       },
       {
-        "path": "carrion-crow/689695.mp3"
+        "path": "carrion-crow/689695.mp3",
+        "type": "call",
+        "length": "1:56"
       },
       {
-        "path": "carrion-crow/688965.mp3"
+        "path": "carrion-crow/688965.mp3",
+        "type": "adult, alarm call",
+        "length": "0:54"
       },
       {
-        "path": "carrion-crow/688118.mp3"
+        "path": "carrion-crow/688118.mp3",
+        "type": "adult, call",
+        "length": "0:31"
       },
       {
-        "path": "carrion-crow/684076.mp3"
+        "path": "carrion-crow/684076.mp3",
+        "type": "alarm call, call",
+        "length": "0:04"
       },
       {
-        "path": "carrion-crow/682800.mp3"
+        "path": "carrion-crow/682800.mp3",
+        "type": "uncertain",
+        "length": "0:20"
       },
       {
-        "path": "carrion-crow/678776.mp3"
+        "path": "carrion-crow/678776.mp3",
+        "type": "life stage uncertain, sex uncertain",
+        "length": "0:05"
       },
       {
-        "path": "carrion-crow/678424.mp3"
+        "path": "carrion-crow/678424.mp3",
+        "type": "call",
+        "length": "0:36"
       },
       {
-        "path": "carrion-crow/676778.mp3"
+        "path": "carrion-crow/676778.mp3",
+        "type": "call",
+        "length": "0:07"
       },
       {
-        "path": "carrion-crow/676509.mp3"
+        "path": "carrion-crow/676509.mp3",
+        "type": "flight call",
+        "length": "0:11"
       },
       {
-        "path": "carrion-crow/676150.mp3"
+        "path": "carrion-crow/676150.mp3",
+        "type": "adult, anxious screams at the cat",
+        "length": "1:30"
       },
       {
-        "path": "carrion-crow/676128.mp3"
+        "path": "carrion-crow/676128.mp3",
+        "type": "call, juvenile",
+        "length": "0:52"
       },
       {
-        "path": "carrion-crow/676100.mp3"
+        "path": "carrion-crow/676100.mp3",
+        "type": "call, juvenile",
+        "length": "0:17"
       },
       {
-        "path": "carrion-crow/676099.mp3"
+        "path": "carrion-crow/676099.mp3",
+        "type": "call, juvenile",
+        "length": "0:36"
       },
       {
-        "path": "carrion-crow/676098.mp3"
+        "path": "carrion-crow/676098.mp3",
+        "type": "alarm call, call",
+        "length": "0:26"
       },
       {
-        "path": "carrion-crow/675088.mp3"
+        "path": "carrion-crow/675088.mp3",
+        "type": "call",
+        "length": "0:31"
       },
       {
-        "path": "carrion-crow/675077.mp3"
+        "path": "carrion-crow/675077.mp3",
+        "type": "call",
+        "length": "0:18"
       }
     ]
   },
@@ -1074,64 +1674,104 @@
     ],
     "audio": [
       {
-        "path": "common-cuckoo/698205.mp3"
+        "path": "common-cuckoo/698205.mp3",
+        "type": "song",
+        "length": "0:17"
       },
       {
-        "path": "common-cuckoo/698077.mp3"
+        "path": "common-cuckoo/698077.mp3",
+        "type": "male, song",
+        "length": "0:54"
       },
       {
-        "path": "common-cuckoo/698075.mp3"
+        "path": "common-cuckoo/698075.mp3",
+        "type": "male, song",
+        "length": "0:29"
       },
       {
-        "path": "common-cuckoo/698074.mp3"
+        "path": "common-cuckoo/698074.mp3",
+        "type": "male, song",
+        "length": "0:22"
       },
       {
-        "path": "common-cuckoo/698072.mp3"
+        "path": "common-cuckoo/698072.mp3",
+        "type": "male, song",
+        "length": "0:47"
       },
       {
-        "path": "common-cuckoo/697739.mp3"
+        "path": "common-cuckoo/697739.mp3",
+        "type": "song",
+        "length": "0:43"
       },
       {
-        "path": "common-cuckoo/697738.mp3"
+        "path": "common-cuckoo/697738.mp3",
+        "type": "song",
+        "length": "0:40"
       },
       {
-        "path": "common-cuckoo/697470.mp3"
+        "path": "common-cuckoo/697470.mp3",
+        "type": "male, song",
+        "length": "0:19"
       },
       {
-        "path": "common-cuckoo/696238.mp3"
+        "path": "common-cuckoo/696238.mp3",
+        "type": "adult, call, female, male, nearly voiceless\" hach\" and other sounds as exciting",
+        "length": "1:10"
       },
       {
-        "path": "common-cuckoo/694850.mp3"
+        "path": "common-cuckoo/694850.mp3",
+        "type": "adult, male, song",
+        "length": "15:06"
       },
       {
-        "path": "common-cuckoo/692996.mp3"
+        "path": "common-cuckoo/692996.mp3",
+        "type": "male, song",
+        "length": "0:13"
       },
       {
-        "path": "common-cuckoo/688152.mp3"
+        "path": "common-cuckoo/688152.mp3",
+        "type": "song",
+        "length": "0:10"
       },
       {
-        "path": "common-cuckoo/688151.mp3"
+        "path": "common-cuckoo/688151.mp3",
+        "type": "call, song",
+        "length": "0:07"
       },
       {
-        "path": "common-cuckoo/686906.mp3"
+        "path": "common-cuckoo/686906.mp3",
+        "type": "excitement call, song",
+        "length": "0:19"
       },
       {
-        "path": "common-cuckoo/686905.mp3"
+        "path": "common-cuckoo/686905.mp3",
+        "type": "song",
+        "length": "0:04"
       },
       {
-        "path": "common-cuckoo/686904.mp3"
+        "path": "common-cuckoo/686904.mp3",
+        "type": "excitement call, song",
+        "length": "0:16"
       },
       {
-        "path": "common-cuckoo/686903.mp3"
+        "path": "common-cuckoo/686903.mp3",
+        "type": "song",
+        "length": "0:11"
       },
       {
-        "path": "common-cuckoo/686901.mp3"
+        "path": "common-cuckoo/686901.mp3",
+        "type": "song",
+        "length": "0:02"
       },
       {
-        "path": "common-cuckoo/685852.mp3"
+        "path": "common-cuckoo/685852.mp3",
+        "type": "adult, male, song",
+        "length": "0:04"
       },
       {
-        "path": "common-cuckoo/680030.mp3"
+        "path": "common-cuckoo/680030.mp3",
+        "type": "song",
+        "length": "0:58"
       }
     ]
   },
@@ -1145,64 +1785,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-blue-tit/701214.mp3"
+        "path": "eurasian-blue-tit/701214.mp3",
+        "type": "song",
+        "length": "0:23"
       },
       {
-        "path": "eurasian-blue-tit/700285.mp3"
+        "path": "eurasian-blue-tit/700285.mp3",
+        "type": "call",
+        "length": "0:44"
       },
       {
-        "path": "eurasian-blue-tit/700252.mp3"
+        "path": "eurasian-blue-tit/700252.mp3",
+        "type": "adult, song",
+        "length": "1:05"
       },
       {
-        "path": "eurasian-blue-tit/700242.mp3"
+        "path": "eurasian-blue-tit/700242.mp3",
+        "type": "adult, male, song",
+        "length": "2:03"
       },
       {
-        "path": "eurasian-blue-tit/699867.mp3"
+        "path": "eurasian-blue-tit/699867.mp3",
+        "type": "call, song",
+        "length": "0:32"
       },
       {
-        "path": "eurasian-blue-tit/699866.mp3"
+        "path": "eurasian-blue-tit/699866.mp3",
+        "type": "song",
+        "length": "0:53"
       },
       {
-        "path": "eurasian-blue-tit/699858.mp3"
+        "path": "eurasian-blue-tit/699858.mp3",
+        "type": "song",
+        "length": "0:25"
       },
       {
-        "path": "eurasian-blue-tit/699853.mp3"
+        "path": "eurasian-blue-tit/699853.mp3",
+        "type": "alarm call, call",
+        "length": "0:28"
       },
       {
-        "path": "eurasian-blue-tit/699849.mp3"
+        "path": "eurasian-blue-tit/699849.mp3",
+        "type": "song",
+        "length": "0:26"
       },
       {
-        "path": "eurasian-blue-tit/699191.mp3"
+        "path": "eurasian-blue-tit/699191.mp3",
+        "type": "call",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-blue-tit/699171.mp3"
+        "path": "eurasian-blue-tit/699171.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:46"
       },
       {
-        "path": "eurasian-blue-tit/698957.mp3"
+        "path": "eurasian-blue-tit/698957.mp3",
+        "type": "song",
+        "length": "0:24"
       },
       {
-        "path": "eurasian-blue-tit/698824.mp3"
+        "path": "eurasian-blue-tit/698824.mp3",
+        "type": "adult, male, song",
+        "length": "3:20"
       },
       {
-        "path": "eurasian-blue-tit/698799.mp3"
+        "path": "eurasian-blue-tit/698799.mp3",
+        "type": "song",
+        "length": "0:24"
       },
       {
-        "path": "eurasian-blue-tit/698554.mp3"
+        "path": "eurasian-blue-tit/698554.mp3",
+        "type": "song",
+        "length": "0:29"
       },
       {
-        "path": "eurasian-blue-tit/698553.mp3"
+        "path": "eurasian-blue-tit/698553.mp3",
+        "type": "song",
+        "length": "0:31"
       },
       {
-        "path": "eurasian-blue-tit/698552.mp3"
+        "path": "eurasian-blue-tit/698552.mp3",
+        "type": "song",
+        "length": "0:35"
       },
       {
-        "path": "eurasian-blue-tit/698551.mp3"
+        "path": "eurasian-blue-tit/698551.mp3",
+        "type": "alarm call",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-blue-tit/698452.mp3"
+        "path": "eurasian-blue-tit/698452.mp3",
+        "type": "call, male, song",
+        "length": "0:34"
       },
       {
-        "path": "eurasian-blue-tit/698422.mp3"
+        "path": "eurasian-blue-tit/698422.mp3",
+        "type": "song",
+        "length": "0:28"
       }
     ]
   },
@@ -1216,64 +1896,104 @@
     ],
     "audio": [
       {
-        "path": "common-house-martin/700321.mp3"
+        "path": "common-house-martin/700321.mp3",
+        "type": "adult, call, flight call, sex uncertain",
+        "length": "1:30"
       },
       {
-        "path": "common-house-martin/692005.mp3"
+        "path": "common-house-martin/692005.mp3",
+        "type": "call",
+        "length": "0:13"
       },
       {
-        "path": "common-house-martin/687542.mp3"
+        "path": "common-house-martin/687542.mp3",
+        "type": "flight call",
+        "length": "0:31"
       },
       {
-        "path": "common-house-martin/686760.mp3"
+        "path": "common-house-martin/686760.mp3",
+        "type": "alarm call, nocturnal flight call",
+        "length": "0:36"
       },
       {
-        "path": "common-house-martin/676217.mp3"
+        "path": "common-house-martin/676217.mp3",
+        "type": "adult, alarm call, call, flight call, juvenile",
+        "length": "2:36"
       },
       {
-        "path": "common-house-martin/676216.mp3"
+        "path": "common-house-martin/676216.mp3",
+        "type": "adult, alarm call, call, flight call, juvenile",
+        "length": "1:01"
       },
       {
-        "path": "common-house-martin/676161.mp3"
+        "path": "common-house-martin/676161.mp3",
+        "type": "adult, call, flight call, juvenile",
+        "length": "1:39"
       },
       {
-        "path": "common-house-martin/676160.mp3"
+        "path": "common-house-martin/676160.mp3",
+        "type": "adult, call, flight call, juvenile",
+        "length": "4:20"
       },
       {
-        "path": "common-house-martin/676159.mp3"
+        "path": "common-house-martin/676159.mp3",
+        "type": "adult, call, flight call, juvenile",
+        "length": "1:33"
       },
       {
-        "path": "common-house-martin/676129.mp3"
+        "path": "common-house-martin/676129.mp3",
+        "type": "alarm on A. nisus, flight call",
+        "length": "0:15"
       },
       {
-        "path": "common-house-martin/676104.mp3"
+        "path": "common-house-martin/676104.mp3",
+        "type": "call, juvenile",
+        "length": "0:16"
       },
       {
-        "path": "common-house-martin/676103.mp3"
+        "path": "common-house-martin/676103.mp3",
+        "type": "call, juvenile",
+        "length": "0:52"
       },
       {
-        "path": "common-house-martin/676102.mp3"
+        "path": "common-house-martin/676102.mp3",
+        "type": "call, juvenile",
+        "length": "0:38"
       },
       {
-        "path": "common-house-martin/676101.mp3"
+        "path": "common-house-martin/676101.mp3",
+        "type": "call, juvenile",
+        "length": "1:55"
       },
       {
-        "path": "common-house-martin/676030.mp3"
+        "path": "common-house-martin/676030.mp3",
+        "type": "adult, alarm call, flight call",
+        "length": "0:11"
       },
       {
-        "path": "common-house-martin/676029.mp3"
+        "path": "common-house-martin/676029.mp3",
+        "type": "adult, alarm call, flight call",
+        "length": "1:11"
       },
       {
-        "path": "common-house-martin/676028.mp3"
+        "path": "common-house-martin/676028.mp3",
+        "type": "adult, alarm call, flight call",
+        "length": "0:55"
       },
       {
-        "path": "common-house-martin/676027.mp3"
+        "path": "common-house-martin/676027.mp3",
+        "type": "adult, alarm call, flight call",
+        "length": "1:27"
       },
       {
-        "path": "common-house-martin/675529.mp3"
+        "path": "common-house-martin/675529.mp3",
+        "type": "adult, alarm call, begging call, hatchling or nestling",
+        "length": "5:23"
       },
       {
-        "path": "common-house-martin/675082.mp3"
+        "path": "common-house-martin/675082.mp3",
+        "type": "call, flight call",
+        "length": "1:29"
       }
     ]
   },
@@ -1287,64 +2007,104 @@
     ],
     "audio": [
       {
-        "path": "great-spotted-woodpecker/701007.mp3"
+        "path": "great-spotted-woodpecker/701007.mp3",
+        "type": "adult, call, excited calls (keckern), knocking, sex uncertain",
+        "length": "1:54"
       },
       {
-        "path": "great-spotted-woodpecker/700702.mp3"
+        "path": "great-spotted-woodpecker/700702.mp3",
+        "type": "adult, drumming",
+        "length": "0:51"
       },
       {
-        "path": "great-spotted-woodpecker/700414.mp3"
+        "path": "great-spotted-woodpecker/700414.mp3",
+        "type": "drumming, male",
+        "length": "0:13"
       },
       {
-        "path": "great-spotted-woodpecker/700382.mp3"
+        "path": "great-spotted-woodpecker/700382.mp3",
+        "type": "drumming, male",
+        "length": "1:20"
       },
       {
-        "path": "great-spotted-woodpecker/700103.mp3"
+        "path": "great-spotted-woodpecker/700103.mp3",
+        "type": "adult, call, drumming, excited calls \"keckern\", sex uncertain",
+        "length": "1:19"
       },
       {
-        "path": "great-spotted-woodpecker/700048.mp3"
+        "path": "great-spotted-woodpecker/700048.mp3",
+        "type": "drumming",
+        "length": "0:37"
       },
       {
-        "path": "great-spotted-woodpecker/699207.mp3"
+        "path": "great-spotted-woodpecker/699207.mp3",
+        "type": "drumming",
+        "length": "0:58"
       },
       {
-        "path": "great-spotted-woodpecker/698983.mp3"
+        "path": "great-spotted-woodpecker/698983.mp3",
+        "type": "adult, drumming, sex uncertain",
+        "length": "0:51"
       },
       {
-        "path": "great-spotted-woodpecker/698982.mp3"
+        "path": "great-spotted-woodpecker/698982.mp3",
+        "type": "adult, drumming, sex uncertain",
+        "length": "1:56"
       },
       {
-        "path": "great-spotted-woodpecker/698909.mp3"
+        "path": "great-spotted-woodpecker/698909.mp3",
+        "type": "drumming",
+        "length": "1:32"
       },
       {
-        "path": "great-spotted-woodpecker/698255.mp3"
+        "path": "great-spotted-woodpecker/698255.mp3",
+        "type": "adult, call",
+        "length": "0:12"
       },
       {
-        "path": "great-spotted-woodpecker/697779.mp3"
+        "path": "great-spotted-woodpecker/697779.mp3",
+        "type": "call",
+        "length": "0:15"
       },
       {
-        "path": "great-spotted-woodpecker/697270.mp3"
+        "path": "great-spotted-woodpecker/697270.mp3",
+        "type": "drumming, life stage uncertain, sex uncertain",
+        "length": "0:46"
       },
       {
-        "path": "great-spotted-woodpecker/697239.mp3"
+        "path": "great-spotted-woodpecker/697239.mp3",
+        "type": "adult, call, drumming, sex uncertain",
+        "length": "1:36"
       },
       {
-        "path": "great-spotted-woodpecker/695531.mp3"
+        "path": "great-spotted-woodpecker/695531.mp3",
+        "type": "call",
+        "length": "0:16"
       },
       {
-        "path": "great-spotted-woodpecker/695414.mp3"
+        "path": "great-spotted-woodpecker/695414.mp3",
+        "type": "drumming",
+        "length": "4:45"
       },
       {
-        "path": "great-spotted-woodpecker/693587.mp3"
+        "path": "great-spotted-woodpecker/693587.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:14"
       },
       {
-        "path": "great-spotted-woodpecker/693259.mp3"
+        "path": "great-spotted-woodpecker/693259.mp3",
+        "type": "drumming, song",
+        "length": "0:25"
       },
       {
-        "path": "great-spotted-woodpecker/692810.mp3"
+        "path": "great-spotted-woodpecker/692810.mp3",
+        "type": "call",
+        "length": "0:30"
       },
       {
-        "path": "great-spotted-woodpecker/692302.mp3"
+        "path": "great-spotted-woodpecker/692302.mp3",
+        "type": "call",
+        "length": "0:08"
       }
     ]
   },
@@ -1358,64 +2118,104 @@
     ],
     "audio": [
       {
-        "path": "common-chaffinch/699589.mp3"
+        "path": "common-chaffinch/699589.mp3",
+        "type": "call, male, subsong",
+        "length": "2:43"
       },
       {
-        "path": "common-chaffinch/698207.mp3"
+        "path": "common-chaffinch/698207.mp3",
+        "type": "song",
+        "length": "0:42"
       },
       {
-        "path": "common-chaffinch/697259.mp3"
+        "path": "common-chaffinch/697259.mp3",
+        "type": "adult, call, female, wink call",
+        "length": "0:50"
       },
       {
-        "path": "common-chaffinch/696934.mp3"
+        "path": "common-chaffinch/696934.mp3",
+        "type": "adult, alarm call",
+        "length": "0:34"
       },
       {
-        "path": "common-chaffinch/696339.mp3"
+        "path": "common-chaffinch/696339.mp3",
+        "type": "adult, male, song",
+        "length": "1:11"
       },
       {
-        "path": "common-chaffinch/696338.mp3"
+        "path": "common-chaffinch/696338.mp3",
+        "type": "subsong",
+        "length": "0:53"
       },
       {
-        "path": "common-chaffinch/696337.mp3"
+        "path": "common-chaffinch/696337.mp3",
+        "type": "\"Chant de pluie\", adult, alarm call",
+        "length": "0:30"
       },
       {
-        "path": "common-chaffinch/696125.mp3"
+        "path": "common-chaffinch/696125.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:59"
       },
       {
-        "path": "common-chaffinch/695801.mp3"
+        "path": "common-chaffinch/695801.mp3",
+        "type": "call",
+        "length": "0:07"
       },
       {
-        "path": "common-chaffinch/695512.mp3"
+        "path": "common-chaffinch/695512.mp3",
+        "type": "call",
+        "length": "0:21"
       },
       {
-        "path": "common-chaffinch/695511.mp3"
+        "path": "common-chaffinch/695511.mp3",
+        "type": "call, subsong",
+        "length": "0:31"
       },
       {
-        "path": "common-chaffinch/695510.mp3"
+        "path": "common-chaffinch/695510.mp3",
+        "type": "\"huit\", call",
+        "length": "0:20"
       },
       {
-        "path": "common-chaffinch/695509.mp3"
+        "path": "common-chaffinch/695509.mp3",
+        "type": "call, song",
+        "length": "0:08"
       },
       {
-        "path": "common-chaffinch/695508.mp3"
+        "path": "common-chaffinch/695508.mp3",
+        "type": "adult, call",
+        "length": "0:15"
       },
       {
-        "path": "common-chaffinch/695506.mp3"
+        "path": "common-chaffinch/695506.mp3",
+        "type": "\"huit\", adult, call, female",
+        "length": "0:16"
       },
       {
-        "path": "common-chaffinch/694627.mp3"
+        "path": "common-chaffinch/694627.mp3",
+        "type": "call, huit, rain call",
+        "length": "0:55"
       },
       {
-        "path": "common-chaffinch/694459.mp3"
+        "path": "common-chaffinch/694459.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:07"
       },
       {
-        "path": "common-chaffinch/692801.mp3"
+        "path": "common-chaffinch/692801.mp3",
+        "type": "flight call",
+        "length": "0:17"
       },
       {
-        "path": "common-chaffinch/691751.mp3"
+        "path": "common-chaffinch/691751.mp3",
+        "type": "call, flight call, life stage uncertain, sex uncertain",
+        "length": "0:16"
       },
       {
-        "path": "common-chaffinch/690580.mp3"
+        "path": "common-chaffinch/690580.mp3",
+        "type": "adult, male, song",
+        "length": "4:17"
       }
     ]
   },
@@ -1429,64 +2229,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-coot/699275.mp3"
+        "path": "eurasian-coot/699275.mp3",
+        "type": "flight call, nocturnal flight call",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-coot/698187.mp3"
+        "path": "eurasian-coot/698187.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:38"
       },
       {
-        "path": "eurasian-coot/697552.mp3"
+        "path": "eurasian-coot/697552.mp3",
+        "type": "nocturnal flight call",
+        "length": "3:55"
       },
       {
-        "path": "eurasian-coot/696601.mp3"
+        "path": "eurasian-coot/696601.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:12"
       },
       {
-        "path": "eurasian-coot/695743.mp3"
+        "path": "eurasian-coot/695743.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:05"
       },
       {
-        "path": "eurasian-coot/695742.mp3"
+        "path": "eurasian-coot/695742.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:22"
       },
       {
-        "path": "eurasian-coot/695741.mp3"
+        "path": "eurasian-coot/695741.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:29"
       },
       {
-        "path": "eurasian-coot/695739.mp3"
+        "path": "eurasian-coot/695739.mp3",
+        "type": "call, raspy call",
+        "length": "0:06"
       },
       {
-        "path": "eurasian-coot/692896.mp3"
+        "path": "eurasian-coot/692896.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:21"
       },
       {
-        "path": "eurasian-coot/692633.mp3"
+        "path": "eurasian-coot/692633.mp3",
+        "type": "flight call, nocturnal flight call",
+        "length": "0:31"
       },
       {
-        "path": "eurasian-coot/680582.mp3"
+        "path": "eurasian-coot/680582.mp3",
+        "type": "flight call, life stage uncertain, sex uncertain",
+        "length": "0:07"
       },
       {
-        "path": "eurasian-coot/675237.mp3"
+        "path": "eurasian-coot/675237.mp3",
+        "type": "flight call, nocturnal flight call",
+        "length": "0:04"
       },
       {
-        "path": "eurasian-coot/674451.mp3"
+        "path": "eurasian-coot/674451.mp3",
+        "type": "call",
+        "length": "4:02"
       },
       {
-        "path": "eurasian-coot/674447.mp3"
+        "path": "eurasian-coot/674447.mp3",
+        "type": "adult, call",
+        "length": "0:12"
       },
       {
-        "path": "eurasian-coot/674445.mp3"
+        "path": "eurasian-coot/674445.mp3",
+        "type": "call",
+        "length": "0:25"
       },
       {
-        "path": "eurasian-coot/674444.mp3"
+        "path": "eurasian-coot/674444.mp3",
+        "type": "adult, call",
+        "length": "0:21"
       },
       {
-        "path": "eurasian-coot/673087.mp3"
+        "path": "eurasian-coot/673087.mp3",
+        "type": "call, juvenile",
+        "length": "0:11"
       },
       {
-        "path": "eurasian-coot/670728.mp3"
+        "path": "eurasian-coot/670728.mp3",
+        "type": "call, various calls",
+        "length": "0:39"
       },
       {
-        "path": "eurasian-coot/667776.mp3"
+        "path": "eurasian-coot/667776.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:07"
       },
       {
-        "path": "eurasian-coot/657290.mp3"
+        "path": "eurasian-coot/657290.mp3",
+        "type": "call",
+        "length": "0:47"
       }
     ]
   },
@@ -1500,64 +2340,104 @@
     ],
     "audio": [
       {
-        "path": "common-snipe/698615.mp3"
+        "path": "common-snipe/698615.mp3",
+        "type": "flight call",
+        "length": "0:16"
       },
       {
-        "path": "common-snipe/698397.mp3"
+        "path": "common-snipe/698397.mp3",
+        "type": "call",
+        "length": "0:34"
       },
       {
-        "path": "common-snipe/696332.mp3"
+        "path": "common-snipe/696332.mp3",
+        "type": "adult, nocturnal flight call, sex uncertain",
+        "length": "1:23"
       },
       {
-        "path": "common-snipe/693187.mp3"
+        "path": "common-snipe/693187.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:36"
       },
       {
-        "path": "common-snipe/693186.mp3"
+        "path": "common-snipe/693186.mp3",
+        "type": "nocturnal flight call",
+        "length": "1:42"
       },
       {
-        "path": "common-snipe/693132.mp3"
+        "path": "common-snipe/693132.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:06"
       },
       {
-        "path": "common-snipe/693085.mp3"
+        "path": "common-snipe/693085.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:19"
       },
       {
-        "path": "common-snipe/693083.mp3"
+        "path": "common-snipe/693083.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:12"
       },
       {
-        "path": "common-snipe/693082.mp3"
+        "path": "common-snipe/693082.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:20"
       },
       {
-        "path": "common-snipe/693080.mp3"
+        "path": "common-snipe/693080.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:20"
       },
       {
-        "path": "common-snipe/693079.mp3"
+        "path": "common-snipe/693079.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:20"
       },
       {
-        "path": "common-snipe/693078.mp3"
+        "path": "common-snipe/693078.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:20"
       },
       {
-        "path": "common-snipe/693076.mp3"
+        "path": "common-snipe/693076.mp3",
+        "type": "flight call",
+        "length": "0:24"
       },
       {
-        "path": "common-snipe/692828.mp3"
+        "path": "common-snipe/692828.mp3",
+        "type": "flight call",
+        "length": "0:07"
       },
       {
-        "path": "common-snipe/691587.mp3"
+        "path": "common-snipe/691587.mp3",
+        "type": "adult, call, male",
+        "length": "0:11"
       },
       {
-        "path": "common-snipe/691583.mp3"
+        "path": "common-snipe/691583.mp3",
+        "type": "adult, call",
+        "length": "0:17"
       },
       {
-        "path": "common-snipe/691367.mp3"
+        "path": "common-snipe/691367.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:34"
       },
       {
-        "path": "common-snipe/690856.mp3"
+        "path": "common-snipe/690856.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:24"
       },
       {
-        "path": "common-snipe/688059.mp3"
+        "path": "common-snipe/688059.mp3",
+        "type": "song",
+        "length": "0:07"
       },
       {
-        "path": "common-snipe/687517.mp3"
+        "path": "common-snipe/687517.mp3",
+        "type": "flight call",
+        "length": "0:15"
       }
     ]
   },
@@ -1571,64 +2451,104 @@
     ],
     "audio": [
       {
-        "path": "common-moorhen/699125.mp3"
+        "path": "common-moorhen/699125.mp3",
+        "type": "adult, alarm call, call",
+        "length": "0:09"
       },
       {
-        "path": "common-moorhen/693033.mp3"
+        "path": "common-moorhen/693033.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:19"
       },
       {
-        "path": "common-moorhen/692825.mp3"
+        "path": "common-moorhen/692825.mp3",
+        "type": "call",
+        "length": "0:30"
       },
       {
-        "path": "common-moorhen/691597.mp3"
+        "path": "common-moorhen/691597.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "common-moorhen/691525.mp3"
+        "path": "common-moorhen/691525.mp3",
+        "type": "nocturnal flight call, sex uncertain",
+        "length": "0:18"
       },
       {
-        "path": "common-moorhen/684189.mp3"
+        "path": "common-moorhen/684189.mp3",
+        "type": "flight call",
+        "length": "0:02"
       },
       {
-        "path": "common-moorhen/683526.mp3"
+        "path": "common-moorhen/683526.mp3",
+        "type": "call",
+        "length": "0:01"
       },
       {
-        "path": "common-moorhen/683488.mp3"
+        "path": "common-moorhen/683488.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:25"
       },
       {
-        "path": "common-moorhen/682717.mp3"
+        "path": "common-moorhen/682717.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:03"
       },
       {
-        "path": "common-moorhen/682617.mp3"
+        "path": "common-moorhen/682617.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:12"
       },
       {
-        "path": "common-moorhen/681894.mp3"
+        "path": "common-moorhen/681894.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:06"
       },
       {
-        "path": "common-moorhen/681800.mp3"
+        "path": "common-moorhen/681800.mp3",
+        "type": "aberrant, flight call, life stage uncertain, nocturnal flight call",
+        "length": "0:09"
       },
       {
-        "path": "common-moorhen/681705.mp3"
+        "path": "common-moorhen/681705.mp3",
+        "type": "adult, nocturnal flight call, sex uncertain",
+        "length": "0:13"
       },
       {
-        "path": "common-moorhen/681368.mp3"
+        "path": "common-moorhen/681368.mp3",
+        "type": "adult, nocturnal flight call, sex uncertain",
+        "length": "0:06"
       },
       {
-        "path": "common-moorhen/680797.mp3"
+        "path": "common-moorhen/680797.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:06"
       },
       {
-        "path": "common-moorhen/679932.mp3"
+        "path": "common-moorhen/679932.mp3",
+        "type": "adult, call",
+        "length": "0:01"
       },
       {
-        "path": "common-moorhen/679151.mp3"
+        "path": "common-moorhen/679151.mp3",
+        "type": "adult, call",
+        "length": "0:06"
       },
       {
-        "path": "common-moorhen/678784.mp3"
+        "path": "common-moorhen/678784.mp3",
+        "type": "call, call",
+        "length": "0:46"
       },
       {
-        "path": "common-moorhen/678425.mp3"
+        "path": "common-moorhen/678425.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "common-moorhen/678363.mp3"
+        "path": "common-moorhen/678363.mp3",
+        "type": "call",
+        "length": "0:09"
       }
     ]
   },
@@ -1642,64 +2562,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-jay/700810.mp3"
+        "path": "eurasian-jay/700810.mp3",
+        "type": "adult, call, male, song",
+        "length": "1:57"
       },
       {
-        "path": "eurasian-jay/700804.mp3"
+        "path": "eurasian-jay/700804.mp3",
+        "type": "adult, call, male, song",
+        "length": "1:49"
       },
       {
-        "path": "eurasian-jay/700082.mp3"
+        "path": "eurasian-jay/700082.mp3",
+        "type": "call, mimicry/imitation, sex uncertain",
+        "length": "0:12"
       },
       {
-        "path": "eurasian-jay/700080.mp3"
+        "path": "eurasian-jay/700080.mp3",
+        "type": "call, mimicry/imitation, sex uncertain",
+        "length": "0:17"
       },
       {
-        "path": "eurasian-jay/700078.mp3"
+        "path": "eurasian-jay/700078.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-jay/698952.mp3"
+        "path": "eurasian-jay/698952.mp3",
+        "type": "call, like plaintive calls",
+        "length": "0:40"
       },
       {
-        "path": "eurasian-jay/698588.mp3"
+        "path": "eurasian-jay/698588.mp3",
+        "type": "call",
+        "length": "0:20"
       },
       {
-        "path": "eurasian-jay/697718.mp3"
+        "path": "eurasian-jay/697718.mp3",
+        "type": "call",
+        "length": "0:39"
       },
       {
-        "path": "eurasian-jay/697549.mp3"
+        "path": "eurasian-jay/697549.mp3",
+        "type": "flight call",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-jay/696813.mp3"
+        "path": "eurasian-jay/696813.mp3",
+        "type": "alarm call",
+        "length": "0:46"
       },
       {
-        "path": "eurasian-jay/696799.mp3"
+        "path": "eurasian-jay/696799.mp3",
+        "type": "call",
+        "length": "1:04"
       },
       {
-        "path": "eurasian-jay/696796.mp3"
+        "path": "eurasian-jay/696796.mp3",
+        "type": "call",
+        "length": "1:11"
       },
       {
-        "path": "eurasian-jay/696795.mp3"
+        "path": "eurasian-jay/696795.mp3",
+        "type": "call",
+        "length": "0:05"
       },
       {
-        "path": "eurasian-jay/696374.mp3"
+        "path": "eurasian-jay/696374.mp3",
+        "type": "alarm call",
+        "length": "1:24"
       },
       {
-        "path": "eurasian-jay/695902.mp3"
+        "path": "eurasian-jay/695902.mp3",
+        "type": "call, life stage uncertain, mimicry/imitation, sex uncertain",
+        "length": "1:10"
       },
       {
-        "path": "eurasian-jay/695513.mp3"
+        "path": "eurasian-jay/695513.mp3",
+        "type": "adult, call",
+        "length": "0:07"
       },
       {
-        "path": "eurasian-jay/694963.mp3"
+        "path": "eurasian-jay/694963.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:10"
       },
       {
-        "path": "eurasian-jay/692588.mp3"
+        "path": "eurasian-jay/692588.mp3",
+        "type": "adult, call, duet, sex uncertain",
+        "length": "1:09"
       },
       {
-        "path": "eurasian-jay/692576.mp3"
+        "path": "eurasian-jay/692576.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:58"
       },
       {
-        "path": "eurasian-jay/692313.mp3"
+        "path": "eurasian-jay/692313.mp3",
+        "type": "adult, call",
+        "length": "0:00"
       }
     ]
   },
@@ -1713,64 +2673,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-oystercatcher/688215.mp3"
+        "path": "eurasian-oystercatcher/688215.mp3",
+        "type": "flight call",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-oystercatcher/687654.mp3"
+        "path": "eurasian-oystercatcher/687654.mp3",
+        "type": "alarm call, call",
+        "length": "1:07"
       },
       {
-        "path": "eurasian-oystercatcher/687535.mp3"
+        "path": "eurasian-oystercatcher/687535.mp3",
+        "type": "nocturnal flight call, pip calls",
+        "length": "0:17"
       },
       {
-        "path": "eurasian-oystercatcher/687431.mp3"
+        "path": "eurasian-oystercatcher/687431.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:35"
       },
       {
-        "path": "eurasian-oystercatcher/687430.mp3"
+        "path": "eurasian-oystercatcher/687430.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-oystercatcher/687428.mp3"
+        "path": "eurasian-oystercatcher/687428.mp3",
+        "type": "nocturnal flight call",
+        "length": "1:15"
       },
       {
-        "path": "eurasian-oystercatcher/687427.mp3"
+        "path": "eurasian-oystercatcher/687427.mp3",
+        "type": "nocturnal flight call",
+        "length": "1:06"
       },
       {
-        "path": "eurasian-oystercatcher/687267.mp3"
+        "path": "eurasian-oystercatcher/687267.mp3",
+        "type": "alarm call, flight call",
+        "length": "0:26"
       },
       {
-        "path": "eurasian-oystercatcher/687266.mp3"
+        "path": "eurasian-oystercatcher/687266.mp3",
+        "type": "alarm call, flight call",
+        "length": "0:09"
       },
       {
-        "path": "eurasian-oystercatcher/687265.mp3"
+        "path": "eurasian-oystercatcher/687265.mp3",
+        "type": "alarm call, flight call",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-oystercatcher/687264.mp3"
+        "path": "eurasian-oystercatcher/687264.mp3",
+        "type": "alarm call, flight call",
+        "length": "0:04"
       },
       {
-        "path": "eurasian-oystercatcher/687094.mp3"
+        "path": "eurasian-oystercatcher/687094.mp3",
+        "type": "call",
+        "length": "2:24"
       },
       {
-        "path": "eurasian-oystercatcher/687092.mp3"
+        "path": "eurasian-oystercatcher/687092.mp3",
+        "type": "pink calls",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-oystercatcher/687091.mp3"
+        "path": "eurasian-oystercatcher/687091.mp3",
+        "type": "nocturnal flight call, pink calls",
+        "length": "0:21"
       },
       {
-        "path": "eurasian-oystercatcher/687090.mp3"
+        "path": "eurasian-oystercatcher/687090.mp3",
+        "type": "nocturnal flight call",
+        "length": "1:11"
       },
       {
-        "path": "eurasian-oystercatcher/687089.mp3"
+        "path": "eurasian-oystercatcher/687089.mp3",
+        "type": "nocturnal flight call",
+        "length": "4:13"
       },
       {
-        "path": "eurasian-oystercatcher/687088.mp3"
+        "path": "eurasian-oystercatcher/687088.mp3",
+        "type": "nocturnal flight call",
+        "length": "3:34"
       },
       {
-        "path": "eurasian-oystercatcher/687087.mp3"
+        "path": "eurasian-oystercatcher/687087.mp3",
+        "type": "nocturnal flight call",
+        "length": "1:18"
       },
       {
-        "path": "eurasian-oystercatcher/687086.mp3"
+        "path": "eurasian-oystercatcher/687086.mp3",
+        "type": "nocturnal flight call",
+        "length": "2:00"
       },
       {
-        "path": "eurasian-oystercatcher/685487.mp3"
+        "path": "eurasian-oystercatcher/685487.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:02"
       }
     ]
   },
@@ -1784,64 +2784,104 @@
     ],
     "audio": [
       {
-        "path": "barn-swallow/699397.mp3"
+        "path": "barn-swallow/699397.mp3",
+        "type": "adult, male, song",
+        "length": "1:19"
       },
       {
-        "path": "barn-swallow/698512.mp3"
+        "path": "barn-swallow/698512.mp3",
+        "type": "song",
+        "length": "0:18"
       },
       {
-        "path": "barn-swallow/698511.mp3"
+        "path": "barn-swallow/698511.mp3",
+        "type": "song",
+        "length": "1:00"
       },
       {
-        "path": "barn-swallow/698197.mp3"
+        "path": "barn-swallow/698197.mp3",
+        "type": "flight call",
+        "length": "0:24"
       },
       {
-        "path": "barn-swallow/687540.mp3"
+        "path": "barn-swallow/687540.mp3",
+        "type": "song",
+        "length": "1:50"
       },
       {
-        "path": "barn-swallow/687539.mp3"
+        "path": "barn-swallow/687539.mp3",
+        "type": "song",
+        "length": "0:16"
       },
       {
-        "path": "barn-swallow/687309.mp3"
+        "path": "barn-swallow/687309.mp3",
+        "type": "call, flight call",
+        "length": "0:11"
       },
       {
-        "path": "barn-swallow/686829.mp3"
+        "path": "barn-swallow/686829.mp3",
+        "type": "call, song",
+        "length": "3:55"
       },
       {
-        "path": "barn-swallow/681941.mp3"
+        "path": "barn-swallow/681941.mp3",
+        "type": "alarm call, flight call, life stage uncertain, sex uncertain",
+        "length": "0:20"
       },
       {
-        "path": "barn-swallow/679411.mp3"
+        "path": "barn-swallow/679411.mp3",
+        "type": "adult, alarm call, call, flight call, sex uncertain, song",
+        "length": "0:24"
       },
       {
-        "path": "barn-swallow/677199.mp3"
+        "path": "barn-swallow/677199.mp3",
+        "type": "adult, dawn song, male",
+        "length": "5:20"
       },
       {
-        "path": "barn-swallow/677197.mp3"
+        "path": "barn-swallow/677197.mp3",
+        "type": "adult, dawn song, male",
+        "length": "2:09"
       },
       {
-        "path": "barn-swallow/677086.mp3"
+        "path": "barn-swallow/677086.mp3",
+        "type": "adult, male, song",
+        "length": "4:48"
       },
       {
-        "path": "barn-swallow/675784.mp3"
+        "path": "barn-swallow/675784.mp3",
+        "type": "flight call, life stage uncertain, sex uncertain",
+        "length": "0:15"
       },
       {
-        "path": "barn-swallow/674733.mp3"
+        "path": "barn-swallow/674733.mp3",
+        "type": "call, juvenile",
+        "length": "0:09"
       },
       {
-        "path": "barn-swallow/674253.mp3"
+        "path": "barn-swallow/674253.mp3",
+        "type": "adult, call, juvenile, sex uncertain, song",
+        "length": "0:52"
       },
       {
-        "path": "barn-swallow/674252.mp3"
+        "path": "barn-swallow/674252.mp3",
+        "type": "adult, call, juvenile, sex uncertain, song",
+        "length": "1:11"
       },
       {
-        "path": "barn-swallow/674251.mp3"
+        "path": "barn-swallow/674251.mp3",
+        "type": "adult, call, juvenile, sex uncertain, song",
+        "length": "2:11"
       },
       {
-        "path": "barn-swallow/673270.mp3"
+        "path": "barn-swallow/673270.mp3",
+        "type": "call, flight call",
+        "length": "0:23"
       },
       {
-        "path": "barn-swallow/672572.mp3"
+        "path": "barn-swallow/672572.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:11"
       }
     ]
   },
@@ -1855,64 +2895,104 @@
     ],
     "audio": [
       {
-        "path": "european-herring-gull/695374.mp3"
+        "path": "european-herring-gull/695374.mp3",
+        "type": "call",
+        "length": "0:49"
       },
       {
-        "path": "european-herring-gull/694889.mp3"
+        "path": "european-herring-gull/694889.mp3",
+        "type": "adult, alarm call",
+        "length": "0:22"
       },
       {
-        "path": "european-herring-gull/694887.mp3"
+        "path": "european-herring-gull/694887.mp3",
+        "type": "alarm call",
+        "length": "0:16"
       },
       {
-        "path": "european-herring-gull/692952.mp3"
+        "path": "european-herring-gull/692952.mp3",
+        "type": "call",
+        "length": "0:12"
       },
       {
-        "path": "european-herring-gull/688103.mp3"
+        "path": "european-herring-gull/688103.mp3",
+        "type": "call",
+        "length": "1:29"
       },
       {
-        "path": "european-herring-gull/688102.mp3"
+        "path": "european-herring-gull/688102.mp3",
+        "type": "call",
+        "length": "0:10"
       },
       {
-        "path": "european-herring-gull/687573.mp3"
+        "path": "european-herring-gull/687573.mp3",
+        "type": "call",
+        "length": "0:18"
       },
       {
-        "path": "european-herring-gull/686757.mp3"
+        "path": "european-herring-gull/686757.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:17"
       },
       {
-        "path": "european-herring-gull/686753.mp3"
+        "path": "european-herring-gull/686753.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:17"
       },
       {
-        "path": "european-herring-gull/686752.mp3"
+        "path": "european-herring-gull/686752.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:46"
       },
       {
-        "path": "european-herring-gull/686751.mp3"
+        "path": "european-herring-gull/686751.mp3",
+        "type": "long call",
+        "length": "0:21"
       },
       {
-        "path": "european-herring-gull/686524.mp3"
+        "path": "european-herring-gull/686524.mp3",
+        "type": "flight call",
+        "length": "0:14"
       },
       {
-        "path": "european-herring-gull/686523.mp3"
+        "path": "european-herring-gull/686523.mp3",
+        "type": "long call",
+        "length": "0:13"
       },
       {
-        "path": "european-herring-gull/686522.mp3"
+        "path": "european-herring-gull/686522.mp3",
+        "type": "flight call, long call",
+        "length": "1:11"
       },
       {
-        "path": "european-herring-gull/686521.mp3"
+        "path": "european-herring-gull/686521.mp3",
+        "type": "flight call",
+        "length": "0:28"
       },
       {
-        "path": "european-herring-gull/686520.mp3"
+        "path": "european-herring-gull/686520.mp3",
+        "type": "begging call",
+        "length": "0:39"
       },
       {
-        "path": "european-herring-gull/686519.mp3"
+        "path": "european-herring-gull/686519.mp3",
+        "type": "begging call, long call",
+        "length": "1:02"
       },
       {
-        "path": "european-herring-gull/686517.mp3"
+        "path": "european-herring-gull/686517.mp3",
+        "type": "begging call, long call",
+        "length": "0:41"
       },
       {
-        "path": "european-herring-gull/680163.mp3"
+        "path": "european-herring-gull/680163.mp3",
+        "type": "alarm call",
+        "length": "0:11"
       },
       {
-        "path": "european-herring-gull/680162.mp3"
+        "path": "european-herring-gull/680162.mp3",
+        "type": "alarm call, song",
+        "length": "1:14"
       }
     ]
   },
@@ -1926,64 +3006,104 @@
     ],
     "audio": [
       {
-        "path": "common-nightingale/700456.mp3"
+        "path": "common-nightingale/700456.mp3",
+        "type": "adult, alarm call",
+        "length": "0:19"
       },
       {
-        "path": "common-nightingale/697947.mp3"
+        "path": "common-nightingale/697947.mp3",
+        "type": "call",
+        "length": "0:32"
       },
       {
-        "path": "common-nightingale/697806.mp3"
+        "path": "common-nightingale/697806.mp3",
+        "type": "dawn song, song with repetition of syllables",
+        "length": "1:45"
       },
       {
-        "path": "common-nightingale/696976.mp3"
+        "path": "common-nightingale/696976.mp3",
+        "type": "adult, male, song",
+        "length": "1:04"
       },
       {
-        "path": "common-nightingale/696902.mp3"
+        "path": "common-nightingale/696902.mp3",
+        "type": "adult, male, sex uncertain, song",
+        "length": "1:53"
       },
       {
-        "path": "common-nightingale/696552.mp3"
+        "path": "common-nightingale/696552.mp3",
+        "type": "adult, male, song",
+        "length": "10:41"
       },
       {
-        "path": "common-nightingale/696551.mp3"
+        "path": "common-nightingale/696551.mp3",
+        "type": "adult, male, song",
+        "length": "13:04"
       },
       {
-        "path": "common-nightingale/696520.mp3"
+        "path": "common-nightingale/696520.mp3",
+        "type": "adult, male, song",
+        "length": "12:18"
       },
       {
-        "path": "common-nightingale/694625.mp3"
+        "path": "common-nightingale/694625.mp3",
+        "type": "adult, male, song",
+        "length": "0:32"
       },
       {
-        "path": "common-nightingale/694590.mp3"
+        "path": "common-nightingale/694590.mp3",
+        "type": "adult, male, song",
+        "length": "2:51"
       },
       {
-        "path": "common-nightingale/690356.mp3"
+        "path": "common-nightingale/690356.mp3",
+        "type": "adult, call, sex uncertain, song",
+        "length": "0:33"
       },
       {
-        "path": "common-nightingale/685923.mp3"
+        "path": "common-nightingale/685923.mp3",
+        "type": "song",
+        "length": "0:24"
       },
       {
-        "path": "common-nightingale/685919.mp3"
+        "path": "common-nightingale/685919.mp3",
+        "type": "song",
+        "length": "0:31"
       },
       {
-        "path": "common-nightingale/685916.mp3"
+        "path": "common-nightingale/685916.mp3",
+        "type": "song",
+        "length": "0:53"
       },
       {
-        "path": "common-nightingale/685915.mp3"
+        "path": "common-nightingale/685915.mp3",
+        "type": "song",
+        "length": "0:22"
       },
       {
-        "path": "common-nightingale/685785.mp3"
+        "path": "common-nightingale/685785.mp3",
+        "type": "alarm call, life stage uncertain, sex uncertain",
+        "length": "0:32"
       },
       {
-        "path": "common-nightingale/685414.mp3"
+        "path": "common-nightingale/685414.mp3",
+        "type": "alarm call, call",
+        "length": "0:23"
       },
       {
-        "path": "common-nightingale/684509.mp3"
+        "path": "common-nightingale/684509.mp3",
+        "type": "adult, dawn song, male, song",
+        "length": "0:58"
       },
       {
-        "path": "common-nightingale/683499.mp3"
+        "path": "common-nightingale/683499.mp3",
+        "type": "adult, male, song",
+        "length": "0:28"
       },
       {
-        "path": "common-nightingale/682200.mp3"
+        "path": "common-nightingale/682200.mp3",
+        "type": "call",
+        "length": "0:12"
       }
     ]
   },
@@ -1997,64 +3117,104 @@
     ],
     "audio": [
       {
-        "path": "great-tit/701100.mp3"
+        "path": "great-tit/701100.mp3",
+        "type": "adult, male, song",
+        "length": "0:21"
       },
       {
-        "path": "great-tit/701047.mp3"
+        "path": "great-tit/701047.mp3",
+        "type": "uncertain",
+        "length": "1:28"
       },
       {
-        "path": "great-tit/701023.mp3"
+        "path": "great-tit/701023.mp3",
+        "type": "adult, male, song",
+        "length": "1:24"
       },
       {
-        "path": "great-tit/701009.mp3"
+        "path": "great-tit/701009.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:39"
       },
       {
-        "path": "great-tit/701008.mp3"
+        "path": "great-tit/701008.mp3",
+        "type": "song",
+        "length": "0:30"
       },
       {
-        "path": "great-tit/700802.mp3"
+        "path": "great-tit/700802.mp3",
+        "type": "adult, male, song",
+        "length": "1:12"
       },
       {
-        "path": "great-tit/700751.mp3"
+        "path": "great-tit/700751.mp3",
+        "type": "adult, male, song",
+        "length": "1:53"
       },
       {
-        "path": "great-tit/700738.mp3"
+        "path": "great-tit/700738.mp3",
+        "type": "adult, male, song",
+        "length": "1:40"
       },
       {
-        "path": "great-tit/700730.mp3"
+        "path": "great-tit/700730.mp3",
+        "type": "call",
+        "length": "0:29"
       },
       {
-        "path": "great-tit/700374.mp3"
+        "path": "great-tit/700374.mp3",
+        "type": "adult, male, song",
+        "length": "0:49"
       },
       {
-        "path": "great-tit/700363.mp3"
+        "path": "great-tit/700363.mp3",
+        "type": "adult, male, song",
+        "length": "0:48"
       },
       {
-        "path": "great-tit/700279.mp3"
+        "path": "great-tit/700279.mp3",
+        "type": "begging call, hatchling or nestling",
+        "length": "0:33"
       },
       {
-        "path": "great-tit/700246.mp3"
+        "path": "great-tit/700246.mp3",
+        "type": "adult, male, song",
+        "length": "0:31"
       },
       {
-        "path": "great-tit/700245.mp3"
+        "path": "great-tit/700245.mp3",
+        "type": "adult, male, song",
+        "length": "0:51"
       },
       {
-        "path": "great-tit/700120.mp3"
+        "path": "great-tit/700120.mp3",
+        "type": "adult, male, song",
+        "length": "0:34"
       },
       {
-        "path": "great-tit/700066.mp3"
+        "path": "great-tit/700066.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:53"
       },
       {
-        "path": "great-tit/699939.mp3"
+        "path": "great-tit/699939.mp3",
+        "type": "adult, song",
+        "length": "0:35"
       },
       {
-        "path": "great-tit/699675.mp3"
+        "path": "great-tit/699675.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:23"
       },
       {
-        "path": "great-tit/699632.mp3"
+        "path": "great-tit/699632.mp3",
+        "type": "adult, song",
+        "length": "1:35"
       },
       {
-        "path": "great-tit/699521.mp3"
+        "path": "great-tit/699521.mp3",
+        "type": "call",
+        "length": "0:15"
       }
     ]
   },
@@ -2068,64 +3228,104 @@
     ],
     "audio": [
       {
-        "path": "house-sparrow/701088.mp3"
+        "path": "house-sparrow/701088.mp3",
+        "type": "call",
+        "length": "0:56"
       },
       {
-        "path": "house-sparrow/699898.mp3"
+        "path": "house-sparrow/699898.mp3",
+        "type": "adult, call, song",
+        "length": "1:01"
       },
       {
-        "path": "house-sparrow/699741.mp3"
+        "path": "house-sparrow/699741.mp3",
+        "type": "call",
+        "length": "0:19"
       },
       {
-        "path": "house-sparrow/698785.mp3"
+        "path": "house-sparrow/698785.mp3",
+        "type": "call",
+        "length": "3:00"
       },
       {
-        "path": "house-sparrow/698596.mp3"
+        "path": "house-sparrow/698596.mp3",
+        "type": "call",
+        "length": "0:27"
       },
       {
-        "path": "house-sparrow/698516.mp3"
+        "path": "house-sparrow/698516.mp3",
+        "type": "call",
+        "length": "0:43"
       },
       {
-        "path": "house-sparrow/697951.mp3"
+        "path": "house-sparrow/697951.mp3",
+        "type": "song",
+        "length": "0:44"
       },
       {
-        "path": "house-sparrow/696956.mp3"
+        "path": "house-sparrow/696956.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:16"
       },
       {
-        "path": "house-sparrow/696748.mp3"
+        "path": "house-sparrow/696748.mp3",
+        "type": "adult, call",
+        "length": "1:27"
       },
       {
-        "path": "house-sparrow/696160.mp3"
+        "path": "house-sparrow/696160.mp3",
+        "type": "life stage uncertain, male",
+        "length": "1:26"
       },
       {
-        "path": "house-sparrow/695156.mp3"
+        "path": "house-sparrow/695156.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:22"
       },
       {
-        "path": "house-sparrow/695017.mp3"
+        "path": "house-sparrow/695017.mp3",
+        "type": "call, llamadas de agresión",
+        "length": "0:14"
       },
       {
-        "path": "house-sparrow/695016.mp3"
+        "path": "house-sparrow/695016.mp3",
+        "type": "call, song",
+        "length": "0:10"
       },
       {
-        "path": "house-sparrow/694915.mp3"
+        "path": "house-sparrow/694915.mp3",
+        "type": "adult",
+        "length": "0:15"
       },
       {
-        "path": "house-sparrow/694909.mp3"
+        "path": "house-sparrow/694909.mp3",
+        "type": "adult",
+        "length": "0:05"
       },
       {
-        "path": "house-sparrow/694128.mp3"
+        "path": "house-sparrow/694128.mp3",
+        "type": "call",
+        "length": "0:25"
       },
       {
-        "path": "house-sparrow/694127.mp3"
+        "path": "house-sparrow/694127.mp3",
+        "type": "call",
+        "length": "0:46"
       },
       {
-        "path": "house-sparrow/694126.mp3"
+        "path": "house-sparrow/694126.mp3",
+        "type": "call",
+        "length": "0:32"
       },
       {
-        "path": "house-sparrow/694125.mp3"
+        "path": "house-sparrow/694125.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "house-sparrow/694098.mp3"
+        "path": "house-sparrow/694098.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:16"
       }
     ]
   },
@@ -2139,64 +3339,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-tree-sparrow/700412.mp3"
+        "path": "eurasian-tree-sparrow/700412.mp3",
+        "type": "call",
+        "length": "0:18"
       },
       {
-        "path": "eurasian-tree-sparrow/700371.mp3"
+        "path": "eurasian-tree-sparrow/700371.mp3",
+        "type": "adult, call, song",
+        "length": "1:38"
       },
       {
-        "path": "eurasian-tree-sparrow/700325.mp3"
+        "path": "eurasian-tree-sparrow/700325.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:58"
       },
       {
-        "path": "eurasian-tree-sparrow/700317.mp3"
+        "path": "eurasian-tree-sparrow/700317.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:43"
       },
       {
-        "path": "eurasian-tree-sparrow/700315.mp3"
+        "path": "eurasian-tree-sparrow/700315.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "1:04"
       },
       {
-        "path": "eurasian-tree-sparrow/699886.mp3"
+        "path": "eurasian-tree-sparrow/699886.mp3",
+        "type": "adult, alarm call, call, sex uncertain",
+        "length": "4:07"
       },
       {
-        "path": "eurasian-tree-sparrow/699133.mp3"
+        "path": "eurasian-tree-sparrow/699133.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "1:31"
       },
       {
-        "path": "eurasian-tree-sparrow/699131.mp3"
+        "path": "eurasian-tree-sparrow/699131.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:40"
       },
       {
-        "path": "eurasian-tree-sparrow/699014.mp3"
+        "path": "eurasian-tree-sparrow/699014.mp3",
+        "type": "call",
+        "length": "1:07"
       },
       {
-        "path": "eurasian-tree-sparrow/697571.mp3"
+        "path": "eurasian-tree-sparrow/697571.mp3",
+        "type": "uncertain",
+        "length": "0:35"
       },
       {
-        "path": "eurasian-tree-sparrow/697536.mp3"
+        "path": "eurasian-tree-sparrow/697536.mp3",
+        "type": "song",
+        "length": "1:45"
       },
       {
-        "path": "eurasian-tree-sparrow/697507.mp3"
+        "path": "eurasian-tree-sparrow/697507.mp3",
+        "type": "alarm call, call",
+        "length": "1:13"
       },
       {
-        "path": "eurasian-tree-sparrow/696880.mp3"
+        "path": "eurasian-tree-sparrow/696880.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "1:05"
       },
       {
-        "path": "eurasian-tree-sparrow/696756.mp3"
+        "path": "eurasian-tree-sparrow/696756.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:12"
       },
       {
-        "path": "eurasian-tree-sparrow/696161.mp3"
+        "path": "eurasian-tree-sparrow/696161.mp3",
+        "type": "adult, alarm call, begging call, hatchling or nestling, life stage uncertain, se",
+        "length": "0:59"
       },
       {
-        "path": "eurasian-tree-sparrow/690645.mp3"
+        "path": "eurasian-tree-sparrow/690645.mp3",
+        "type": "call",
+        "length": "0:24"
       },
       {
-        "path": "eurasian-tree-sparrow/687471.mp3"
+        "path": "eurasian-tree-sparrow/687471.mp3",
+        "type": "call",
+        "length": "0:55"
       },
       {
-        "path": "eurasian-tree-sparrow/687470.mp3"
+        "path": "eurasian-tree-sparrow/687470.mp3",
+        "type": "call",
+        "length": "0:21"
       },
       {
-        "path": "eurasian-tree-sparrow/687310.mp3"
+        "path": "eurasian-tree-sparrow/687310.mp3",
+        "type": "flight call",
+        "length": "0:03"
       },
       {
-        "path": "eurasian-tree-sparrow/685885.mp3"
+        "path": "eurasian-tree-sparrow/685885.mp3",
+        "type": "call",
+        "length": "0:14"
       }
     ]
   },
@@ -2210,64 +3450,104 @@
     ],
     "audio": [
       {
-        "path": "coal-tit/700646.mp3"
+        "path": "coal-tit/700646.mp3",
+        "type": "adult, female, lekking/play -male and female, male, subsong",
+        "length": "1:29"
       },
       {
-        "path": "coal-tit/700228.mp3"
+        "path": "coal-tit/700228.mp3",
+        "type": "song",
+        "length": "0:38"
       },
       {
-        "path": "coal-tit/699147.mp3"
+        "path": "coal-tit/699147.mp3",
+        "type": "call",
+        "length": "0:15"
       },
       {
-        "path": "coal-tit/698634.mp3"
+        "path": "coal-tit/698634.mp3",
+        "type": "song",
+        "length": "1:31"
       },
       {
-        "path": "coal-tit/697964.mp3"
+        "path": "coal-tit/697964.mp3",
+        "type": "song",
+        "length": "0:09"
       },
       {
-        "path": "coal-tit/697817.mp3"
+        "path": "coal-tit/697817.mp3",
+        "type": "song",
+        "length": "0:16"
       },
       {
-        "path": "coal-tit/697610.mp3"
+        "path": "coal-tit/697610.mp3",
+        "type": "call, song",
+        "length": "1:48"
       },
       {
-        "path": "coal-tit/697606.mp3"
+        "path": "coal-tit/697606.mp3",
+        "type": "call, song",
+        "length": "1:33"
       },
       {
-        "path": "coal-tit/696573.mp3"
+        "path": "coal-tit/696573.mp3",
+        "type": "call",
+        "length": "0:28"
       },
       {
-        "path": "coal-tit/696508.mp3"
+        "path": "coal-tit/696508.mp3",
+        "type": "male, song",
+        "length": "0:36"
       },
       {
-        "path": "coal-tit/695402.mp3"
+        "path": "coal-tit/695402.mp3",
+        "type": "flight call, life stage uncertain, sex uncertain",
+        "length": "0:24"
       },
       {
-        "path": "coal-tit/695333.mp3"
+        "path": "coal-tit/695333.mp3",
+        "type": "call",
+        "length": "0:16"
       },
       {
-        "path": "coal-tit/695293.mp3"
+        "path": "coal-tit/695293.mp3",
+        "type": "call",
+        "length": "0:48"
       },
       {
-        "path": "coal-tit/695291.mp3"
+        "path": "coal-tit/695291.mp3",
+        "type": "song",
+        "length": "0:49"
       },
       {
-        "path": "coal-tit/695290.mp3"
+        "path": "coal-tit/695290.mp3",
+        "type": "adult, male, song",
+        "length": "1:21"
       },
       {
-        "path": "coal-tit/695260.mp3"
+        "path": "coal-tit/695260.mp3",
+        "type": "song",
+        "length": "0:31"
       },
       {
-        "path": "coal-tit/694956.mp3"
+        "path": "coal-tit/694956.mp3",
+        "type": "adult, call, sex uncertain, song",
+        "length": "0:48"
       },
       {
-        "path": "coal-tit/694929.mp3"
+        "path": "coal-tit/694929.mp3",
+        "type": "sex uncertain, song",
+        "length": "0:44"
       },
       {
-        "path": "coal-tit/694668.mp3"
+        "path": "coal-tit/694668.mp3",
+        "type": "call, flight call",
+        "length": "0:06"
       },
       {
-        "path": "coal-tit/691753.mp3"
+        "path": "coal-tit/691753.mp3",
+        "type": "call, flight call, life stage uncertain, sex uncertain",
+        "length": "0:12"
       }
     ]
   },
@@ -2281,64 +3561,104 @@
     ],
     "audio": [
       {
-        "path": "common-pheasant/697661.mp3"
+        "path": "common-pheasant/697661.mp3",
+        "type": "song",
+        "length": "0:03"
       },
       {
-        "path": "common-pheasant/685640.mp3"
+        "path": "common-pheasant/685640.mp3",
+        "type": "male, song",
+        "length": "0:13"
       },
       {
-        "path": "common-pheasant/678243.mp3"
+        "path": "common-pheasant/678243.mp3",
+        "type": "call",
+        "length": "0:50"
       },
       {
-        "path": "common-pheasant/678242.mp3"
+        "path": "common-pheasant/678242.mp3",
+        "type": "Wing song",
+        "length": "0:06"
       },
       {
-        "path": "common-pheasant/678241.mp3"
+        "path": "common-pheasant/678241.mp3",
+        "type": "Wing song, call",
+        "length": "0:10"
       },
       {
-        "path": "common-pheasant/670886.mp3"
+        "path": "common-pheasant/670886.mp3",
+        "type": "adult, male, song",
+        "length": "0:26"
       },
       {
-        "path": "common-pheasant/667628.mp3"
+        "path": "common-pheasant/667628.mp3",
+        "type": "sex uncertain, song",
+        "length": "0:03"
       },
       {
-        "path": "common-pheasant/666958.mp3"
+        "path": "common-pheasant/666958.mp3",
+        "type": "call",
+        "length": "0:20"
       },
       {
-        "path": "common-pheasant/661186.mp3"
+        "path": "common-pheasant/661186.mp3",
+        "type": "adult, alarm call, male",
+        "length": "2:25"
       },
       {
-        "path": "common-pheasant/649824.mp3"
+        "path": "common-pheasant/649824.mp3",
+        "type": "adult, call, male",
+        "length": "0:05"
       },
       {
-        "path": "common-pheasant/648725.mp3"
+        "path": "common-pheasant/648725.mp3",
+        "type": "adult, call, male",
+        "length": "0:04"
       },
       {
-        "path": "common-pheasant/644777.mp3"
+        "path": "common-pheasant/644777.mp3",
+        "type": "adult, male, song",
+        "length": "0:14"
       },
       {
-        "path": "common-pheasant/644773.mp3"
+        "path": "common-pheasant/644773.mp3",
+        "type": "adult, male, song",
+        "length": "0:13"
       },
       {
-        "path": "common-pheasant/641398.mp3"
+        "path": "common-pheasant/641398.mp3",
+        "type": "male, song",
+        "length": "0:13"
       },
       {
-        "path": "common-pheasant/640749.mp3"
+        "path": "common-pheasant/640749.mp3",
+        "type": "call, song",
+        "length": "0:43"
       },
       {
-        "path": "common-pheasant/635273.mp3"
+        "path": "common-pheasant/635273.mp3",
+        "type": "call",
+        "length": "4:43"
       },
       {
-        "path": "common-pheasant/635270.mp3"
+        "path": "common-pheasant/635270.mp3",
+        "type": "call",
+        "length": "5:03"
       },
       {
-        "path": "common-pheasant/635266.mp3"
+        "path": "common-pheasant/635266.mp3",
+        "type": "call",
+        "length": "2:19"
       },
       {
-        "path": "common-pheasant/635264.mp3"
+        "path": "common-pheasant/635264.mp3",
+        "type": "call",
+        "length": "4:52"
       },
       {
-        "path": "common-pheasant/635038.mp3"
+        "path": "common-pheasant/635038.mp3",
+        "type": "call, male",
+        "length": "0:04"
       }
     ]
   },
@@ -2352,64 +3672,104 @@
     ],
     "audio": [
       {
-        "path": "common-chiffchaff/700101.mp3"
+        "path": "common-chiffchaff/700101.mp3",
+        "type": "male, song",
+        "length": "1:54"
       },
       {
-        "path": "common-chiffchaff/699636.mp3"
+        "path": "common-chiffchaff/699636.mp3",
+        "type": "call",
+        "length": "1:00"
       },
       {
-        "path": "common-chiffchaff/699409.mp3"
+        "path": "common-chiffchaff/699409.mp3",
+        "type": "small cries of excitement",
+        "length": "0:26"
       },
       {
-        "path": "common-chiffchaff/699408.mp3"
+        "path": "common-chiffchaff/699408.mp3",
+        "type": "small cries of excitement, song",
+        "length": "0:19"
       },
       {
-        "path": "common-chiffchaff/699234.mp3"
+        "path": "common-chiffchaff/699234.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "1:01"
       },
       {
-        "path": "common-chiffchaff/698968.mp3"
+        "path": "common-chiffchaff/698968.mp3",
+        "type": "call",
+        "length": "0:21"
       },
       {
-        "path": "common-chiffchaff/698827.mp3"
+        "path": "common-chiffchaff/698827.mp3",
+        "type": "life stage uncertain, sex uncertain, song",
+        "length": "0:35"
       },
       {
-        "path": "common-chiffchaff/698011.mp3"
+        "path": "common-chiffchaff/698011.mp3",
+        "type": "call",
+        "length": "0:21"
       },
       {
-        "path": "common-chiffchaff/698010.mp3"
+        "path": "common-chiffchaff/698010.mp3",
+        "type": "call",
+        "length": "0:18"
       },
       {
-        "path": "common-chiffchaff/697350.mp3"
+        "path": "common-chiffchaff/697350.mp3",
+        "type": "call",
+        "length": "0:22"
       },
       {
-        "path": "common-chiffchaff/696778.mp3"
+        "path": "common-chiffchaff/696778.mp3",
+        "type": "call",
+        "length": "0:09"
       },
       {
-        "path": "common-chiffchaff/696777.mp3"
+        "path": "common-chiffchaff/696777.mp3",
+        "type": "call",
+        "length": "0:35"
       },
       {
-        "path": "common-chiffchaff/696772.mp3"
+        "path": "common-chiffchaff/696772.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:41"
       },
       {
-        "path": "common-chiffchaff/696728.mp3"
+        "path": "common-chiffchaff/696728.mp3",
+        "type": "call",
+        "length": "0:16"
       },
       {
-        "path": "common-chiffchaff/696597.mp3"
+        "path": "common-chiffchaff/696597.mp3",
+        "type": "song, subsong",
+        "length": "0:48"
       },
       {
-        "path": "common-chiffchaff/695641.mp3"
+        "path": "common-chiffchaff/695641.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:10"
       },
       {
-        "path": "common-chiffchaff/695259.mp3"
+        "path": "common-chiffchaff/695259.mp3",
+        "type": "call",
+        "length": "1:10"
       },
       {
-        "path": "common-chiffchaff/695002.mp3"
+        "path": "common-chiffchaff/695002.mp3",
+        "type": "male, song",
+        "length": "1:10"
       },
       {
-        "path": "common-chiffchaff/694996.mp3"
+        "path": "common-chiffchaff/694996.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:53"
       },
       {
-        "path": "common-chiffchaff/693995.mp3"
+        "path": "common-chiffchaff/693995.mp3",
+        "type": "song",
+        "length": "0:47"
       }
     ]
   },
@@ -2423,64 +3783,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-magpie/697987.mp3"
+        "path": "eurasian-magpie/697987.mp3",
+        "type": "call",
+        "length": "1:27"
       },
       {
-        "path": "eurasian-magpie/696562.mp3"
+        "path": "eurasian-magpie/696562.mp3",
+        "type": "alarm call, call",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-magpie/694617.mp3"
+        "path": "eurasian-magpie/694617.mp3",
+        "type": "flight call, life stage uncertain, sex uncertain",
+        "length": "0:11"
       },
       {
-        "path": "eurasian-magpie/694192.mp3"
+        "path": "eurasian-magpie/694192.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:47"
       },
       {
-        "path": "eurasian-magpie/692609.mp3"
+        "path": "eurasian-magpie/692609.mp3",
+        "type": "alarm call, call",
+        "length": "0:54"
       },
       {
-        "path": "eurasian-magpie/690634.mp3"
+        "path": "eurasian-magpie/690634.mp3",
+        "type": "call",
+        "length": "1:13"
       },
       {
-        "path": "eurasian-magpie/685860.mp3"
+        "path": "eurasian-magpie/685860.mp3",
+        "type": "alarm call",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-magpie/685409.mp3"
+        "path": "eurasian-magpie/685409.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-magpie/685095.mp3"
+        "path": "eurasian-magpie/685095.mp3",
+        "type": "call",
+        "length": "0:19"
       },
       {
-        "path": "eurasian-magpie/684964.mp3"
+        "path": "eurasian-magpie/684964.mp3",
+        "type": "call",
+        "length": "1:13"
       },
       {
-        "path": "eurasian-magpie/684171.mp3"
+        "path": "eurasian-magpie/684171.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:28"
       },
       {
-        "path": "eurasian-magpie/683767.mp3"
+        "path": "eurasian-magpie/683767.mp3",
+        "type": "call",
+        "length": "0:15"
       },
       {
-        "path": "eurasian-magpie/683576.mp3"
+        "path": "eurasian-magpie/683576.mp3",
+        "type": "call",
+        "length": "0:37"
       },
       {
-        "path": "eurasian-magpie/682803.mp3"
+        "path": "eurasian-magpie/682803.mp3",
+        "type": "uncertain",
+        "length": "0:15"
       },
       {
-        "path": "eurasian-magpie/682801.mp3"
+        "path": "eurasian-magpie/682801.mp3",
+        "type": "uncertain",
+        "length": "0:11"
       },
       {
-        "path": "eurasian-magpie/682036.mp3"
+        "path": "eurasian-magpie/682036.mp3",
+        "type": "adult, call",
+        "length": "0:09"
       },
       {
-        "path": "eurasian-magpie/680262.mp3"
+        "path": "eurasian-magpie/680262.mp3",
+        "type": "call",
+        "length": "1:06"
       },
       {
-        "path": "eurasian-magpie/679943.mp3"
+        "path": "eurasian-magpie/679943.mp3",
+        "type": "call",
+        "length": "0:09"
       },
       {
-        "path": "eurasian-magpie/673455.mp3"
+        "path": "eurasian-magpie/673455.mp3",
+        "type": "adult, call",
+        "length": "0:31"
       },
       {
-        "path": "eurasian-magpie/669714.mp3"
+        "path": "eurasian-magpie/669714.mp3",
+        "type": "call",
+        "length": "0:23"
       }
     ]
   },
@@ -2494,64 +3894,104 @@
     ],
     "audio": [
       {
-        "path": "european-green-woodpecker/698788.mp3"
+        "path": "european-green-woodpecker/698788.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:16"
       },
       {
-        "path": "european-green-woodpecker/698787.mp3"
+        "path": "european-green-woodpecker/698787.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "1:35"
       },
       {
-        "path": "european-green-woodpecker/698786.mp3"
+        "path": "european-green-woodpecker/698786.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:23"
       },
       {
-        "path": "european-green-woodpecker/695401.mp3"
+        "path": "european-green-woodpecker/695401.mp3",
+        "type": "adult, call, sex uncertain, song",
+        "length": "0:06"
       },
       {
-        "path": "european-green-woodpecker/695137.mp3"
+        "path": "european-green-woodpecker/695137.mp3",
+        "type": "call, song",
+        "length": "0:09"
       },
       {
-        "path": "european-green-woodpecker/691206.mp3"
+        "path": "european-green-woodpecker/691206.mp3",
+        "type": "call",
+        "length": "0:01"
       },
       {
-        "path": "european-green-woodpecker/685382.mp3"
+        "path": "european-green-woodpecker/685382.mp3",
+        "type": "adult, call, male",
+        "length": "1:05"
       },
       {
-        "path": "european-green-woodpecker/682810.mp3"
+        "path": "european-green-woodpecker/682810.mp3",
+        "type": "adult, male, song",
+        "length": "0:03"
       },
       {
-        "path": "european-green-woodpecker/680246.mp3"
+        "path": "european-green-woodpecker/680246.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "european-green-woodpecker/679638.mp3"
+        "path": "european-green-woodpecker/679638.mp3",
+        "type": "alarm call",
+        "length": "0:02"
       },
       {
-        "path": "european-green-woodpecker/679637.mp3"
+        "path": "european-green-woodpecker/679637.mp3",
+        "type": "flight call",
+        "length": "0:01"
       },
       {
-        "path": "european-green-woodpecker/679622.mp3"
+        "path": "european-green-woodpecker/679622.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:05"
       },
       {
-        "path": "european-green-woodpecker/679602.mp3"
+        "path": "european-green-woodpecker/679602.mp3",
+        "type": "adult, call, flight call",
+        "length": "0:44"
       },
       {
-        "path": "european-green-woodpecker/679391.mp3"
+        "path": "european-green-woodpecker/679391.mp3",
+        "type": "alarm call",
+        "length": "0:06"
       },
       {
-        "path": "european-green-woodpecker/672878.mp3"
+        "path": "european-green-woodpecker/672878.mp3",
+        "type": "flight call",
+        "length": "0:04"
       },
       {
-        "path": "european-green-woodpecker/670768.mp3"
+        "path": "european-green-woodpecker/670768.mp3",
+        "type": "flight call",
+        "length": "0:11"
       },
       {
-        "path": "european-green-woodpecker/670631.mp3"
+        "path": "european-green-woodpecker/670631.mp3",
+        "type": "call, song",
+        "length": "0:08"
       },
       {
-        "path": "european-green-woodpecker/670229.mp3"
+        "path": "european-green-woodpecker/670229.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "european-green-woodpecker/667556.mp3"
+        "path": "european-green-woodpecker/667556.mp3",
+        "type": "flight call",
+        "length": "0:10"
       },
       {
-        "path": "european-green-woodpecker/666586.mp3"
+        "path": "european-green-woodpecker/666586.mp3",
+        "type": "call",
+        "length": "0:05"
       }
     ]
   },
@@ -2565,64 +4005,104 @@
     ],
     "audio": [
       {
-        "path": "willow-tit/700916.mp3"
+        "path": "willow-tit/700916.mp3",
+        "type": "call",
+        "length": "0:15"
       },
       {
-        "path": "willow-tit/700712.mp3"
+        "path": "willow-tit/700712.mp3",
+        "type": "adult, male, song",
+        "length": "2:00"
       },
       {
-        "path": "willow-tit/700669.mp3"
+        "path": "willow-tit/700669.mp3",
+        "type": "adult, male, song",
+        "length": "1:10"
       },
       {
-        "path": "willow-tit/695297.mp3"
+        "path": "willow-tit/695297.mp3",
+        "type": "countersong, rapidfire, song",
+        "length": "0:21"
       },
       {
-        "path": "willow-tit/689772.mp3"
+        "path": "willow-tit/689772.mp3",
+        "type": "call",
+        "length": "0:13"
       },
       {
-        "path": "willow-tit/689770.mp3"
+        "path": "willow-tit/689770.mp3",
+        "type": "alarm call, call",
+        "length": "0:07"
       },
       {
-        "path": "willow-tit/688525.mp3"
+        "path": "willow-tit/688525.mp3",
+        "type": "call",
+        "length": "0:32"
       },
       {
-        "path": "willow-tit/688149.mp3"
+        "path": "willow-tit/688149.mp3",
+        "type": "call",
+        "length": "1:26"
       },
       {
-        "path": "willow-tit/688148.mp3"
+        "path": "willow-tit/688148.mp3",
+        "type": "call",
+        "length": "1:54"
       },
       {
-        "path": "willow-tit/687248.mp3"
+        "path": "willow-tit/687248.mp3",
+        "type": "male, song",
+        "length": "1:17"
       },
       {
-        "path": "willow-tit/686367.mp3"
+        "path": "willow-tit/686367.mp3",
+        "type": "call",
+        "length": "0:36"
       },
       {
-        "path": "willow-tit/686366.mp3"
+        "path": "willow-tit/686366.mp3",
+        "type": "call",
+        "length": "0:38"
       },
       {
-        "path": "willow-tit/685953.mp3"
+        "path": "willow-tit/685953.mp3",
+        "type": "call",
+        "length": "0:28"
       },
       {
-        "path": "willow-tit/684746.mp3"
+        "path": "willow-tit/684746.mp3",
+        "type": "adult, call",
+        "length": "0:04"
       },
       {
-        "path": "willow-tit/682625.mp3"
+        "path": "willow-tit/682625.mp3",
+        "type": "call",
+        "length": "0:27"
       },
       {
-        "path": "willow-tit/680910.mp3"
+        "path": "willow-tit/680910.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "willow-tit/680821.mp3"
+        "path": "willow-tit/680821.mp3",
+        "type": "call",
+        "length": "0:23"
       },
       {
-        "path": "willow-tit/680533.mp3"
+        "path": "willow-tit/680533.mp3",
+        "type": "call",
+        "length": "1:21"
       },
       {
-        "path": "willow-tit/680515.mp3"
+        "path": "willow-tit/680515.mp3",
+        "type": "call",
+        "length": "0:53"
       },
       {
-        "path": "willow-tit/677620.mp3"
+        "path": "willow-tit/677620.mp3",
+        "type": "call",
+        "length": "3:39"
       }
     ]
   },
@@ -2636,64 +4116,104 @@
     ],
     "audio": [
       {
-        "path": "marsh-tit/700237.mp3"
+        "path": "marsh-tit/700237.mp3",
+        "type": "call",
+        "length": "0:35"
       },
       {
-        "path": "marsh-tit/700017.mp3"
+        "path": "marsh-tit/700017.mp3",
+        "type": "adult, chattering strophes  (Klapperstrophen), sex uncertain, song",
+        "length": "0:11"
       },
       {
-        "path": "marsh-tit/699757.mp3"
+        "path": "marsh-tit/699757.mp3",
+        "type": "song",
+        "length": "0:18"
       },
       {
-        "path": "marsh-tit/699639.mp3"
+        "path": "marsh-tit/699639.mp3",
+        "type": "call, life stage uncertain, sex uncertain, wing beats",
+        "length": "1:22"
       },
       {
-        "path": "marsh-tit/699227.mp3"
+        "path": "marsh-tit/699227.mp3",
+        "type": "adult, song",
+        "length": "0:30"
       },
       {
-        "path": "marsh-tit/698864.mp3"
+        "path": "marsh-tit/698864.mp3",
+        "type": "adult, male, song",
+        "length": "0:30"
       },
       {
-        "path": "marsh-tit/698751.mp3"
+        "path": "marsh-tit/698751.mp3",
+        "type": "call",
+        "length": "0:37"
       },
       {
-        "path": "marsh-tit/698750.mp3"
+        "path": "marsh-tit/698750.mp3",
+        "type": "call",
+        "length": "1:34"
       },
       {
-        "path": "marsh-tit/698749.mp3"
+        "path": "marsh-tit/698749.mp3",
+        "type": "call",
+        "length": "0:41"
       },
       {
-        "path": "marsh-tit/698557.mp3"
+        "path": "marsh-tit/698557.mp3",
+        "type": "adult, alarm call",
+        "length": "0:29"
       },
       {
-        "path": "marsh-tit/698428.mp3"
+        "path": "marsh-tit/698428.mp3",
+        "type": "call",
+        "length": "0:22"
       },
       {
-        "path": "marsh-tit/697921.mp3"
+        "path": "marsh-tit/697921.mp3",
+        "type": "alarm call, call",
+        "length": "0:23"
       },
       {
-        "path": "marsh-tit/697242.mp3"
+        "path": "marsh-tit/697242.mp3",
+        "type": "call, song",
+        "length": "0:29"
       },
       {
-        "path": "marsh-tit/697110.mp3"
+        "path": "marsh-tit/697110.mp3",
+        "type": "sex uncertain, song",
+        "length": "0:22"
       },
       {
-        "path": "marsh-tit/694855.mp3"
+        "path": "marsh-tit/694855.mp3",
+        "type": "adult, male, song",
+        "length": "1:08"
       },
       {
-        "path": "marsh-tit/692583.mp3"
+        "path": "marsh-tit/692583.mp3",
+        "type": "adult, call",
+        "length": "0:38"
       },
       {
-        "path": "marsh-tit/692580.mp3"
+        "path": "marsh-tit/692580.mp3",
+        "type": "adult, call",
+        "length": "0:52"
       },
       {
-        "path": "marsh-tit/692397.mp3"
+        "path": "marsh-tit/692397.mp3",
+        "type": "odd song, subsong",
+        "length": "1:08"
       },
       {
-        "path": "marsh-tit/690932.mp3"
+        "path": "marsh-tit/690932.mp3",
+        "type": "adult, call",
+        "length": "1:35"
       },
       {
-        "path": "marsh-tit/690931.mp3"
+        "path": "marsh-tit/690931.mp3",
+        "type": "adult, call, duet, song",
+        "length": "0:25"
       }
     ]
   },
@@ -2707,64 +4227,104 @@
     ],
     "audio": [
       {
-        "path": "dunnock/701092.mp3"
+        "path": "dunnock/701092.mp3",
+        "type": "adult, alarm call, call",
+        "length": "0:23"
       },
       {
-        "path": "dunnock/700723.mp3"
+        "path": "dunnock/700723.mp3",
+        "type": "call",
+        "length": "0:30"
       },
       {
-        "path": "dunnock/700601.mp3"
+        "path": "dunnock/700601.mp3",
+        "type": "call",
+        "length": "0:43"
       },
       {
-        "path": "dunnock/700003.mp3"
+        "path": "dunnock/700003.mp3",
+        "type": "song",
+        "length": "1:08"
       },
       {
-        "path": "dunnock/699679.mp3"
+        "path": "dunnock/699679.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "1:05"
       },
       {
-        "path": "dunnock/699583.mp3"
+        "path": "dunnock/699583.mp3",
+        "type": "adult, male, song",
+        "length": "1:00"
       },
       {
-        "path": "dunnock/699244.mp3"
+        "path": "dunnock/699244.mp3",
+        "type": "male, song",
+        "length": "0:18"
       },
       {
-        "path": "dunnock/699241.mp3"
+        "path": "dunnock/699241.mp3",
+        "type": "male, song",
+        "length": "0:09"
       },
       {
-        "path": "dunnock/699139.mp3"
+        "path": "dunnock/699139.mp3",
+        "type": "song",
+        "length": "0:58"
       },
       {
-        "path": "dunnock/698047.mp3"
+        "path": "dunnock/698047.mp3",
+        "type": "song",
+        "length": "1:44"
       },
       {
-        "path": "dunnock/698034.mp3"
+        "path": "dunnock/698034.mp3",
+        "type": "muffled song, subsong",
+        "length": "0:58"
       },
       {
-        "path": "dunnock/697780.mp3"
+        "path": "dunnock/697780.mp3",
+        "type": "call",
+        "length": "0:16"
       },
       {
-        "path": "dunnock/697376.mp3"
+        "path": "dunnock/697376.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:27"
       },
       {
-        "path": "dunnock/697349.mp3"
+        "path": "dunnock/697349.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:49"
       },
       {
-        "path": "dunnock/696874.mp3"
+        "path": "dunnock/696874.mp3",
+        "type": "call",
+        "length": "0:32"
       },
       {
-        "path": "dunnock/696033.mp3"
+        "path": "dunnock/696033.mp3",
+        "type": "adult, alarm call, sex uncertain",
+        "length": "0:26"
       },
       {
-        "path": "dunnock/695518.mp3"
+        "path": "dunnock/695518.mp3",
+        "type": "adult, call",
+        "length": "0:21"
       },
       {
-        "path": "dunnock/694117.mp3"
+        "path": "dunnock/694117.mp3",
+        "type": "call",
+        "length": "0:29"
       },
       {
-        "path": "dunnock/692913.mp3"
+        "path": "dunnock/692913.mp3",
+        "type": "call",
+        "length": "0:16"
       },
       {
-        "path": "dunnock/692912.mp3"
+        "path": "dunnock/692912.mp3",
+        "type": "call",
+        "length": "0:16"
       }
     ]
   },
@@ -2778,64 +4338,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-bullfinch/700177.mp3"
+        "path": "eurasian-bullfinch/700177.mp3",
+        "type": "adult, male, song",
+        "length": "0:37"
       },
       {
-        "path": "eurasian-bullfinch/700049.mp3"
+        "path": "eurasian-bullfinch/700049.mp3",
+        "type": "call",
+        "length": "0:19"
       },
       {
-        "path": "eurasian-bullfinch/699862.mp3"
+        "path": "eurasian-bullfinch/699862.mp3",
+        "type": "song",
+        "length": "0:48"
       },
       {
-        "path": "eurasian-bullfinch/699031.mp3"
+        "path": "eurasian-bullfinch/699031.mp3",
+        "type": "call, song",
+        "length": "0:41"
       },
       {
-        "path": "eurasian-bullfinch/698577.mp3"
+        "path": "eurasian-bullfinch/698577.mp3",
+        "type": "adult, call",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-bullfinch/698548.mp3"
+        "path": "eurasian-bullfinch/698548.mp3",
+        "type": "call",
+        "length": "0:17"
       },
       {
-        "path": "eurasian-bullfinch/698284.mp3"
+        "path": "eurasian-bullfinch/698284.mp3",
+        "type": "adult, male, song, subsong",
+        "length": "1:21"
       },
       {
-        "path": "eurasian-bullfinch/696774.mp3"
+        "path": "eurasian-bullfinch/696774.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "3:02"
       },
       {
-        "path": "eurasian-bullfinch/696696.mp3"
+        "path": "eurasian-bullfinch/696696.mp3",
+        "type": "male, song",
+        "length": "0:29"
       },
       {
-        "path": "eurasian-bullfinch/696123.mp3"
+        "path": "eurasian-bullfinch/696123.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:16"
       },
       {
-        "path": "eurasian-bullfinch/695356.mp3"
+        "path": "eurasian-bullfinch/695356.mp3",
+        "type": "life stage uncertain, sex uncertain",
+        "length": "0:15"
       },
       {
-        "path": "eurasian-bullfinch/694546.mp3"
+        "path": "eurasian-bullfinch/694546.mp3",
+        "type": "adult, call, flight call, male",
+        "length": "0:04"
       },
       {
-        "path": "eurasian-bullfinch/694545.mp3"
+        "path": "eurasian-bullfinch/694545.mp3",
+        "type": "adult, call, male",
+        "length": "0:24"
       },
       {
-        "path": "eurasian-bullfinch/693250.mp3"
+        "path": "eurasian-bullfinch/693250.mp3",
+        "type": "call, song",
+        "length": "0:19"
       },
       {
-        "path": "eurasian-bullfinch/692995.mp3"
+        "path": "eurasian-bullfinch/692995.mp3",
+        "type": "call, song",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-bullfinch/692791.mp3"
+        "path": "eurasian-bullfinch/692791.mp3",
+        "type": "flight call",
+        "length": "0:07"
       },
       {
-        "path": "eurasian-bullfinch/692790.mp3"
+        "path": "eurasian-bullfinch/692790.mp3",
+        "type": "flight call",
+        "length": "0:26"
       },
       {
-        "path": "eurasian-bullfinch/690923.mp3"
+        "path": "eurasian-bullfinch/690923.mp3",
+        "type": "call",
+        "length": "0:47"
       },
       {
-        "path": "eurasian-bullfinch/690409.mp3"
+        "path": "eurasian-bullfinch/690409.mp3",
+        "type": "call",
+        "length": "0:16"
       },
       {
-        "path": "eurasian-bullfinch/689506.mp3"
+        "path": "eurasian-bullfinch/689506.mp3",
+        "type": "call, flight call, thin calls",
+        "length": "1:02"
       }
     ]
   },
@@ -2849,64 +4449,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-nuthatch/700661.mp3"
+        "path": "eurasian-nuthatch/700661.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:19"
       },
       {
-        "path": "eurasian-nuthatch/700611.mp3"
+        "path": "eurasian-nuthatch/700611.mp3",
+        "type": "adult, male, song",
+        "length": "0:32"
       },
       {
-        "path": "eurasian-nuthatch/700519.mp3"
+        "path": "eurasian-nuthatch/700519.mp3",
+        "type": "call",
+        "length": "0:11"
       },
       {
-        "path": "eurasian-nuthatch/700514.mp3"
+        "path": "eurasian-nuthatch/700514.mp3",
+        "type": "adult, dawn song, sex uncertain, song",
+        "length": "1:35"
       },
       {
-        "path": "eurasian-nuthatch/700504.mp3"
+        "path": "eurasian-nuthatch/700504.mp3",
+        "type": "adult, dawn song, sex uncertain, song",
+        "length": "1:13"
       },
       {
-        "path": "eurasian-nuthatch/700500.mp3"
+        "path": "eurasian-nuthatch/700500.mp3",
+        "type": "adult, dawn song, sex uncertain, song",
+        "length": "1:49"
       },
       {
-        "path": "eurasian-nuthatch/700492.mp3"
+        "path": "eurasian-nuthatch/700492.mp3",
+        "type": "adult, aggression call, call, sex uncertain, song",
+        "length": "0:27"
       },
       {
-        "path": "eurasian-nuthatch/700345.mp3"
+        "path": "eurasian-nuthatch/700345.mp3",
+        "type": "adult, call, male",
+        "length": "0:31"
       },
       {
-        "path": "eurasian-nuthatch/699871.mp3"
+        "path": "eurasian-nuthatch/699871.mp3",
+        "type": "call",
+        "length": "0:24"
       },
       {
-        "path": "eurasian-nuthatch/698687.mp3"
+        "path": "eurasian-nuthatch/698687.mp3",
+        "type": "adult, male, song",
+        "length": "0:40"
       },
       {
-        "path": "eurasian-nuthatch/698686.mp3"
+        "path": "eurasian-nuthatch/698686.mp3",
+        "type": "adult, male, song",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-nuthatch/698292.mp3"
+        "path": "eurasian-nuthatch/698292.mp3",
+        "type": "call",
+        "length": "0:25"
       },
       {
-        "path": "eurasian-nuthatch/697819.mp3"
+        "path": "eurasian-nuthatch/697819.mp3",
+        "type": "call",
+        "length": "0:07"
       },
       {
-        "path": "eurasian-nuthatch/697818.mp3"
+        "path": "eurasian-nuthatch/697818.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "eurasian-nuthatch/697380.mp3"
+        "path": "eurasian-nuthatch/697380.mp3",
+        "type": "adult",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-nuthatch/697244.mp3"
+        "path": "eurasian-nuthatch/697244.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:50"
       },
       {
-        "path": "eurasian-nuthatch/696803.mp3"
+        "path": "eurasian-nuthatch/696803.mp3",
+        "type": "call",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-nuthatch/696584.mp3"
+        "path": "eurasian-nuthatch/696584.mp3",
+        "type": "call, song",
+        "length": "1:01"
       },
       {
-        "path": "eurasian-nuthatch/696258.mp3"
+        "path": "eurasian-nuthatch/696258.mp3",
+        "type": "call",
+        "length": "0:19"
       },
       {
-        "path": "eurasian-nuthatch/696254.mp3"
+        "path": "eurasian-nuthatch/696254.mp3",
+        "type": "alarm call, life stage uncertain, sex uncertain",
+        "length": "0:33"
       }
     ]
   },
@@ -2920,64 +4560,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-collared-dove/700410.mp3"
+        "path": "eurasian-collared-dove/700410.mp3",
+        "type": "flight call, song",
+        "length": "0:53"
       },
       {
-        "path": "eurasian-collared-dove/698199.mp3"
+        "path": "eurasian-collared-dove/698199.mp3",
+        "type": "song",
+        "length": "1:16"
       },
       {
-        "path": "eurasian-collared-dove/698013.mp3"
+        "path": "eurasian-collared-dove/698013.mp3",
+        "type": "call, flight call",
+        "length": "0:23"
       },
       {
-        "path": "eurasian-collared-dove/696845.mp3"
+        "path": "eurasian-collared-dove/696845.mp3",
+        "type": "flight call",
+        "length": "0:03"
       },
       {
-        "path": "eurasian-collared-dove/695044.mp3"
+        "path": "eurasian-collared-dove/695044.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:14"
       },
       {
-        "path": "eurasian-collared-dove/688721.mp3"
+        "path": "eurasian-collared-dove/688721.mp3",
+        "type": "call",
+        "length": "0:30"
       },
       {
-        "path": "eurasian-collared-dove/682035.mp3"
+        "path": "eurasian-collared-dove/682035.mp3",
+        "type": "adult, flight call",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-collared-dove/672362.mp3"
+        "path": "eurasian-collared-dove/672362.mp3",
+        "type": "life stage uncertain, sex uncertain, song",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-collared-dove/672361.mp3"
+        "path": "eurasian-collared-dove/672361.mp3",
+        "type": "life stage uncertain, sex uncertain, song",
+        "length": "0:56"
       },
       {
-        "path": "eurasian-collared-dove/672004.mp3"
+        "path": "eurasian-collared-dove/672004.mp3",
+        "type": "life stage uncertain, sex uncertain, song",
+        "length": "0:23"
       },
       {
-        "path": "eurasian-collared-dove/671545.mp3"
+        "path": "eurasian-collared-dove/671545.mp3",
+        "type": "song",
+        "length": "0:17"
       },
       {
-        "path": "eurasian-collared-dove/669829.mp3"
+        "path": "eurasian-collared-dove/669829.mp3",
+        "type": "song",
+        "length": "2:16"
       },
       {
-        "path": "eurasian-collared-dove/669773.mp3"
+        "path": "eurasian-collared-dove/669773.mp3",
+        "type": "adult, song",
+        "length": "0:19"
       },
       {
-        "path": "eurasian-collared-dove/669770.mp3"
+        "path": "eurasian-collared-dove/669770.mp3",
+        "type": "adult, song",
+        "length": "0:07"
       },
       {
-        "path": "eurasian-collared-dove/669768.mp3"
+        "path": "eurasian-collared-dove/669768.mp3",
+        "type": "adult, song",
+        "length": "2:48"
       },
       {
-        "path": "eurasian-collared-dove/669765.mp3"
+        "path": "eurasian-collared-dove/669765.mp3",
+        "type": "adult, flight call, song",
+        "length": "0:16"
       },
       {
-        "path": "eurasian-collared-dove/669200.mp3"
+        "path": "eurasian-collared-dove/669200.mp3",
+        "type": "adult, flight call",
+        "length": "0:08"
       },
       {
-        "path": "eurasian-collared-dove/666804.mp3"
+        "path": "eurasian-collared-dove/666804.mp3",
+        "type": "call",
+        "length": "0:26"
       },
       {
-        "path": "eurasian-collared-dove/665959.mp3"
+        "path": "eurasian-collared-dove/665959.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "0:10"
       },
       {
-        "path": "eurasian-collared-dove/665069.mp3"
+        "path": "eurasian-collared-dove/665069.mp3",
+        "type": "adult, call, male, song",
+        "length": "8:03"
       }
     ]
   },
@@ -2991,64 +4671,104 @@
     ],
     "audio": [
       {
-        "path": "european-turtle-dove/699498.mp3"
+        "path": "european-turtle-dove/699498.mp3",
+        "type": "song",
+        "length": "0:26"
       },
       {
-        "path": "european-turtle-dove/684798.mp3"
+        "path": "european-turtle-dove/684798.mp3",
+        "type": "adult, song",
+        "length": "0:03"
       },
       {
-        "path": "european-turtle-dove/675530.mp3"
+        "path": "european-turtle-dove/675530.mp3",
+        "type": "song",
+        "length": "0:43"
       },
       {
-        "path": "european-turtle-dove/671226.mp3"
+        "path": "european-turtle-dove/671226.mp3",
+        "type": "adult, male, song",
+        "length": "0:38"
       },
       {
-        "path": "european-turtle-dove/669902.mp3"
+        "path": "european-turtle-dove/669902.mp3",
+        "type": "song",
+        "length": "5:59"
       },
       {
-        "path": "european-turtle-dove/669233.mp3"
+        "path": "european-turtle-dove/669233.mp3",
+        "type": "adult, male, song",
+        "length": "0:54"
       },
       {
-        "path": "european-turtle-dove/668430.mp3"
+        "path": "european-turtle-dove/668430.mp3",
+        "type": "male, song",
+        "length": "0:09"
       },
       {
-        "path": "european-turtle-dove/668395.mp3"
+        "path": "european-turtle-dove/668395.mp3",
+        "type": "male, song",
+        "length": "0:11"
       },
       {
-        "path": "european-turtle-dove/665175.mp3"
+        "path": "european-turtle-dove/665175.mp3",
+        "type": "adult, song",
+        "length": "0:40"
       },
       {
-        "path": "european-turtle-dove/665174.mp3"
+        "path": "european-turtle-dove/665174.mp3",
+        "type": "adult, song",
+        "length": "0:59"
       },
       {
-        "path": "european-turtle-dove/664104.mp3"
+        "path": "european-turtle-dove/664104.mp3",
+        "type": "adult, male, song",
+        "length": "0:17"
       },
       {
-        "path": "european-turtle-dove/663060.mp3"
+        "path": "european-turtle-dove/663060.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "0:18"
       },
       {
-        "path": "european-turtle-dove/662894.mp3"
+        "path": "european-turtle-dove/662894.mp3",
+        "type": "adult, male, song",
+        "length": "0:09"
       },
       {
-        "path": "european-turtle-dove/661210.mp3"
+        "path": "european-turtle-dove/661210.mp3",
+        "type": "call, sex uncertain",
+        "length": "2:26"
       },
       {
-        "path": "european-turtle-dove/654725.mp3"
+        "path": "european-turtle-dove/654725.mp3",
+        "type": "call",
+        "length": "0:49"
       },
       {
-        "path": "european-turtle-dove/651615.mp3"
+        "path": "european-turtle-dove/651615.mp3",
+        "type": "adult, male, song",
+        "length": "0:24"
       },
       {
-        "path": "european-turtle-dove/649662.mp3"
+        "path": "european-turtle-dove/649662.mp3",
+        "type": ", adult, grive musicienne, merle, pic noir, song",
+        "length": "1:52"
       },
       {
-        "path": "european-turtle-dove/647935.mp3"
+        "path": "european-turtle-dove/647935.mp3",
+        "type": "song",
+        "length": "0:52"
       },
       {
-        "path": "european-turtle-dove/645016.mp3"
+        "path": "european-turtle-dove/645016.mp3",
+        "type": "song",
+        "length": "1:02"
       },
       {
-        "path": "european-turtle-dove/637036.mp3"
+        "path": "european-turtle-dove/637036.mp3",
+        "type": "song",
+        "length": "0:22"
       }
     ]
   },
@@ -3062,64 +4782,104 @@
     ],
     "audio": [
       {
-        "path": "common-starling/699113.mp3"
+        "path": "common-starling/699113.mp3",
+        "type": "begging call, hatchling or nestling",
+        "length": "0:30"
       },
       {
-        "path": "common-starling/699099.mp3"
+        "path": "common-starling/699099.mp3",
+        "type": "adult, alarm call, sex uncertain",
+        "length": "0:30"
       },
       {
-        "path": "common-starling/698602.mp3"
+        "path": "common-starling/698602.mp3",
+        "type": "song",
+        "length": "0:51"
       },
       {
-        "path": "common-starling/698600.mp3"
+        "path": "common-starling/698600.mp3",
+        "type": "song",
+        "length": "0:38"
       },
       {
-        "path": "common-starling/698599.mp3"
+        "path": "common-starling/698599.mp3",
+        "type": "begging call",
+        "length": "0:16"
       },
       {
-        "path": "common-starling/698200.mp3"
+        "path": "common-starling/698200.mp3",
+        "type": "adult, alarm call",
+        "length": "0:57"
       },
       {
-        "path": "common-starling/696819.mp3"
+        "path": "common-starling/696819.mp3",
+        "type": "mimicry/imitation, song",
+        "length": "2:24"
       },
       {
-        "path": "common-starling/696692.mp3"
+        "path": "common-starling/696692.mp3",
+        "type": "adult, aggressive calls, call, mimicry/imitation, sex uncertain, song",
+        "length": "1:28"
       },
       {
-        "path": "common-starling/696691.mp3"
+        "path": "common-starling/696691.mp3",
+        "type": "adult, aggressive calls, call, mimicry/imitation, sex uncertain, song",
+        "length": "4:46"
       },
       {
-        "path": "common-starling/695875.mp3"
+        "path": "common-starling/695875.mp3",
+        "type": "song, subsong",
+        "length": "0:15"
       },
       {
-        "path": "common-starling/695873.mp3"
+        "path": "common-starling/695873.mp3",
+        "type": "song, subsong",
+        "length": "0:15"
       },
       {
-        "path": "common-starling/695542.mp3"
+        "path": "common-starling/695542.mp3",
+        "type": "adult, song, subsong",
+        "length": "0:38"
       },
       {
-        "path": "common-starling/692829.mp3"
+        "path": "common-starling/692829.mp3",
+        "type": "flight call, quiet mutterings",
+        "length": "0:08"
       },
       {
-        "path": "common-starling/691070.mp3"
+        "path": "common-starling/691070.mp3",
+        "type": "adult, call, mimicry/imitation, sex uncertain, song",
+        "length": "2:30"
       },
       {
-        "path": "common-starling/691050.mp3"
+        "path": "common-starling/691050.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:13"
       },
       {
-        "path": "common-starling/691024.mp3"
+        "path": "common-starling/691024.mp3",
+        "type": "adult, male, song",
+        "length": "0:41"
       },
       {
-        "path": "common-starling/690488.mp3"
+        "path": "common-starling/690488.mp3",
+        "type": "call",
+        "length": "0:15"
       },
       {
-        "path": "common-starling/689600.mp3"
+        "path": "common-starling/689600.mp3",
+        "type": "life stage uncertain, nocturnal flight call, sex uncertain",
+        "length": "0:08"
       },
       {
-        "path": "common-starling/686863.mp3"
+        "path": "common-starling/686863.mp3",
+        "type": "alarm call",
+        "length": "0:02"
       },
       {
-        "path": "common-starling/686800.mp3"
+        "path": "common-starling/686800.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:45"
       }
     ]
   },
@@ -3133,64 +4893,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-blackcap/700548.mp3"
+        "path": "eurasian-blackcap/700548.mp3",
+        "type": "adult, alarm call, call, sex uncertain",
+        "length": "0:40"
       },
       {
-        "path": "eurasian-blackcap/700143.mp3"
+        "path": "eurasian-blackcap/700143.mp3",
+        "type": "alarm call, call",
+        "length": "0:27"
       },
       {
-        "path": "eurasian-blackcap/700087.mp3"
+        "path": "eurasian-blackcap/700087.mp3",
+        "type": "song",
+        "length": "1:02"
       },
       {
-        "path": "eurasian-blackcap/699069.mp3"
+        "path": "eurasian-blackcap/699069.mp3",
+        "type": "call",
+        "length": "0:47"
       },
       {
-        "path": "eurasian-blackcap/698818.mp3"
+        "path": "eurasian-blackcap/698818.mp3",
+        "type": "song, subsong",
+        "length": "2:30"
       },
       {
-        "path": "eurasian-blackcap/697867.mp3"
+        "path": "eurasian-blackcap/697867.mp3",
+        "type": "adult, long song, male, subsong, winter song",
+        "length": "4:20"
       },
       {
-        "path": "eurasian-blackcap/697770.mp3"
+        "path": "eurasian-blackcap/697770.mp3",
+        "type": "song",
+        "length": "1:59"
       },
       {
-        "path": "eurasian-blackcap/697754.mp3"
+        "path": "eurasian-blackcap/697754.mp3",
+        "type": "Complex song, adult, male",
+        "length": "0:49"
       },
       {
-        "path": "eurasian-blackcap/697753.mp3"
+        "path": "eurasian-blackcap/697753.mp3",
+        "type": "song, subsong, varied song",
+        "length": "0:53"
       },
       {
-        "path": "eurasian-blackcap/697752.mp3"
+        "path": "eurasian-blackcap/697752.mp3",
+        "type": "Varied and complex, adult, male, song, subsong",
+        "length": "1:47"
       },
       {
-        "path": "eurasian-blackcap/697750.mp3"
+        "path": "eurasian-blackcap/697750.mp3",
+        "type": "adult, male, very varied song",
+        "length": "0:57"
       },
       {
-        "path": "eurasian-blackcap/697749.mp3"
+        "path": "eurasian-blackcap/697749.mp3",
+        "type": "repetitions, song",
+        "length": "1:17"
       },
       {
-        "path": "eurasian-blackcap/697748.mp3"
+        "path": "eurasian-blackcap/697748.mp3",
+        "type": "complex song, syllable repetitions",
+        "length": "2:33"
       },
       {
-        "path": "eurasian-blackcap/697729.mp3"
+        "path": "eurasian-blackcap/697729.mp3",
+        "type": "aberrant, song",
+        "length": "1:05"
       },
       {
-        "path": "eurasian-blackcap/697727.mp3"
+        "path": "eurasian-blackcap/697727.mp3",
+        "type": "aberrant, song",
+        "length": "0:03"
       },
       {
-        "path": "eurasian-blackcap/696570.mp3"
+        "path": "eurasian-blackcap/696570.mp3",
+        "type": "song",
+        "length": "0:40"
       },
       {
-        "path": "eurasian-blackcap/696558.mp3"
+        "path": "eurasian-blackcap/696558.mp3",
+        "type": "alarm call",
+        "length": "2:14"
       },
       {
-        "path": "eurasian-blackcap/696496.mp3"
+        "path": "eurasian-blackcap/696496.mp3",
+        "type": "adult, bip d'un téléphone portable, male, song, voix humaine",
+        "length": "2:15"
       },
       {
-        "path": "eurasian-blackcap/692461.mp3"
+        "path": "eurasian-blackcap/692461.mp3",
+        "type": "song",
+        "length": "0:20"
       },
       {
-        "path": "eurasian-blackcap/692124.mp3"
+        "path": "eurasian-blackcap/692124.mp3",
+        "type": "call",
+        "length": "1:00"
       }
     ]
   },
@@ -3204,64 +5004,104 @@
     ],
     "audio": [
       {
-        "path": "garden-warbler/699896.mp3"
+        "path": "garden-warbler/699896.mp3",
+        "type": "adult, song",
+        "length": "0:58"
       },
       {
-        "path": "garden-warbler/698048.mp3"
+        "path": "garden-warbler/698048.mp3",
+        "type": "song",
+        "length": "1:15"
       },
       {
-        "path": "garden-warbler/697764.mp3"
+        "path": "garden-warbler/697764.mp3",
+        "type": "song",
+        "length": "2:14"
       },
       {
-        "path": "garden-warbler/697763.mp3"
+        "path": "garden-warbler/697763.mp3",
+        "type": "song",
+        "length": "1:37"
       },
       {
-        "path": "garden-warbler/696885.mp3"
+        "path": "garden-warbler/696885.mp3",
+        "type": "adult, male, song",
+        "length": "0:07"
       },
       {
-        "path": "garden-warbler/694787.mp3"
+        "path": "garden-warbler/694787.mp3",
+        "type": "adult, male, song",
+        "length": "0:42"
       },
       {
-        "path": "garden-warbler/692164.mp3"
+        "path": "garden-warbler/692164.mp3",
+        "type": "adult, male, song",
+        "length": "0:59"
       },
       {
-        "path": "garden-warbler/692156.mp3"
+        "path": "garden-warbler/692156.mp3",
+        "type": "adult, male, song",
+        "length": "0:06"
       },
       {
-        "path": "garden-warbler/690611.mp3"
+        "path": "garden-warbler/690611.mp3",
+        "type": "adult, sex uncertain, song",
+        "length": "1:11"
       },
       {
-        "path": "garden-warbler/683814.mp3"
+        "path": "garden-warbler/683814.mp3",
+        "type": "song",
+        "length": "0:27"
       },
       {
-        "path": "garden-warbler/681700.mp3"
+        "path": "garden-warbler/681700.mp3",
+        "type": "alarm call",
+        "length": "1:15"
       },
       {
-        "path": "garden-warbler/676815.mp3"
+        "path": "garden-warbler/676815.mp3",
+        "type": "Stressed alarm call, alarm call",
+        "length": "0:26"
       },
       {
-        "path": "garden-warbler/675594.mp3"
+        "path": "garden-warbler/675594.mp3",
+        "type": "song",
+        "length": "1:18"
       },
       {
-        "path": "garden-warbler/671931.mp3"
+        "path": "garden-warbler/671931.mp3",
+        "type": "adult, male, song",
+        "length": "1:51"
       },
       {
-        "path": "garden-warbler/671930.mp3"
+        "path": "garden-warbler/671930.mp3",
+        "type": "adult, male, song",
+        "length": "4:10"
       },
       {
-        "path": "garden-warbler/671759.mp3"
+        "path": "garden-warbler/671759.mp3",
+        "type": "song",
+        "length": "5:55"
       },
       {
-        "path": "garden-warbler/670549.mp3"
+        "path": "garden-warbler/670549.mp3",
+        "type": "song",
+        "length": "1:53"
       },
       {
-        "path": "garden-warbler/665171.mp3"
+        "path": "garden-warbler/665171.mp3",
+        "type": "song",
+        "length": "1:04"
       },
       {
-        "path": "garden-warbler/665170.mp3"
+        "path": "garden-warbler/665170.mp3",
+        "type": "song",
+        "length": "0:22"
       },
       {
-        "path": "garden-warbler/665169.mp3"
+        "path": "garden-warbler/665169.mp3",
+        "type": "song",
+        "length": "1:33"
       }
     ]
   },
@@ -3275,64 +5115,104 @@
     ],
     "audio": [
       {
-        "path": "eurasian-wren/700254.mp3"
+        "path": "eurasian-wren/700254.mp3",
+        "type": "male, song",
+        "length": "1:04"
       },
       {
-        "path": "eurasian-wren/700013.mp3"
+        "path": "eurasian-wren/700013.mp3",
+        "type": "song",
+        "length": "2:17"
       },
       {
-        "path": "eurasian-wren/699932.mp3"
+        "path": "eurasian-wren/699932.mp3",
+        "type": "call, life stage uncertain, sex uncertain",
+        "length": "0:13"
       },
       {
-        "path": "eurasian-wren/699400.mp3"
+        "path": "eurasian-wren/699400.mp3",
+        "type": "sex uncertain, song",
+        "length": "0:04"
       },
       {
-        "path": "eurasian-wren/697929.mp3"
+        "path": "eurasian-wren/697929.mp3",
+        "type": "song",
+        "length": "0:27"
       },
       {
-        "path": "eurasian-wren/697781.mp3"
+        "path": "eurasian-wren/697781.mp3",
+        "type": "alarm call, call",
+        "length": "0:28"
       },
       {
-        "path": "eurasian-wren/697592.mp3"
+        "path": "eurasian-wren/697592.mp3",
+        "type": "song",
+        "length": "0:21"
       },
       {
-        "path": "eurasian-wren/697547.mp3"
+        "path": "eurasian-wren/697547.mp3",
+        "type": "song",
+        "length": "0:06"
       },
       {
-        "path": "eurasian-wren/696942.mp3"
+        "path": "eurasian-wren/696942.mp3",
+        "type": "alarm call",
+        "length": "0:12"
       },
       {
-        "path": "eurasian-wren/696807.mp3"
+        "path": "eurasian-wren/696807.mp3",
+        "type": "alarm call",
+        "length": "0:47"
       },
       {
-        "path": "eurasian-wren/696513.mp3"
+        "path": "eurasian-wren/696513.mp3",
+        "type": "song",
+        "length": "0:29"
       },
       {
-        "path": "eurasian-wren/696382.mp3"
+        "path": "eurasian-wren/696382.mp3",
+        "type": "adult, song",
+        "length": "0:45"
       },
       {
-        "path": "eurasian-wren/696203.mp3"
+        "path": "eurasian-wren/696203.mp3",
+        "type": "adult, call",
+        "length": "0:22"
       },
       {
-        "path": "eurasian-wren/696148.mp3"
+        "path": "eurasian-wren/696148.mp3",
+        "type": "song, subsong",
+        "length": "2:11"
       },
       {
-        "path": "eurasian-wren/695010.mp3"
+        "path": "eurasian-wren/695010.mp3",
+        "type": "adult, male, song",
+        "length": "0:55"
       },
       {
-        "path": "eurasian-wren/694489.mp3"
+        "path": "eurasian-wren/694489.mp3",
+        "type": "alarm call",
+        "length": "0:34"
       },
       {
-        "path": "eurasian-wren/694057.mp3"
+        "path": "eurasian-wren/694057.mp3",
+        "type": "song",
+        "length": "0:18"
       },
       {
-        "path": "eurasian-wren/694055.mp3"
+        "path": "eurasian-wren/694055.mp3",
+        "type": "call",
+        "length": "0:32"
       },
       {
-        "path": "eurasian-wren/694053.mp3"
+        "path": "eurasian-wren/694053.mp3",
+        "type": "call",
+        "length": "0:17"
       },
       {
-        "path": "eurasian-wren/694038.mp3"
+        "path": "eurasian-wren/694038.mp3",
+        "type": "adult, male, song",
+        "length": "4:08"
       }
     ]
   },
@@ -3346,64 +5226,104 @@
     ],
     "audio": [
       {
-        "path": "common-blackbird/700269.mp3"
+        "path": "common-blackbird/700269.mp3",
+        "type": "call, sex uncertain",
+        "length": "0:05"
       },
       {
-        "path": "common-blackbird/700265.mp3"
+        "path": "common-blackbird/700265.mp3",
+        "type": "alarm call, sex uncertain",
+        "length": "0:21"
       },
       {
-        "path": "common-blackbird/700190.mp3"
+        "path": "common-blackbird/700190.mp3",
+        "type": "call, female",
+        "length": "0:13"
       },
       {
-        "path": "common-blackbird/699880.mp3"
+        "path": "common-blackbird/699880.mp3",
+        "type": "adult, alarm call, male",
+        "length": "0:28"
       },
       {
-        "path": "common-blackbird/699509.mp3"
+        "path": "common-blackbird/699509.mp3",
+        "type": "adult, call, male",
+        "length": "0:12"
       },
       {
-        "path": "common-blackbird/699466.mp3"
+        "path": "common-blackbird/699466.mp3",
+        "type": "alarm call",
+        "length": "0:38"
       },
       {
-        "path": "common-blackbird/699343.mp3"
+        "path": "common-blackbird/699343.mp3",
+        "type": "call",
+        "length": "2:09"
       },
       {
-        "path": "common-blackbird/698933.mp3"
+        "path": "common-blackbird/698933.mp3",
+        "type": "adult, call",
+        "length": "0:02"
       },
       {
-        "path": "common-blackbird/698932.mp3"
+        "path": "common-blackbird/698932.mp3",
+        "type": "adult, call",
+        "length": "0:15"
       },
       {
-        "path": "common-blackbird/698211.mp3"
+        "path": "common-blackbird/698211.mp3",
+        "type": "call",
+        "length": "0:18"
       },
       {
-        "path": "common-blackbird/698079.mp3"
+        "path": "common-blackbird/698079.mp3",
+        "type": "male, song",
+        "length": "0:27"
       },
       {
-        "path": "common-blackbird/697962.mp3"
+        "path": "common-blackbird/697962.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "1:45"
       },
       {
-        "path": "common-blackbird/697928.mp3"
+        "path": "common-blackbird/697928.mp3",
+        "type": "call",
+        "length": "0:57"
       },
       {
-        "path": "common-blackbird/697545.mp3"
+        "path": "common-blackbird/697545.mp3",
+        "type": "call",
+        "length": "0:18"
       },
       {
-        "path": "common-blackbird/697015.mp3"
+        "path": "common-blackbird/697015.mp3",
+        "type": "adult, male, song",
+        "length": "2:11"
       },
       {
-        "path": "common-blackbird/696876.mp3"
+        "path": "common-blackbird/696876.mp3",
+        "type": "alarm call, call",
+        "length": "0:40"
       },
       {
-        "path": "common-blackbird/696631.mp3"
+        "path": "common-blackbird/696631.mp3",
+        "type": "imitations, song",
+        "length": "11:34"
       },
       {
-        "path": "common-blackbird/696560.mp3"
+        "path": "common-blackbird/696560.mp3",
+        "type": "alarm call, call, evening call",
+        "length": "1:29"
       },
       {
-        "path": "common-blackbird/696555.mp3"
+        "path": "common-blackbird/696555.mp3",
+        "type": "subsong",
+        "length": "1:09"
       },
       {
-        "path": "common-blackbird/696335.mp3"
+        "path": "common-blackbird/696335.mp3",
+        "type": "adult, call, sex uncertain",
+        "length": "1:15"
       }
     ]
   },
@@ -3417,64 +5337,104 @@
     ],
     "audio": [
       {
-        "path": "song-thrush/700992.mp3"
+        "path": "song-thrush/700992.mp3",
+        "type": "adult, male, song",
+        "length": "2:16"
       },
       {
-        "path": "song-thrush/700020.mp3"
+        "path": "song-thrush/700020.mp3",
+        "type": "song",
+        "length": "2:52"
       },
       {
-        "path": "song-thrush/699248.mp3"
+        "path": "song-thrush/699248.mp3",
+        "type": "male, song",
+        "length": "1:14"
       },
       {
-        "path": "song-thrush/699070.mp3"
+        "path": "song-thrush/699070.mp3",
+        "type": "song",
+        "length": "0:50"
       },
       {
-        "path": "song-thrush/699024.mp3"
+        "path": "song-thrush/699024.mp3",
+        "type": "song",
+        "length": "5:23"
       },
       {
-        "path": "song-thrush/698817.mp3"
+        "path": "song-thrush/698817.mp3",
+        "type": "song, subsong",
+        "length": "5:59"
       },
       {
-        "path": "song-thrush/698731.mp3"
+        "path": "song-thrush/698731.mp3",
+        "type": "flight call, nocturnal flight call",
+        "length": "2:05"
       },
       {
-        "path": "song-thrush/698644.mp3"
+        "path": "song-thrush/698644.mp3",
+        "type": "song",
+        "length": "7:29"
       },
       {
-        "path": "song-thrush/698343.mp3"
+        "path": "song-thrush/698343.mp3",
+        "type": "adult, male, song",
+        "length": "8:42"
       },
       {
-        "path": "song-thrush/697612.mp3"
+        "path": "song-thrush/697612.mp3",
+        "type": "adult, male, song",
+        "length": "6:49"
       },
       {
-        "path": "song-thrush/697263.mp3"
+        "path": "song-thrush/697263.mp3",
+        "type": "adult, male, song",
+        "length": "4:18"
       },
       {
-        "path": "song-thrush/697262.mp3"
+        "path": "song-thrush/697262.mp3",
+        "type": "adult, male, song",
+        "length": "6:43"
       },
       {
-        "path": "song-thrush/697020.mp3"
+        "path": "song-thrush/697020.mp3",
+        "type": "male, song",
+        "length": "6:04"
       },
       {
-        "path": "song-thrush/696638.mp3"
+        "path": "song-thrush/696638.mp3",
+        "type": "adult, male, song",
+        "length": "3:10"
       },
       {
-        "path": "song-thrush/696635.mp3"
+        "path": "song-thrush/696635.mp3",
+        "type": "adult, male, song",
+        "length": "11:22"
       },
       {
-        "path": "song-thrush/696103.mp3"
+        "path": "song-thrush/696103.mp3",
+        "type": "adult, male, song",
+        "length": "5:14"
       },
       {
-        "path": "song-thrush/696053.mp3"
+        "path": "song-thrush/696053.mp3",
+        "type": "adult, male, song",
+        "length": "6:09"
       },
       {
-        "path": "song-thrush/695883.mp3"
+        "path": "song-thrush/695883.mp3",
+        "type": "adult, song",
+        "length": "0:22"
       },
       {
-        "path": "song-thrush/695882.mp3"
+        "path": "song-thrush/695882.mp3",
+        "type": "adult, song",
+        "length": "0:29"
       },
       {
-        "path": "song-thrush/695501.mp3"
+        "path": "song-thrush/695501.mp3",
+        "type": "alarm call, nocturnal flight call",
+        "length": "0:11"
       }
     ]
   },
@@ -3488,64 +5448,104 @@
     ],
     "audio": [
       {
-        "path": "northern-lapwing/700293.mp3"
+        "path": "northern-lapwing/700293.mp3",
+        "type": "call, life stage uncertain, sex uncertain, song",
+        "length": "0:22"
       },
       {
-        "path": "northern-lapwing/698459.mp3"
+        "path": "northern-lapwing/698459.mp3",
+        "type": "call, song",
+        "length": "0:37"
       },
       {
-        "path": "northern-lapwing/698458.mp3"
+        "path": "northern-lapwing/698458.mp3",
+        "type": "song, wings",
+        "length": "1:54"
       },
       {
-        "path": "northern-lapwing/698390.mp3"
+        "path": "northern-lapwing/698390.mp3",
+        "type": "call",
+        "length": "0:06"
       },
       {
-        "path": "northern-lapwing/698388.mp3"
+        "path": "northern-lapwing/698388.mp3",
+        "type": "song, wings",
+        "length": "0:10"
       },
       {
-        "path": "northern-lapwing/698296.mp3"
+        "path": "northern-lapwing/698296.mp3",
+        "type": "call",
+        "length": "0:26"
       },
       {
-        "path": "northern-lapwing/698286.mp3"
+        "path": "northern-lapwing/698286.mp3",
+        "type": "song",
+        "length": "0:11"
       },
       {
-        "path": "northern-lapwing/698285.mp3"
+        "path": "northern-lapwing/698285.mp3",
+        "type": "call, song, wings",
+        "length": "1:16"
       },
       {
-        "path": "northern-lapwing/698281.mp3"
+        "path": "northern-lapwing/698281.mp3",
+        "type": "call, song, wings",
+        "length": "0:33"
       },
       {
-        "path": "northern-lapwing/698280.mp3"
+        "path": "northern-lapwing/698280.mp3",
+        "type": "call, song, wings",
+        "length": "1:01"
       },
       {
-        "path": "northern-lapwing/698272.mp3"
+        "path": "northern-lapwing/698272.mp3",
+        "type": "call, song",
+        "length": "0:38"
       },
       {
-        "path": "northern-lapwing/698252.mp3"
+        "path": "northern-lapwing/698252.mp3",
+        "type": "song, wings",
+        "length": "0:55"
       },
       {
-        "path": "northern-lapwing/698194.mp3"
+        "path": "northern-lapwing/698194.mp3",
+        "type": "song",
+        "length": "0:10"
       },
       {
-        "path": "northern-lapwing/697786.mp3"
+        "path": "northern-lapwing/697786.mp3",
+        "type": "call",
+        "length": "0:43"
       },
       {
-        "path": "northern-lapwing/696575.mp3"
+        "path": "northern-lapwing/696575.mp3",
+        "type": "call",
+        "length": "0:13"
       },
       {
-        "path": "northern-lapwing/695971.mp3"
+        "path": "northern-lapwing/695971.mp3",
+        "type": "adult, duet, female, flight song, male, song, wing flapping",
+        "length": "0:38"
       },
       {
-        "path": "northern-lapwing/692962.mp3"
+        "path": "northern-lapwing/692962.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:20"
       },
       {
-        "path": "northern-lapwing/692961.mp3"
+        "path": "northern-lapwing/692961.mp3",
+        "type": "nocturnal flight call",
+        "length": "0:10"
       },
       {
-        "path": "northern-lapwing/692960.mp3"
+        "path": "northern-lapwing/692960.mp3",
+        "type": "nocturnal flight call",
+        "length": "1:08"
       },
       {
-        "path": "northern-lapwing/692772.mp3"
+        "path": "northern-lapwing/692772.mp3",
+        "type": "call",
+        "length": "0:28"
       }
     ]
   }

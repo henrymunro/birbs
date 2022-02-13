@@ -1,4 +1,5 @@
 import { Stack, Box } from "../components";
+import ProportionBar from "./ProportionBar";
 
 interface Props {
   bird: string;
@@ -14,22 +15,23 @@ export default function BirdSummary({
   mistakenFor,
 }: Props) {
   return (
-    <Stack spaced css={{ gap: "$2" }}>
-      <h3>
-        {bird}{" "}
-        <b>
-          {correct}/{correct + incorrect}
-        </b>
-      </h3>
-      <Stack css={{ gap: "$2" }}>
-        {mistakenFor.map((mistake) => {
-          return (
-            <Stack css={{ gap: "$2" }} verticalAlign>
-              {mistake.bird} {(mistake.count * 100) / incorrect}
-            </Stack>
-          );
-        })}
-      </Stack>
+    <Stack spaced wrap verticalAlign>
+      <Box css={{ width: "24%", "@bp2": { width: "100%" } }}>
+        <h3>
+          {bird}{" "}
+          <b>
+            {correct}/{correct + incorrect}
+          </b>
+        </h3>
+      </Box>
+      <Box css={{ width: "75%", "@bp2": { width: "100%" } }}>
+        <ProportionBar
+          proportions={mistakenFor.map(({ bird, count }) => ({
+            name: bird,
+            value: count,
+          }))}
+        />
+      </Box>
     </Stack>
   );
 }

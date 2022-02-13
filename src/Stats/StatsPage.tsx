@@ -8,7 +8,14 @@ export default function StatsPage() {
 
   return (
     <>
-      <Button onClick={resetStats}>Reset</Button>
+      <Button
+        onClick={() => {
+          resetStats();
+          window.location.reload();
+        }}
+      >
+        Reset
+      </Button>
       {days.map((date) => (
         <DaySummary key={date} date={date} />
       ))}

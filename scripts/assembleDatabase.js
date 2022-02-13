@@ -24,7 +24,11 @@ Object.keys(audioDb).forEach((bird) => {
       name: toTitleCase(bird.replace(/-/g, " ")),
       grouping: [],
       images: [{ path: `${bird}-0.png` }],
-      audio: audioDb[bird].map((r) => ({ path: r.filename })),
+      audio: audioDb[bird].map((r) => ({
+        path: r.filename,
+        type: r.xenoCantoData.type,
+        length: r.xenoCantoData.length,
+      })),
     };
   }
 });

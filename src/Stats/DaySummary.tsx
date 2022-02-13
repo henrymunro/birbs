@@ -18,10 +18,10 @@ export default function DaySummary({ date }: Props) {
         </b>
       </Box>
       {summary.birdStats.map((stat) => (
-        <>
+        <div key={stat.bird}>
           <BirdSummary key={stat.bird} {...stat} />
-          <Separator />
-        </>
+          <Separator css={{ marginTop: "$2" }} />
+        </div>
       ))}
     </Box>
   );

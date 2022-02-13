@@ -8,3 +8,6 @@ export * from "./typeography";
 export * from "./Slider";
 export * from "./Collapsible";
 export * from "./Separator";
+export * from "./Input";
+export * from "./Audio";
+export * from "./ScrollArea";
