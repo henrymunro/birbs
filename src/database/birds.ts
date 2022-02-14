@@ -40,6 +40,8 @@ export function getBird(bird: Bird) {
   return {
     value: bird,
     name: database[bird].name,
+    statusInBritain: database[bird].statusInBritain,
+    populationNumber: database[bird].populationNumber,
     imgsSrc: database[bird].images,
     audiosSrc:
       database[bird].audio?.map((a) => ({

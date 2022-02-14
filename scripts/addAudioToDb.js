@@ -8,7 +8,7 @@ const db = JSON.parse(fs.readFileSync(DATABASE_FILE, "utf8"));
 const audioDb = JSON.parse(fs.readFileSync(AUDIO_FILE, "utf8"));
 
 Object.entries(db).forEach(([key, value]) => {
-  const keyName = value.name;
+  const keyName = value.longName;
 
   const audio = audioDb[keyName];
   if (!audio) {

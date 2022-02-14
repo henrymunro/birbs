@@ -45,12 +45,13 @@ records.forEach((r) => {
   database[r.Name] = {
     statusInBritain: r["Status in Britain"],
     eurobirdLink: r.eurobirdLink,
-    populationNumber: parseInt(r["Population Number"], 10),
     foundIn: r.foundIn,
     habitats: Object.keys(habitats).length > 0 ? habitats : undefined,
+    populationNumber: parseInt(r["Population Number"].replace(/,/g, ""), 10),
     ...database[r.Name],
     images,
-    name: r["Updated Name"] || r.Name,
+    longName: r["Updated Name"] || r.Name,
+    name: r.Name,
   };
 });
 
