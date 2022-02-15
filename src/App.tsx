@@ -15,6 +15,7 @@ export default function App() {
         <Routes>
           <Route path="birds" element={<CataloguePage />} />
           <Route path="test" element={<Test />} />
+          <Route path="test-hard" element={<Test hardMode />} />
           <Route path="stats" element={<StatsPage />} />
         </Routes>
       </Page>

@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
-import { generateGame, Bird, logStat } from "../database";
-import { Stack, Image, Box, h4, Slider } from "../components";
-import HabitatSelect from "../Catalogue/HabitatSelect";
+import { generateGame, Bird, logStat, getBirds } from "../database";
+import { Stack, h4, Slider } from "../components";
+import HabitatSelect from "../common/HabitatSelect";
+import BirdTestTiles from "./BirdTestTiles";
+import HardModeAutocomplete from "./HardModeAutocomplete";
 
-export default function Guessing() {
+export default function Guessing({ hardMode }: { hardMode?: boolean }) {
   const [game, setGame] = useState(generateGame());
-  const [selected, setSelected] = useState<string | void>();
+  const [selected, setSelected] = useState<string | null>(null);
   const [habitat, setHabitat] = useState<string | null>(null);
   const [counter, setCounter] = useState({ correct: 0, total: 0 });
   const [numberOfBirds, setNumberOfBirds] = useState(8);
@@ -14,8 +16,8 @@ export default function Guessing() {
     setGame(generateGame({ habitat, numberOfGuesses: numberOfBirds }));
   }, [numberOfBirds, habitat]);
 
-  function onClick(val: Bird) {
-    if (selected) {
+  function onSelectBird(val?: Bird | null) {
+    if (!val || selected) {
       return;
     }
     setSelected(val);
@@ -28,7 +30,7 @@ export default function Guessing() {
     }
 
     setTimeout(() => {
-      setSelected();
+      setSelected(null);
       setGame(generateGame());
     }, 2000);
   }
@@ -42,53 +44,35 @@ export default function Guessing() {
             {counter.correct}/{counter.total}
           </h2>
         </Stack>
-        <Stack verticalAlign css={{ gap: "$2" }}>
-          <h4 className={h4()}>Difficulty:</h4>
-          <Slider
-            min={2}
-            max={10}
-            step={1}
-            value={numberOfBirds}
-            onChange={setNumberOfBirds}
-          />
-        </Stack>
+        {!hardMode && (
+          <Stack verticalAlign css={{ gap: "$2" }}>
+            <h4 className={h4()}>Difficulty:</h4>
+            <Slider
+              min={2}
+              max={10}
+              step={1}
+              value={numberOfBirds}
+              onChange={setNumberOfBirds}
+            />
+          </Stack>
+        )}
         <HabitatSelect onChange={setHabitat} />
       </Stack>
-
-      <Stack wrap center css={{ gap: "$2", "@bp1": { gap: "$1" } }}>
-        {game.values.map(({ name, imgSrc, value }) => {
-          const correct = value === game.correct;
-          const incorrect = value === selected && !correct;
-          const somethingSelected = selected;
-          let background = "$accentBgSubtle";
-
-          if (somethingSelected && correct) {
-            background = "$successBase";
-          }
-          if (incorrect) {
-            background = "$dangerBase";
-          }
-
-          return (
-            <Box
-              key={value}
-              onClick={() => onClick(value)}
-              css={{
-                background,
-                padding: "$2",
-                borderRadius: "$3",
-                cursor: "pointer",
-                width: "23%",
-                "@bp2": { width: "30%" },
-                "@bp1": { width: "43%" },
-              }}
-            >
-              <Image src={imgSrc} alt={name} />
-              <h4 className={h4()}>{name}</h4>
-            </Box>
-          );
-        })}
-      </Stack>
+      {hardMode ? (
+        <HardModeAutocomplete
+          birds={getBirds({ habitat })}
+          onBirdSelect={onSelectBird}
+          correctBird={game.correct}
+          selectedBird={selected}
+        />
+      ) : (
+        <BirdTestTiles
+          onSelectBird={onSelectBird}
+          correctBird={game.correct}
+          selectedBird={selected}
+          birds={game.values}
+        />
+      )}
     </>
   );
 }

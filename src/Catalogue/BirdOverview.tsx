@@ -1,7 +1,7 @@
 import { Bird, getBird } from "../database";
 import { Image, Box, Stack } from "../components";
 import BirdAudio from "./BirdAudio";
-import PopulationNumber from "./PopulationNumber";
+import PopulationNumber from "../common/PopulationNumber";
 
 interface Props {
   bird: Bird;

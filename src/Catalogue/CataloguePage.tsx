@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getBirds } from "../database";
 import { Input, Separator, Stack } from "../components";
 import BirdOverview from "./BirdOverview";
-import HabitSelect from "./HabitatSelect";
+import HabitSelect from "../common/HabitatSelect";
 
 export default function CataloguePage() {
   const [habitat, setHabitat] = useState<string | null>(null);
