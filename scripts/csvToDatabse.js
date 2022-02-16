@@ -59,7 +59,7 @@ fs.writeFileSync(DATABASE_FILE, JSON.stringify(database, null, 2));
 fs.writeFileSync(
   "./data/species.json",
   JSON.stringify(
-    Object.keys(database).map((k) => database[k].name),
+    Object.keys(database).map((k) => database[k].longName),
     null,
     2
   )

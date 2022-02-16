@@ -17,6 +17,9 @@ async function queryBird(birdName, queryPage = 1) {
 
   const { numRecordings, numSpecies, page, numPages, recordings } = body;
 
+  if (numSpecies < "1") {
+    throw new Error("Counldn't find any species for:  " + query);
+  }
   if (numSpecies !== "1") {
     throw new Error("Got more than one species for:  " + query);
   }
@@ -70,8 +73,8 @@ async function main() {
       const { recordings } = await queryBird(bird);
 
       if (recordings.length < NUMBER_OF_RECORDINGS_PER_BIRD) {
-        throw new Error(
-          `Number of recordings for ${bird} is less than ${NUMBER_OF_RECORDINGS_PER_BIRD} in this page: implement paging`
+        console.log(
+          `Number of recordings for ${bird} is less than ${NUMBER_OF_RECORDINGS_PER_BIRD}`
         );
       }
 
