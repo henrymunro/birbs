@@ -31,7 +31,7 @@ export default function Guessing({ hardMode }: { hardMode?: boolean }) {
 
     setTimeout(() => {
       setSelected(null);
-      setGame(generateGame());
+      setGame(generateGame({ habitat, numberOfGuesses: numberOfBirds }));
     }, 2000);
   }
 

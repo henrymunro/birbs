@@ -15,9 +15,11 @@ interface Entry {
 const database: Record<string, Entry> = importedDb;
 
 export type Bird = keyof typeof database;
-export const birds = Object.keys(database).filter((b) => {
-  return database[b].audio?.length! > 0 && database[b].images?.length;
-}) as any as Bird[];
+export const birds = Object.keys(database)
+  .filter((b) => {
+    return database[b].audio?.length! > 0 && database[b].images?.length;
+  })
+  .sort((a, b) => a.localeCompare(b)) as any as Bird[];
 
 export const habitats = birds.reduce((acc, bird) => {
   const birdHabitats = database[bird].habitats;
@@ -63,7 +65,7 @@ export function getBirds({ habitat }: { habitat?: string | null } = {}) {
       0
     );
 
-    return birdHabitats[habitat] > topHabitat / 3;
+    return birdHabitats[habitat] ?? 0 > topHabitat / 3;
   });
 }
 

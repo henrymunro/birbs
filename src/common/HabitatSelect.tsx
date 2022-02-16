@@ -6,8 +6,12 @@ interface Props {
 
 export default function HabitSelect({ onChange }: Props) {
   return (
-    <select onChange={(e) => onChange(e.target.value)}>
-      <option value={null as any}>All</option>
+    <select
+      onChange={(e) =>
+        onChange(e.target.value === "All" ? null : e.target.value)
+      }
+    >
+      <option value="All">All</option>
       {habitats.map((habitat) => (
         <option value={habitat}>{habitat}</option>
       ))}
