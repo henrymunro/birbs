@@ -75,6 +75,25 @@ export function getDaysWithStats() {
   );
 }
 
+function getDailyStatForBird(bird: Bird, stat: Stat) {
+  let incorrect = 0;
+  const mistakenFor: Partial<Record<Bird, number>> = {};
+
+  Object.entries(stat!.incorrectlyNotPicked).forEach(([bird, count]) => {
+    incorrect += count!;
+    init(mistakenFor, bird as Bird, (curr) => (curr || 0) + count!);
+  });
+
+  return {
+    bird: bird as Bird,
+    correct: stat!.correct,
+    incorrect,
+    mistakenFor: Object.entries(mistakenFor)
+      .map(([bird, count]) => ({ bird, count: count as number }))
+      .sort((a, b) => b.count! - a.count!),
+  };
+}
+
 export function getDailyStatSummary(date = new Date().toLocaleDateString()) {
   const stats = getStats()[date];
 
@@ -88,22 +107,7 @@ export function getDailyStatSummary(date = new Date().toLocaleDateString()) {
   }
 
   const birdStats = Object.entries(stats.birds).map(([bird, stat]) => {
-    let incorrect = 0;
-    const mistakenFor: Partial<Record<Bird, number>> = {};
-
-    Object.entries(stat!.incorrectlyNotPicked).forEach(([bird, count]) => {
-      incorrect += count!;
-      init(mistakenFor, bird as Bird, (curr) => (curr || 0) + count!);
-    });
-
-    return {
-      bird: bird as Bird,
-      correct: stat!.correct,
-      incorrect,
-      mistakenFor: Object.entries(mistakenFor)
-        .map(([bird, count]) => ({ bird, count: count as number }))
-        .sort((a, b) => b.count! - a.count!),
-    };
+    return getDailyStatForBird(bird, stat!);
   });
 
   return {
@@ -113,5 +117,37 @@ export function getDailyStatSummary(date = new Date().toLocaleDateString()) {
     birdStats: birdStats.sort(
       (a, b) => a.correct - a.incorrect - (b.correct - b.incorrect)
     ),
+  };
+}
+
+export function getStatsForBird({ bird }: { bird: Bird }) {
+  const stats = getStats();
+
+  const dates = Object.keys(stats)
+    .map((date) => {
+      const stat = stats[date].birds[bird];
+      return stat ? { date, ...getDailyStatForBird(bird, stat) } : undefined;
+    })
+    .filter(Boolean) as (ReturnType<typeof getDailyStatForBird> & {
+    date: string;
+  })[];
+
+  const mistakes: Record<string, number> = {};
+
+  dates.forEach(({ mistakenFor }) => {
+    mistakenFor.forEach(({ bird, count }) => {
+      if (!mistakes[bird]) {
+        mistakes[bird] = 0;
+      }
+      mistakes[bird] += count;
+    });
+  });
+
+  return {
+    dailyStats: dates.reverse(),
+    mistakenFor: Object.entries(mistakes).map(([bird, count]) => ({
+      bird,
+      count,
+    })),
   };
 }

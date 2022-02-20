@@ -3,6 +3,7 @@ import { generateGame, getBirds } from "../database";
 import { Stack } from "../components";
 import HabitatSelect from "../common/HabitatSelect";
 import HardModeAutocomplete from "./HardModeAutocomplete";
+import GameAudio from "./GameAudio";
 import useGameState from "./useGameState";
 
 export default function HardModeTest() {
@@ -22,7 +23,7 @@ export default function HardModeTest() {
     <>
       <Stack wrap center css={{ gap: "$3", marginBottom: "$4" }}>
         <Stack center css={{ gap: "$4" }}>
-          <audio autoPlay controls src={game.audioSource} />
+          <GameAudio srcs={game.audioSource} />
           <h2>
             {counter.correct}/{counter.total}
           </h2>

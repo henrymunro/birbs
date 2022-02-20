@@ -53,6 +53,12 @@ export function getBird(bird: Bird) {
   };
 }
 
+export function getHabitatForBird(bird: Bird) {
+  return Object.entries(database[bird].habitats || {}).map(
+    ([habitat, proportion]) => ({ habitat, proportion })
+  );
+}
+
 export function getBirds({ habitat }: { habitat?: string | null } = {}) {
   return birds.filter((b) => {
     if (!habitat) return true;
@@ -70,26 +76,19 @@ export function getBirds({ habitat }: { habitat?: string | null } = {}) {
 }
 
 export function generateGame({
-  mustIncludeBird,
   numberOfGuesses = 8,
   habitat,
 }: {
-  mustIncludeBird?: string;
   habitat?: string | null;
   numberOfGuesses?: number;
 } = {}) {
   const gameBirds = getBirds({ habitat });
 
-  const birdNamesToUse = mustIncludeBird
-    ? shuffle([
-        mustIncludeBird,
-        ...getRandomElements(gameBirds, numberOfGuesses - 1),
-      ])
-    : getRandomElements(gameBirds, numberOfGuesses);
+  const birdNamesToUse = getRandomElements(gameBirds, numberOfGuesses);
 
   const correctBirdName = getRandomElement(birdNamesToUse);
 
-  const audio = getRandomElement(database[correctBirdName].audio!);
+  const audio = shuffle(database[correctBirdName].audio!);
 
   return {
     correct: correctBirdName,
@@ -98,6 +97,36 @@ export function generateGame({
       name: database[b].name,
       imgSrc: getRandomElement(database[b].images),
     })),
-    audioSource: audioFilepath(audio.path),
+    audioSource: audio.map(({ path }) => audioFilepath(path)),
+  };
+}
+
+export function generateSingleBirdGame({
+  mustIncludeBird,
+}: {
+  mustIncludeBird: string;
+}) {
+  const habitat = getRandomElement(
+    getHabitatForBird(mustIncludeBird) || []
+  )?.habitat;
+  const gameBirds = getBirds({ habitat });
+
+  const birdNamesToUse = shuffle([
+    mustIncludeBird,
+    getRandomElement(gameBirds.filter((b) => b !== mustIncludeBird)),
+  ]);
+
+  const correctBirdName = getRandomElement(birdNamesToUse);
+
+  const audio = shuffle(database[correctBirdName].audio!);
+
+  return {
+    correct: correctBirdName,
+    values: birdNamesToUse.map((b) => ({
+      value: b,
+      name: database[b].name,
+      imgSrc: getRandomElement(database[b].images),
+    })),
+    audioSource: audio.map(({ path }) => audioFilepath(path)),
   };
 }

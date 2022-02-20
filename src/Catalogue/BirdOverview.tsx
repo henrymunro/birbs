@@ -2,6 +2,8 @@ import { Bird, getBird } from "../database";
 import { Image, Box, Stack } from "../components";
 import BirdAudio from "./BirdAudio";
 import PopulationNumber from "../common/PopulationNumber";
+import BirdHabitatOverview from "./BirdHabitatOverview";
+import BirdOverviewStats from "./BirdOverviewStats";
 
 interface Props {
   bird: Bird;
@@ -27,6 +29,8 @@ export default function BirdOverview({ bird }: Props) {
           <BirdAudio bird={bird} />
         </Box>
       </Stack>
+      <BirdHabitatOverview bird={name} />
+      <BirdOverviewStats bird={name} />
     </div>
   );
 }

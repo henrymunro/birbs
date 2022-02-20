@@ -3,6 +3,7 @@ import { generateGame } from "../database";
 import { Stack, h4, Slider } from "../components";
 import HabitatSelect from "../common/HabitatSelect";
 import BirdTestTiles from "./BirdTestTiles";
+import GameAudio from "./GameAudio";
 import useGameState from "./useGameState";
 
 export default function MultiTileTest() {
@@ -24,7 +25,7 @@ export default function MultiTileTest() {
     <>
       <Stack wrap center css={{ gap: "$3", marginBottom: "$4" }}>
         <Stack center css={{ gap: "$4" }}>
-          <audio autoPlay controls src={game.audioSource} />
+          <GameAudio srcs={game.audioSource} />
           <h2>
             {counter.correct}/{counter.total}
           </h2>
