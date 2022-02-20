@@ -24,9 +24,10 @@ export default function Navbar() {
   return (
     <Header>
       <Stack css={{ stackGap: "$4" }}>
-        <NavLink to="/birds">Birds</NavLink>
+        <NavLink to="/">Birds</NavLink>
         <NavLink to="/test">Test</NavLink>
         <NavLink to="/test-hard">Hard Test</NavLink>
+        <NavLink to="/test-single">Single Test</NavLink>
         <NavLink to="/stats">Stats</NavLink>
       </Stack>
     </Header>

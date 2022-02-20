@@ -4,7 +4,9 @@ import { Page } from "./components";
 import Navbar from "./Navbar";
 
 import CataloguePage from "./Catalogue/CataloguePage";
-import Test from "./Test/Test";
+import MultiTileTest from "./Test/MultiTileTest";
+import HardModeTest from "./Test/HardModeTest";
+import SingleBirdTest from "./Test/SingleBirdTest";
 import StatsPage from "./Stats/StatsPage";
 
 export default function App() {
@@ -13,9 +15,10 @@ export default function App() {
       <Navbar />
       <Page>
         <Routes>
-          <Route path="birds" element={<CataloguePage />} />
-          <Route path="test" element={<Test />} />
-          <Route path="test-hard" element={<Test hardMode />} />
+          <Route path="/" element={<CataloguePage />} />
+          <Route path="test" element={<MultiTileTest />} />
+          <Route path="test-hard" element={<HardModeTest />} />
+          <Route path="test-single" element={<SingleBirdTest />} />
           <Route path="stats" element={<StatsPage />} />
         </Routes>
       </Page>

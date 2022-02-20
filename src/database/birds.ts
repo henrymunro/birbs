@@ -1,5 +1,5 @@
 import importedDb from "./database.json";
-import { getRandomElement, getRandomElements } from "./utils";
+import { getRandomElement, getRandomElements, shuffle } from "./utils";
 
 interface Entry {
   name: string;
@@ -70,11 +70,22 @@ export function getBirds({ habitat }: { habitat?: string | null } = {}) {
 }
 
 export function generateGame({
+  mustIncludeBird,
   numberOfGuesses = 8,
   habitat,
-}: { habitat?: string | null; numberOfGuesses?: number } = {}) {
+}: {
+  mustIncludeBird?: string;
+  habitat?: string | null;
+  numberOfGuesses?: number;
+} = {}) {
   const gameBirds = getBirds({ habitat });
-  const birdNamesToUse = getRandomElements(gameBirds, numberOfGuesses);
+
+  const birdNamesToUse = mustIncludeBird
+    ? shuffle([
+        mustIncludeBird,
+        ...getRandomElements(gameBirds, numberOfGuesses - 1),
+      ])
+    : getRandomElements(gameBirds, numberOfGuesses);
 
   const correctBirdName = getRandomElement(birdNamesToUse);
 
